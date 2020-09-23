@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { RiMenu3Line } from 'react-icons/ri'
 import {
   CHeader,
   CToggler,
@@ -78,10 +79,7 @@ const TheHeader = () => {
           routes={routes} 
         />
           <div className="d-md-down-none mfe-2 c-subheader-nav">
-            <CLink className="c-subheader-nav-link"href="#"
-            to="/src/components/panel/DetailPanel.js">
-              <CIcon name="cil-speech" alt="SidePanel" />&nbsp;SidePanel
-            </CLink>
+            <div><RiMenu3Line size={32} margin-right={10}/></div>
             <CLink className="c-subheader-nav-link"href="#">
               <CIcon name="cil-speech" alt="Settings" />
             </CLink>
