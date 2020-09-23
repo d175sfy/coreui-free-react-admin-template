@@ -4,7 +4,7 @@ import { ImMenu } from 'react-icons/im'
 import './SidePanel.css'
 
 function SidePanel (){
-    const [panelOpen, setPanel] = useState(true)
+    const [panelOpen, setPanel] = useState(false)
 
     return (
         <div className={panelOpen ? 'side-panel':'hide-side-panel'}><CToggler  onClick={() => setPanel(!panelOpen)}><ImMenu size={32} outline={0}/></CToggler></div>

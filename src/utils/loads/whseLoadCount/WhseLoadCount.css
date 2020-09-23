@@ -31,6 +31,9 @@
 -moz-box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 }
+.whse-id__container:hover {
+     background-color: #3c4246;
+}
 .whse-id {
     height: 25px;
     width:auto;
@@ -41,6 +44,7 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     text-align: center;
      background-color:#4984e9;
     color:#1a1b1f;
+    cursor: pointer;
 
 }
 .whse-loadCount-container {
@@ -74,6 +78,9 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     margin: 1px 3px;
     background-color: rgb(246, 191, 191);
 }
+.whse-count-dry:hover {
+    background-color: rgb(255, 55, 55);
+}
 .whse-count-wet {
     justify-content: center;
     text-align: center;
@@ -85,6 +92,9 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     margin: 1px 3px;
     background-color: rgb(166, 212, 250);
 }
+.whse-count-wet:hover {
+    background-color: rgb(6, 131, 233);
+}
 .whse-count-held {
     justify-content: center;
     text-align: center;
@@ -95,4 +105,7 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     cursor: pointer;
     margin: 1px 3px;
     background-color: rgb(243, 242, 237);
+}
+.whse-count-held:hover {
+    background-color: rgb(246, 219, 84);
 }
