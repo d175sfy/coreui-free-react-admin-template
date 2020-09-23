@@ -79,7 +79,8 @@ const TheHeader = () => {
           routes={routes} 
         />
           <div className="d-md-down-none mfe-2 c-subheader-nav">
-            <CLink className="c-subheader-nav-link"href="#">
+            <CLink className="c-subheader-nav-link"href="#"
+            to="/src/components/panel/DetailPanel.js">
               <CIcon name="cil-speech" alt="SidePanel" />
             </CLink>
             <CLink className="c-subheader-nav-link"href="#">
