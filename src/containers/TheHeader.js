@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { BiDetail } from 'react-icons/bi'
 import {
   CHeader,
   CToggler,
@@ -78,6 +79,9 @@ const TheHeader = () => {
           routes={routes} 
         />
           <div className="d-md-down-none mfe-2 c-subheader-nav">
+            <CLink className="c-subheader-nav-link"href="#">
+              <CIcon name="BiDetail" alt="Settings" />
+            </CLink>
             <CLink className="c-subheader-nav-link"href="#">
               <CIcon name="cil-speech" alt="Settings" />
             </CLink>
