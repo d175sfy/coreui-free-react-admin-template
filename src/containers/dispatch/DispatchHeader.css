@@ -6,13 +6,14 @@
     background-color:hsla(0, 0%, 4%, 0.918); 
     height: auto;
     width:100%;
+    margin-bottom: 0px;
 }
 .header-totals {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     justify-content:flex-start;
-    background-color: aliceblue;
+    background-color: #ffffff;
 
 }
 .header-totals-container__dry {
