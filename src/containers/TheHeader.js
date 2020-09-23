@@ -80,13 +80,13 @@ const TheHeader = () => {
         />
           <div className="d-md-down-none mfe-2 c-subheader-nav">
             <CLink className="c-subheader-nav-link"href="#">
-              <CIcon name="BiDetail" alt="Settings" />
+              <CIcon name="cil-speech" alt="SidePanel" />
             </CLink>
             <CLink className="c-subheader-nav-link"href="#">
               <CIcon name="cil-speech" alt="Settings" />
             </CLink>
             <CLink 
-              className="c-subheader-nav-link" 
+              className="c-subhead  er-nav-link" 
               aria-current="page" 
               to="/dashboard"
             >
