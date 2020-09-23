@@ -40,7 +40,7 @@
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  border:1px solid  #3f4344;
+  border-bottom: 1px solid grey;
     height: 46px;
     width:100%;
     border-radius: 0px;
@@ -114,7 +114,7 @@ i {
 }
 
 .driver-accordion__content:hover {
-  background-color: #37393a;
+  background-color: #f0e9e9;
   
 }
 /* .driver-load-container {
@@ -126,7 +126,7 @@ i {
 } */
 .driver-accordion__loads {
   padding: 3px 20px;
-  background-color:#3C4B64;
+  background-color:#ffffff;
 }
 .driver-accordion__label {
   cursor: pointer;
@@ -136,7 +136,7 @@ i {
 }
 
 .driver-accordion__label:hover {
-  background: rgba(0,0,0,0.1);
+  background: rgba(236, 235, 235, 0.1);
 }
 
 

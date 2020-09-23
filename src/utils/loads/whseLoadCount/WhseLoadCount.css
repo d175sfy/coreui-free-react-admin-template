@@ -63,13 +63,14 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 }
 
 
-.whse-count {
+.whse-count-dry {
     justify-content: center;
     text-align: center;
     height:25px;
     width:25px;
-    font-size:larger;
+    font-size:larger; 
     color: white;
+    cursor: pointer;
     margin: 1px 3px;
     background-color: rgb(246, 191, 191);
 }
@@ -80,6 +81,7 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     width:25px;
     font-size:larger;
     color: white;
+    cursor: pointer;
     margin: 1px 3px;
     background-color: rgb(166, 212, 250);
 }
@@ -90,6 +92,7 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     width:25px;
     font-size:larger;
     color: rgb(177, 169, 169);
+    cursor: pointer;
     margin: 1px 3px;
     background-color: rgb(243, 242, 237);
 }
