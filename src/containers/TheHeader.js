@@ -81,7 +81,7 @@ const TheHeader = () => {
           <div className="d-md-down-none mfe-2 c-subheader-nav">
             <CLink className="c-subheader-nav-link"href="#"
             to="/src/components/panel/DetailPanel.js">
-              <CIcon name="cil-speech" alt="SidePanel" />
+              <CIcon name="cil-speech" alt="SidePanel" />&nbsp;SidePanel
             </CLink>
             <CLink className="c-subheader-nav-link"href="#">
               <CIcon name="cil-speech" alt="Settings" />
