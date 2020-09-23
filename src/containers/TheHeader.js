@@ -1,6 +1,5 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { BiDetail } from 'react-icons/bi'
 import {
   CHeader,
   CToggler,
