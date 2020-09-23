@@ -5,7 +5,7 @@ const DispatchHeader = lazy(() => import('../../containers/dispatch/DispatchHead
 const CreateDriver = lazy(() => import('./drivers/createdriver.js'))
 const CreateDryModal = lazy(() => import('./modal/CreateDryModal'))
 const CreateWetModal = lazy(() => import('./modal/CreateWetModal'))
-const DetailPanel = lazy(() => import('../../components/panel/DetailPanel'))
+const SidePanel = lazy(() => import('../../components/panel/SidePanel'))
 
 
 const DriverDispatch = () => {
@@ -14,7 +14,7 @@ const DriverDispatch = () => {
     <React.Fragment>
     <DispatchHeader/>
       <div className="main-container">
-        <DetailPanel/>
+        <SidePanel/>
         <div className="store-div">
           <WhseLoadCount />
           <CreateDryModal />

@@ -1,6 +1,6 @@
-.detail-panel {
+.side-panel {
     width: 600px;
     height: 300px;
-    
+    right: -999px;
     background-color: blueviolet;
 }
