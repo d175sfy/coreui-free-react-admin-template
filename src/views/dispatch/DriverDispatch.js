@@ -12,9 +12,10 @@ const DriverDispatch = () => {
   return (
 
     <React.Fragment>
+    <SidePanel/>
     <DispatchHeader/>
       <div className="main-container">
-        <SidePanel/>
+        
         <div className="store-div">
           <WhseLoadCount />
           <CreateDryModal />

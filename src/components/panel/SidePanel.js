@@ -1,11 +1,13 @@
 import React,{ useState } from 'react'
+import { CToggler} from '@coreui/react'
+import { ImMenu } from 'react-icons/im'
 import './SidePanel.css'
 
 function SidePanel (){
-    const [panel, setPanel] = useState(true)
+    const [panelOpen, setPanel] = useState(true)
 
     return (
-        <div className="side-panel">Hello World</div>
+        <div className={panelOpen ? 'side-panel':'hide-side-panel'}><CToggler  onClick={() => setPanel(!panelOpen)}><ImMenu size={32} outline={0}/></CToggler></div>
     )
 }
 export default SidePanel
