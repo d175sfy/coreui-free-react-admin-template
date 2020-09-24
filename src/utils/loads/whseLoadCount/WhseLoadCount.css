@@ -31,6 +31,19 @@
 -moz-box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 }
+.icon {
+    padding-top: 5px;
+    float: right;
+    display: none;
+    
+}
+.icon:hover {
+    padding-top: 5px;
+    float: right;
+    display: block;
+    z-index: 12;
+    
+}
 .whse-id__container:hover {
      background-color: #4e322b;
 }

@@ -5,6 +5,7 @@ import HeldLoads from '../heldLoads/HeldLoads'
 import StoreCountModal from '../../../../src/views/dispatch/modal/StoreCountModal'
 import { TiArrowUnsorted } from 'react-icons/ti';
 import { TiArrowSortedUp } from 'react-icons/ti'
+import { FiMoreVertical } from 'react-icons/fi'
 import './WhseLoadCount.css'
 
 //dry Loads
@@ -147,20 +148,19 @@ const Whse_1236_held = HeldLoads.filter(load => load.Wets === 1236).length
 const Whse_1334_held = HeldLoads.filter(load => load.Wets === 1334).length
 const Whse_1415_held = HeldLoads.filter(load => load.Wets === 1415).length
 
-function hideLoadCount()  {
-    let arrow = document.querySelector(".whse-container");
-    arrow.classList.add("hideLoadCount");
-}
+// function hideLoadCount()  {
+//     let arrow = document.querySelector(".whse-container");
+//     arrow.classList.add("hideLoadCount");
+//}
 function WhseLoadCount (){
     const [loadCount, setloadCount] = useState(true)
-    const [modal, setModal] = useState(false)
     return (
         
         <React.Fragment>
         
             <div className="unsrtd" onClick={()=> setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32}/>:<TiArrowUnsorted size={32}/>}{loadCount ? 'Hide Whse Loads':'Show Whse Loads'}</div>
         <div className={loadCount ? 'whse-container':'hideLoadCount'}>
-        <div className="whse-id__container"><div className="whse-id" onClick={()=> alert('222')}>222</div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_222}</div><div className="whse-count-wet">{Whse_222_wet}</div><div className="whse-count-held">{Whse_222_held}</div></div></div>
+                <div className="whse-id__container"><div className="whse-id" onClick={() => alert('222')}>222<FiMoreVertical className="icon" /></div><div></div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_222}</div><div className="whse-count-wet">{Whse_222_wet}</div><div className="whse-count-held">{Whse_222_held}</div></div></div>
         <div className="whse-id__container"><div className="whse-id" onClick={()=> alert('')}>226</div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_226}</div><div className="whse-count-wet">{Whse_226_wet}</div><div className="whse-count-held">{Whse_226_held}</div></div></div>
         <div className="whse-id__container"><div className="whse-id" onClick={()=> alert('')}>230</div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_230}</div><div className="whse-count-wet">{Whse_230_wet}</div><div className="whse-count-held">{Whse_230_held}</div></div></div>
         <div className="whse-id__container"><div className="whse-id" onClick={()=> alert('')}>237</div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_237}</div><div className="whse-count-wet">{Whse_237_wet}</div><div className="whse-count-held">{Whse_237_held}</div></div></div>
