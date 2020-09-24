@@ -6,10 +6,10 @@
     justify-content: space-evenly;
     justify-items: center;
     width:100%;
-    
+
     flex-flow: wrap;
      background-color:#ffffff;
-    
+
 }
 .unsrtd {
     margin: 0px 0px;
@@ -18,7 +18,6 @@
 .hideLoadCount {
     position: absolute;
     left:-999px;
-    
 }
 .whse-id {
     height: 27px;
@@ -51,103 +50,7 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 .whse-id__container:hover {
     background-color: #4e322b;
 }
- .whse-id-btn {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: transparent;
-    visibility: none;
-}
-.btn:focus {
-    outline:0;
-   
-}
-.btn:focus-visible {
-    outline: 1px solid blue;
-   
-}
-.menu-btn {
-    border: none;
-    outline: none;
-    background: transparent;
-    visibility: none;
-    cursor: pointer;
-    height: 75px;
-    width: 100%;
-    color: white;
-    font-weight: 600;
-    font-size: x-large;
-    font-family: sans-serif;
-}
-.menu-btn:focus-visible {
-    outline:1px solid blue;
-}
-.close {
-    margin: 10px 20px;
-   margin-right: 0;
-}
-.hideClose {
-   display: none;
-}
-.closeDiv {
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-}
-.menu-nav {
-    background-color: #ffffff;
-    padding: 10px 15px;
-}
-.menu-items {
-    margin: 3px 5px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    background-color: #c58f8f;
-}
-.dry-item {
-    background-color: red;
-    color: white;
-}
-.wet-item {
-    background-color: #0771d4;
-}
-.icon {
-    padding: 0;
-    float: right; 
-    margin-left: 30px;
-    color: #1a1b1f;
-    
-}
-.icon:hover {
-    float: right;
-    visibility: visible;
-    background-color:#305697;
-    
-}
 
-.hideMenu {
-    position: absolute;
-    height: 600px;
-    width: 600px;
-    top: -999px;
-    left: -999px;
-    background-color: #0771d4;
-    z-index: 10;
-}
-.menu {
-    position: absolute;
-    height: auto;
-    width: 300px;
-    left: 800px;
-    align-content: center;
-    border:1px solid #eff4f8;
-    background-color: #f1f6fa;
-    z-index: 10;
-    -webkit-box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
--moz-box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
-box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
-}
 
 /*wet loads CSS*/
 
@@ -158,10 +61,10 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     justify-content: space-evenly;
     justify-items: center;
     width:100%;
-    
+
     flex-flow: wrap;
     background-color:#ffffff;
-    
+
 }
 
 
@@ -170,7 +73,7 @@ box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
     text-align: center;
     height:25px;
     width:25px;
-    font-size:larger; 
+    font-size:larger;
     color: white;
     cursor: pointer;
     margin: 1px 3px;

@@ -151,14 +151,19 @@ const Whse_1415_held = HeldLoads.filter(load => load.Wets === 1415).length
 
 function WhseLoadCount (){
     const [loadCount, setloadCount] = useState(true)
- 
+    const [isOpen, setIsOpen] = useState(false)
+
     return (
-        
+
         <React.Fragment>
-<CreateContextMenu/>
+            <div className={isOpen ? 'menu':'hideMenu'}>
+                <CreateContextMenu open={isOpen}>
+                    Dry Modal
+                </CreateContextMenu>
+            </div>
             <div className="unsrtd" onClick={()=> setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32}/>:<TiArrowUnsorted size={32}/>}{loadCount ? 'Hide Whse Loads':'Show Whse Loads'}</div>
         <div className={loadCount ? 'whse-container':'hideLoadCount'}>
-        <div className="whse-id__container"><div className="whse-id">222<button className="whse-id-btn" onClick={() => alert('')}><FiMoreVertical className="icon"/></button></div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_226}</div><div className="whse-count-wet">{Whse_226_wet}</div><div className="whse-count-held">{Whse_226_held}</div></div></div>
+        <div className="whse-id__container"><div className="whse-id">222<button className="whse-id-btn" onClick={() => setIsOpen(true)}><FiMoreVertical className="icon"/></button></div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_226}</div><div className="whse-count-wet">{Whse_226_wet}</div><div className="whse-count-held">{Whse_226_held}</div></div></div>
         <div className="whse-id__container"><div className="whse-id">226<button className="whse-id-btn" onClick={() => alert('')}><FiMoreVertical className="icon"/></button></div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_222}</div><div className="whse-count-wet">{Whse_222_wet}</div><div className="whse-count-held">{Whse_222_held}</div></div></div>
         <div className="whse-id__container"><div className="whse-id">230<button className="whse-id-btn" onClick={() => alert('')}><FiMoreVertical className="icon"/></button></div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_230}</div><div className="whse-count-wet">{Whse_230_wet}</div><div className="whse-count-held">{Whse_230_held}</div></div></div>
         <div className="whse-id__container"><div className="whse-id">237<button className="whse-id-btn" onClick={() => alert('')}><FiMoreVertical className="icon"/></button></div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_237}</div><div className="whse-count-wet">{Whse_237_wet}</div><div className="whse-count-held">{Whse_237_held}</div></div></div>
