@@ -1,9 +1,10 @@
 import React from 'react'
-
-export default function ContextMenu() {
+import './ContextMenu.css'
+export default function ContextMenu({children}) {
     return (
-        <div>
-            
-        </div>
+        
+           <div className="container">
+           {children}
+           </div>
     )
 }
