@@ -3,8 +3,8 @@ import './DriverDispatch.css'
 const WhseLoadCount = lazy(() => import('../../utils/loads/whseLoadCount/WhseLoadCount.js'))
 const DispatchHeader = lazy(() => import('../../containers/dispatch/header/DispatchHeader.js'))
 const CreateDriver = lazy(() => import('./drivers/createdriver.js'))
-const CreateDryModal = lazy(() => import('./modal/dry/CreateDryModal'))
-const CreateWetModal = lazy(() => import('./modal/wet/CreateWetModal'))
+const AddDryModal = lazy(() => import('./modal/dry/AddDryModal'))
+const AddWetModal = lazy(() => import('./modal/wet/AddWetModal'))
 const SidePanel = lazy(() => import('../../components/panel/SidePanel'))
 
 
@@ -18,8 +18,8 @@ const DriverDispatch = () => {
         
         <div className="store-div">
           <WhseLoadCount />
-          <CreateDryModal />
-          <CreateWetModal />
+          <AddDryModal />
+          <AddWetModal />
         </div>
         <div className="driver-div">
           <CreateDriver />
