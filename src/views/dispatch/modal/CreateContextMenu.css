@@ -73,7 +73,7 @@
 
 }
 
-.hideMenu {
+/* .hideMenu {
     position: absolute;
     height: 600px;
     width: 600px;
@@ -81,18 +81,48 @@
     left: -999px;
     background-color: #0771d4;
     z-index: 10;
-}
-.menu {
+} */
+.context-menu {
     position: fixed;
     top: 50%;
     left:50%;
+    width: 300px;
+    height: 300px;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    padding: 50px;
     z-index: 1000;
     -webkit-box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 -moz-box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
 box-shadow: 9px 10px 26px -21px rgba(0,0,0,0.75);
+}
+.choose-load {
+    height: 90%;
+    width: 90%;
+    padding: 50px;
+    margin: 2px;
+}
+.dry-load {
+    background-color: red;
+    color: #fff;
+}
+.wet-load {
+    background-color: royalblue;
+    color: #fff;
+}
+.wet-dry-div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+}
+.closeBtn {
+align-self: flex-end;
+margin-top: 5px;
+margin-right: 5px;
+height: 20px;
+width: 20px;
 }
 .overlay {
     position: fixed;

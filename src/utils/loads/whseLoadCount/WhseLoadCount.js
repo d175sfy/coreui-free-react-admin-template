@@ -156,9 +156,9 @@ function WhseLoadCount (){
     return (
 
         <React.Fragment>
-            <div className={isOpen ? 'menu':'hideMenu'}>
-                <CreateContextMenu open={isOpen}>
-                    Dry Modal
+            <div >
+                <CreateContextMenu open={isOpen} onClose={()=> setIsOpen(false)}>
+                    <div>Dry Modal</div>
                 </CreateContextMenu>
             </div>
             <div className="unsrtd" onClick={()=> setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32}/>:<TiArrowUnsorted size={32}/>}{loadCount ? 'Hide Whse Loads':'Show Whse Loads'}</div>
