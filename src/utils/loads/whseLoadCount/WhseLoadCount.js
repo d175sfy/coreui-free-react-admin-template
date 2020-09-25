@@ -1,8 +1,8 @@
-import React,{ useState } from 'react'
+import React,{ useState, useEffect } from 'react'
 import As400 from '../As400'
 import WetLoads from '../wetLoads/WetLoads'
 import HeldLoads from '../heldLoads/HeldLoads'
-import CreateModal from '../../../../src/views/dispatch/modal/CreateModal'
+import ContextContainer from '../../../containers/dispatch/ContextContainer'
 import { TiArrowUnsorted } from 'react-icons/ti';
 import { TiArrowSortedUp } from 'react-icons/ti'
 import { FiMoreVertical } from 'react-icons/fi'
@@ -150,6 +150,7 @@ const Whse_1415_held = HeldLoads.filter(load => load.Wets === 1415).length
 
 
 function WhseLoadCount (){
+
     const [loadCount, setloadCount] = useState(true)
     const [isOpen, setIsOpen] = useState(false)
 
@@ -157,9 +158,9 @@ function WhseLoadCount (){
 
         <React.Fragment>
             <div >
-                <CreateModal open={isOpen} onClose={()=> setIsOpen(false)}>
-                    <div>Dry Modal</div>
-                </CreateModal>
+                <Container>
+                    <div>Context Menu</div>
+                </Container>
             </div>
             <div className="unsrtd" onClick={()=> setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32}/>:<TiArrowUnsorted size={32}/>}{loadCount ? 'Hide Whse Loads':'Show Whse Loads'}</div>
         <div className={loadCount ? 'whse-container':'hideLoadCount'}>
