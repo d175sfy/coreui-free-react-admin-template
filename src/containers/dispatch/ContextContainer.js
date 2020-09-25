@@ -1,13 +1,13 @@
 import React,{useRef} from 'react'
-import ContextMenu from '../../components/'
+import ContextMenu from '../../components/contextMenu/ContextMenu'
 import './ContextContainer.css'
 
 function ContextContainer({children}) {
-    const contextContainerRef = useRef(null)
+    const ContextContainerRef = useRef(null)
     return (
-        <div className="context-container">
+        <div className="context-container" ref={ContextContainerRef}>
         {children}
-        <ContextMenu parentRef={contextContainerRef} />
+        <ContextMenu parentRef={ContextContainerRef} />
         </div>
     
 )
