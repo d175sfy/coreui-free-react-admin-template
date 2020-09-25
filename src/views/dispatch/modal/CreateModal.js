@@ -1,8 +1,8 @@
 import React,{ useState} from 'react'
 import ReactDom from 'react-dom'
-import './CreateContextMenu.css'
+import './CreateModal.css'
 
- function CreateContextMenu ({open,children,onClose}){
+ function CreateModal ({open,children,onClose}){
     if(!open) return null
      return ReactDom.createPortal(
          <>
@@ -18,4 +18,4 @@ import './CreateContextMenu.css'
          document.getElementById('portal')
      )
      }
-     export default CreateContextMenu
+     export default CreateModal
