@@ -2,7 +2,7 @@ import React,{ useState } from 'react'
 import As400 from '../As400'
 import WetLoads from '../wetLoads/WetLoads'
 import HeldLoads from '../heldLoads/HeldLoads'
-import CreateContextMenu from '../../../../src/views/dispatch/modal/CreateContextMenu'
+import CreateModal from '../../../../src/views/dispatch/modal/CreateModal'
 import { TiArrowUnsorted } from 'react-icons/ti';
 import { TiArrowSortedUp } from 'react-icons/ti'
 import { FiMoreVertical } from 'react-icons/fi'
@@ -157,9 +157,9 @@ function WhseLoadCount (){
 
         <React.Fragment>
             <div >
-                <CreateContextMenu open={isOpen} onClose={()=> setIsOpen(false)}>
+                <CreateModal open={isOpen} onClose={()=> setIsOpen(false)}>
                     <div>Dry Modal</div>
-                </CreateContextMenu>
+                </CreateModal>
             </div>
             <div className="unsrtd" onClick={()=> setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32}/>:<TiArrowUnsorted size={32}/>}{loadCount ? 'Hide Whse Loads':'Show Whse Loads'}</div>
         <div className={loadCount ? 'whse-container':'hideLoadCount'}>
