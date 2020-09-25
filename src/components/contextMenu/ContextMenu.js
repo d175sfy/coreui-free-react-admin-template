@@ -17,6 +17,7 @@ const  ContextMenu = ({parentRef}) => {
     const [isVisible, setVisibility] = useState(false)
     const [x, setX] = useState(0)
     const [y, setY] = useState(0)
+    const [modal, setModal] = useState(false)
 
     useEffect(() => {
         const parent = parentRef.current;
