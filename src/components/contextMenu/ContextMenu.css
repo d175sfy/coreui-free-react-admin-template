@@ -10,6 +10,6 @@
    border-top: 1px solid grey;
 }
 .context-menu .context-menu__item:hover {
-  background-color: cadetblue;
+  background-color: #4984E9;
   cursor: pointer;
 }
