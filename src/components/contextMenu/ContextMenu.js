@@ -3,7 +3,7 @@ import './ContextMenu.css'
 import ShowDryModal from '../../views/dispatch/modal/dry/ShowDryModal'
 const menuItems = [
     {text:'All Loads',
-     onClick:() => 
+     onClick:() => { console.log('All loads')}
     },
     {text:'Dry Loads',
      onClick:() => { console.log('Dry Loads')}
