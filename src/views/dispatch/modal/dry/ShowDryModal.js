@@ -15,7 +15,7 @@ return (
     <CButton color="danger" shape="square" size="large"
      onClick={toggle}
       className="l-2"
-    >Create Dry Load</CButton>
+    >Show Dry Loads</CButton>
     <CModal
       show={modal}
       onClose={toggle}

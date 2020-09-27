@@ -10,7 +10,7 @@ const SidePanel = lazy(() => import('../../components/panel/SidePanel'))
 
 const DriverDispatch = () => {
   return (
-
+    
     <React.Fragment>
     <SidePanel/>
     <DispatchHeader/>

@@ -1,9 +1,9 @@
 import React,{useState,useEffect} from 'react'
 import './ContextMenu.css'
-
+import ShowDryModal from '../../views/dispatch/modal/dry/ShowDryModal'
 const menuItems = [
     {text:'All Loads',
-     onClick:() => { console.log('All loads')}
+     onClick:() => 
     },
     {text:'Dry Loads',
      onClick:() => { console.log('Dry Loads')}
@@ -15,9 +15,11 @@ const menuItems = [
 
 const  ContextMenu = ({parentRef}) => {
     const [isVisible, setVisibility] = useState(false)
+    const [isDryVisible, setisDryVisible] = useState(false)
+    const [isWetVisible, setisWetVisible] = useState(false)
+    const [isAllVisible, setisAllVisible] = useState(false)
     const [x, setX] = useState(0)
     const [y, setY] = useState(0)
-    const [modal, setModal] = useState(false)
 
     useEffect(() => {
         const parent = parentRef.current;
@@ -57,6 +59,7 @@ const  ContextMenu = ({parentRef}) => {
                         className="context-menu__item"
                         >
                         {item.text}
+                        <ShowDryModal text="Show Dry Loads"/>
                     </div>
                 )
             })}
