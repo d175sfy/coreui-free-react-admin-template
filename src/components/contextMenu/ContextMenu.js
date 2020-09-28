@@ -41,10 +41,10 @@ const  ContextMenu = ({parentRef}) => {
             setVisibility(false)
         }
         parent.addEventListener('contextmenu', showMenu)
-        window.addEventListener('click', closeMenu)
+        //window.addEventListener('click', closeMenu)
         return () => {
             parent.removeEventListener('contextmenu', showMenu)
-            window.removeEventListener('click', closeMenu)
+            //window.removeEventListener('click', closeMenu)
 
         }
     })

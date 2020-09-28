@@ -20,8 +20,9 @@ return (
       show={modal}
       onClose={toggle}
     >
-      <CModalHeader closeButton>Add DRY Load</CModalHeader>
+      <CModalHeader closeButton>175 (Dry Loads)</CModalHeader>
       <CModalBody>
+      <h3>175 (Dry Loads)</h3>
       <CForm action="" method="post">
             <CFormGroup>
               <CLabel htmlFor="nf-whse">Whse</CLabel>
