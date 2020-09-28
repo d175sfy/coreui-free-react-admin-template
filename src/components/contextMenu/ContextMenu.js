@@ -1,13 +1,14 @@
 import React,{useState,useEffect} from 'react'
 import './ContextMenu.css'
 import ShowDryModal from '../../views/dispatch/modal/dry/ShowDryModal'
+import ShowWetModal from '../../views/dispatch/modal/wet/ShowWetModal'
 const menuItems = [
     {
         text: <ShowDryModal />,
      onClick:() => { console.log('All loads')}
     },
     {
-        text: <ShowDryModal />,
+        text: <ShowWetModal />,
      onClick:() => { console.log('Dry Loads')}
     },
     {
