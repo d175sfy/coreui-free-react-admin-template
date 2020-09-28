@@ -7,13 +7,13 @@ function ContextContainer({children, menuItems}) {
     return (
         <div className="context-container" ref={ContextContainerRef}>
         {children}
-        
-        <ContextMenu 
+
+        <ContextMenu
         parentRef={ContextContainerRef}
         items={menuItems}
          />
         </div>
         )
     }
-    
+
     export default ContextContainer
