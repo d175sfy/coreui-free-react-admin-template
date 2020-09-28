@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState, useRef} from 'react'
 import './ShowDryModal.css'
 
 
@@ -6,12 +6,23 @@ import {CButton,CModal,CModalHeader,CModalBody,CModalFooter,CForm,CFormGroup,CLa
 
 const ShowDryModal = () => {
 const [modal, setModal] = useState(false);
+const [isVisible, setVisibility] = useState(true)
+//const _showDryModal  = useRef(null)
+const [x, setX] = useState(0)
+const [y, setY] = useState(0)
 const toggle = ()=>{
   setModal(!modal);
 }
+const showDryMenu = (e) => {
 
-return (
-  <>
+  e.preventDefault();
+  setVisibility(true)
+  setX(e.clientX)
+  setY(e.clientY)
+}
+
+return isVisible ?(
+  <React.Fragment>
     <CButton color="danger" shape="square" size="large"
      onClick={toggle}
       className="l-2"
@@ -33,8 +44,8 @@ return (
         >Cancel</CButton>
       </CModalFooter>
     </CModal>
-  </>
-)
+  </React.Fragment>
+):null
 }
 export default ShowDryModal
 
