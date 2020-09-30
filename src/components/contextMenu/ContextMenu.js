@@ -19,9 +19,6 @@ const menuItems = [
 
 const  ContextMenu = ({parentRef}) => {
     const [isVisible, setVisibility] = useState(false)
-    const [isDryVisible, setisDryVisible] = useState(false)
-    const [isWetVisible, setisWetVisible] = useState(false)
-    const [isAllVisible, setisAllVisible] = useState(false)
     const [x, setX] = useState(0)
     const [y, setY] = useState(0)
 
