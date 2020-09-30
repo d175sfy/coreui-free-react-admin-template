@@ -34,14 +34,16 @@ const  ContextMenu = ({parentRef}) => {
             setY(e.clientY)
         }
 
-        const closeMenu = () => {
-            setVisibility(false)
+        const closeMenu = async () => {
+        
+              setVisibility(false)
+           
         }
         parent.addEventListener('contextmenu', showMenu)
-        //window.addEventListener('click', closeMenu)
+        window.addEventListener('click', closeMenu)
         return () => {
             parent.removeEventListener('contextmenu', showMenu)
-            //window.removeEventListener('click', closeMenu)
+            window.removeEventListener('click', closeMenu)
 
         }
     })
