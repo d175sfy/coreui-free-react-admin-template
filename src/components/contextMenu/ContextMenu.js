@@ -19,9 +19,6 @@ const menuItems = [
 
 const  ContextMenu = ({parentRef}) => {
     const [isVisible, setVisibility] = useState(false)
-    const [isDryVisible, setisDryVisible] = useState(false)
-    const [isWetVisible, setisWetVisible] = useState(false)
-    const [isAllVisible, setisAllVisible] = useState(false)
     const [x, setX] = useState(0)
     const [y, setY] = useState(0)
 
@@ -37,11 +34,13 @@ const  ContextMenu = ({parentRef}) => {
             setY(e.clientY)
         }
 
-        const closeMenu = () => {
-            setVisibility(false)
+        const closeMenu = async () => {
+        
+              setVisibility(false)
+           
         }
         parent.addEventListener('contextmenu', showMenu)
-        //window.addEventListener('click', closeMenu)
+        window.addEventListener('click', closeMenu)
         return () => {
             parent.removeEventListener('contextmenu', showMenu)
             window.removeEventListener('click', closeMenu)
