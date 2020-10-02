@@ -5,7 +5,7 @@ import ShowWetModal from '../../views/dispatch/modal/wet/ShowWetModal'
 const menuItems = [
     {
         text: <ShowDryModal />,
-     onClick:() => { console.log('All loads')}
+     onClick:() => { console.log('Dry Loads')}
     },
     {
         text: <ShowWetModal />,
@@ -34,10 +34,10 @@ const  ContextMenu = ({parentRef}) => {
             setY(e.clientY)
         }
 
-        const closeMenu = async () => {
-        
+        const closeMenu = () => {
+
               setVisibility(false)
-           
+
         }
         parent.addEventListener('contextmenu', showMenu)
         window.addEventListener('click', closeMenu)
