@@ -78,7 +78,7 @@ return (
         <CButton
           color="secondary"
           onClick={toggle}
-        >Cancel</CButton>
+        >Close</CButton>
       </CModalFooter>
     </CModal>
   </>
