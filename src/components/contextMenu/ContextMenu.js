@@ -4,7 +4,7 @@ import ShowDryModal from '../../views/dispatch/modal/dry/ShowDryModal'
 import ShowWetModal from '../../views/dispatch/modal/wet/ShowWetModal'
 const menuItems = [
     {
-        text: <ShowDryModal />,
+        text: <ShowDryModal/>,
      onClick:() => { console.log('Dry Loads')}
     },
     {
@@ -18,6 +18,7 @@ const menuItems = [
 ]
 
 const  ContextMenu = ({parentRef}) => {
+
     const [isVisible, setVisibility] = useState(false)
     const [x, setX] = useState(0)
     const [y, setY] = useState(0)
@@ -55,6 +56,7 @@ const  ContextMenu = ({parentRef}) => {
     return isVisible ? (
         <div className="context-menu" style={STYLE}>
             {menuItems.map((item, index) => {
+
                 return (
                     <div
                         key={index}
@@ -65,6 +67,7 @@ const  ContextMenu = ({parentRef}) => {
                     </div>
                 )
             })}
+            <button className="context-close-btn" onClick={()=> {setVisibility(false)}}>close</button>
         </div>
     ) : null
 }

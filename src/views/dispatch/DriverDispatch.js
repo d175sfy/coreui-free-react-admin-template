@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React, { lazy} from 'react'
 import './DriverDispatch.css'
 const WhseLoadCount = lazy(() => import('../../utils/loads/whseLoadCount/WhseLoadCount.js'))
 const DispatchHeader = lazy(() => import('../../containers/dispatch/header/DispatchHeader.js'))
@@ -9,6 +9,9 @@ const SidePanel = lazy(() => import('../../components/panel/SidePanel'))
 
 
 const DriverDispatch = () => {
+
+
+
   return (
     
     <React.Fragment>
@@ -18,8 +21,8 @@ const DriverDispatch = () => {
         
         <div className="store-div">
           <WhseLoadCount />
-          <AddDryModal />
-          <AddWetModal />
+          <AddDryModal/>
+          <AddWetModal/>
         </div>
         <div className="driver-div">
           <CreateDriver />
