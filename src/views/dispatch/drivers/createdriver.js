@@ -9,14 +9,14 @@ import { useDrop } from 'react-dnd';
 
 const CreateDriver = props => {
 
-    const [{ isOver }, drop] = useDrop({
-        accept: ItemTypes.CARD,
-        id: props.id
-        ,
-        collect: monitor => ({
-            isOver: !!monitor.isOver()
-        })
-    });
+    // const [{ isOver }, drop] = useDrop({
+    //     accept: ItemTypes.CARD,
+    //     id: props.id
+    //     ,
+    //     collect: monitor => ({
+    //         isOver: !!monitor.isOver()
+    //     })
+    // });
 
     return (
         <div className="driver-accordion">

@@ -3,6 +3,7 @@ import As400 from '../As400'
 import WetLoads from '../wetLoads/WetLoads'
 import HeldLoads from '../heldLoads/HeldLoads'
 import ContextContainer from '../../../containers/dispatch/context/ContextContainer'
+import ShowDryContext from '../../../../components/dry/ShowDryWhse'
 import { TiArrowUnsorted } from 'react-icons/ti';
 import { TiArrowSortedUp } from 'react-icons/ti'
 import './WhseLoadCount.css'
@@ -182,7 +183,9 @@ function WhseLoadCount(props) {
                 <div className="context-container">
                 <div className="context-container__item">
                     <ContextContainer>
+                    <ShowDryContext.Consumer>
                         <div>226</div>
+                    </ShowDryContext.Consumer>
                     </ContextContainer>
                 </div>
             </div>
