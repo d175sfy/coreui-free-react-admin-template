@@ -214,6 +214,11 @@ let stores = [
     id: shortid.generate(),
     storeID: 1334,
     storeName: "BAYONNE"
+  },
+  {
+    id: shortid.generate(),
+    storeID: 1415,
+    storeName: "CHERRY HILL"
   }
 ]
 export default stores

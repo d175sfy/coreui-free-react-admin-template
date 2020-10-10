@@ -21,8 +21,10 @@ const DriverDispatch = () => {
         
         <div className="store-div">
           <WhseLoadCount />
-          <AddDryModal/>
-          <AddWetModal/>
+        </div>
+        <div className="add-dry-wet__modal">
+        <AddDryModal/>
+        <AddWetModal/>
         </div>
         <div className="driver-div">
           <CreateDriver />

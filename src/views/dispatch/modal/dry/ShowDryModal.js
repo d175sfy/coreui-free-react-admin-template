@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import ShowDryWhse from '../../../../components/dry/ShowDryWhse'
-import ShowDryContext from '../../../../components/dry/ShowDryWhse'
+import ShowDryContext from '../../../../../src/components/dry/ShowDryWhse'
 import './ShowDryModal.css'
 import {CButton,CModal,CModalHeader,CModalBody,CModalFooter,CForm,CFormGroup,CLabel,CInput,CFormText} from '@coreui/react'
 
@@ -24,7 +24,7 @@ const toggle = ()=>{
 } */
 
 return isVisible ?(
-  <ShowDryContext.Provider>
+  
   <React.Fragment>
     <CButton color="danger" shape="square" size="large"
      onClick={toggle}
@@ -38,7 +38,9 @@ return isVisible ?(
       <CModalBody>
       <h3>175 (Dry Loads)</h3>
       <div>
+      <ShowDryContext.Provider>
       <ShowDryWhse whse="222"/>
+      </ShowDryContext.Provider>
       </div>
 
       </CModalBody>
@@ -52,7 +54,7 @@ return isVisible ?(
     </CModal>
   </React.Fragment>
 ):null
-</ShowDryContext.Provider>
+
 }
 export default ShowDryModal
 

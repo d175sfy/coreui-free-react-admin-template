@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import As400 from '../As400'
 import WetLoads from '../wetLoads/WetLoads'
 import HeldLoads from '../heldLoads/HeldLoads'
-import ContextContainer from '../../../containers/dispatch/context/ContextContainer'
-import ShowDryContext from '../../../../components/dry/ShowDryWhse'
+import StoreList from '../../../../src/utils/stores/storelist'
+import ContextContainer from '../../../../src/containers/dispatch/context/ContextContainer'
 import { TiArrowUnsorted } from 'react-icons/ti';
 import { TiArrowSortedUp } from 'react-icons/ti'
 import './WhseLoadCount.css'
@@ -148,451 +148,42 @@ const Whse_1236_held = HeldLoads.filter(load => load.Wets === 1236).length
 const Whse_1334_held = HeldLoads.filter(load => load.Wets === 1334).length
 const Whse_1415_held = HeldLoads.filter(load => load.Wets === 1415).length
 const menuItems = [
-        {
-            text: 'All Loads',
-            onClick: () => { console.log('All loads') }
-        },
-        {
-            text: 'Dry Loads',
-            onClick: () => { console.log('Dry Loads') }
-        },
-        {
-            text: 'Wet Loads',
-            onClick: () => { console.log('Wet Loads') }
-        }
+    {
+        text: 'All Loads',
+        onClick: () => { console.log('All loads') }
+    },
+    {
+        text: 'Dry Loads',
+        onClick: () => { console.log('Dry Loads') }
+    },
+    {
+        text: 'Wet Loads',
+        onClick: () => { console.log('Wet Loads') }
+    }
 ]
 function WhseLoadCount(props) {
     const [loadCount, setloadCount] = useState(true)
-
+    const store = { ...StoreList }
     return (
 
-        <React.Fragment>
-            <div className="unsrtd" onClick={() => setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32} /> : <TiArrowUnsorted size={32} />}{loadCount ? 'Hide Whse Loads' : 'Show Whse Loads'}</div>
-            <div className={loadCount ? 'whse-container' : 'hideLoadCount'}>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>222</div>
-                    
-                    </ContextContainer>
-                </div>
-            </div><div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_222}</div><div className="whse-count-wet">{Whse_222_wet}</div><div className="whse-count-held">{Whse_222_held}</div></div></div>
 
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                    <ShowDryContext.Consumer>
-                        <div>226</div>
-                    </ShowDryContext.Consumer>
+        StoreList.map(store => (
+            <div className="whse-id__container">
+                <div className="main-context-container">
+                    <ContextContainer className="context-container">
+                        <div className="context-container__store-id">{store.storeID}</div>
                     </ContextContainer>
                 </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_226}</div><div className="whse-count-wet">{Whse_226_wet}</div><div className="whse-count-held">{Whse_226_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>230</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_230}</div><div className="whse-count-wet">{Whse_230_wet}</div><div className="whse-count-held">{Whse_230_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>237</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_237}</div><div className="whse-count-wet">{Whse_237_wet}</div><div className="whse-count-held">{Whse_237_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>240</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_240}</div><div className="whse-count-wet">{Whse_240_wet}</div><div className="whse-count-held">{Whse_240_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>241</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_241}</div><div className="whse-count-wet">{Whse_241_wet}</div><div className="whse-count-held">{Whse_241_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>243</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_243}</div><div className="whse-count-wet">{Whse_243_wet}</div><div className="whse-count-held">{Whse_243_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>244</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_244}</div><div className="whse-count-wet">{Whse_244_wet}</div><div className="whse-count-held">{Whse_244_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>245</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_245}</div><div className="whse-count-wet">{Whse_245_wet}</div><div className="whse-count-held">{Whse_245_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>246</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_246}</div><div className="whse-count-wet">{Whse_246_wet}</div><div className="whse-count-held">{Whse_246_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>248</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_248}</div><div className="whse-count-wet">{Whse_248_wet}</div><div className="whse-count-held">{Whse_248_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>305</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_305}</div><div className="whse-count-wet">{Whse_305_wet}</div><div className="whse-count-held">{Whse_305_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>306</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_306}</div><div className="whse-count-wet">{Whse_306_wet}</div><div className="whse-count-held">{Whse_306_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>310</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_310}</div><div className="whse-count-wet">{Whse_310_wet}</div><div className="whse-count-held">{Whse_310_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>315</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_315}</div><div className="whse-count-wet">{Whse_315_wet}</div><div className="whse-count-held">{Whse_315_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>316</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_316}</div><div className="whse-count-wet">{Whse_316_wet}</div><div className="whse-count-held">{Whse_316_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>318</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_318}</div><div className="whse-count-wet">{Whse_318_wet}</div><div className="whse-count-held">{Whse_318_held}</div></div></div>
-                <div className="whse-id__container"> <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>320</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_320}</div><div className="whse-count-wet">{Whse_320_wet}</div><div className="whse-count-held">{Whse_320_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>321</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_321}</div><div className="whse-count-wet">{Whse_321_wet}</div><div className="whse-count-held">{Whse_321_held}</div></div></div>
-                <div className="whse-id__container"> <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>322</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_322}</div><div className="whse-count-wet">{Whse_322_wet}</div><div className="whse-count-held">{Whse_322_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>323</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_323}</div><div className="whse-count-wet">{Whse_323_wet}</div><div className="whse-count-held">{Whse_323_held}</div></div></div>
-                <div className="whse-id__container"> <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>324</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_324}</div><div className="whse-count-wet">{Whse_324_wet}</div><div className="whse-count-held">{Whse_324_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>326</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_326}</div><div className="whse-count-wet">{Whse_326_wet}</div><div className="whse-count-held">{Whse_326_held}</div></div></div>
-                <div className="whse-id__container"> <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>329</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_329}</div><div className="whse-count-wet">{Whse_329_wet}</div><div className="whse-count-held">{Whse_329_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>729</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_729}</div><div className="whse-count-wet">{Whse_729_wet}</div><div className="whse-count-held">{Whse_729_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>739</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_739}</div><div className="whse-count-wet">{Whse_739_wet}</div><div className="whse-count-held">{Whse_739_held}</div></div></div>
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>749</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_749}</div><div className="whse-count-wet">{Whse_749_wet}</div><div className="whse-count-held">{Whse_749_held}</div></div></div>  
-            <div className="whse-id__container"> 
-            <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1025</div>
-                    </ContextContainer>
+                <div className="whse-loadCount-container">
+                    <div className="whse-count-dry">{Whse_222}</div>
+                    <div className="whse-count-wet">{Whse_222_wet}</div>
+                    <div className="whse-count-held">{Whse_222_held}</div>
                 </div>
             </div>
 
-             <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1025}</div><div className="whse-count-wet">{Whse_1025_wet}</div><div className="whse-count-held">{Whse_1025_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1062</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1062}</div><div className="whse-count-wet">{Whse_1062_wet}</div><div className="whse-count-held">{Whse_1062_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1070</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1070}</div><div className="whse-count-wet">{Whse_1070_wet}</div><div className="whse-count-held">{Whse_1070_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1081</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1081}</div><div className="whse-count-wet">{Whse_1081_wet}</div><div className="whse-count-held">{Whse_1081_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1093</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1093}</div><div className="whse-count-wet">{Whse_1093_wet}</div><div className="whse-count-held">{Whse_1093_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1103</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1103}</div><div className="whse-count-wet">{Whse_1103_wet}</div><div className="whse-count-held">{Whse_1103_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1114</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1114}</div><div className="whse-count-wet">{Whse_1114_wet}</div><div className="whse-count-held">{Whse_1114_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1166</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1166}</div><div className="whse-count-wet">{Whse_1166_wet}</div><div className="whse-count-held">{Whse_1166_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1174</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1174}</div><div className="whse-count-wet">{Whse_1174_wet}</div><div className="whse-count-held">{Whse_1174_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1177</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1177}</div><div className="whse-count-wet">{Whse_1177_wet}</div><div className="whse-count-held">{Whse_1177_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1199</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1199}</div><div className="whse-count-wet">{Whse_1199_wet}</div><div className="whse-count-held">{Whse_1199_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1211</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1211}</div><div className="whse-count-wet">{Whse_1211_wet}</div><div className="whse-count-held">{Whse_1211_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1214</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1214}</div><div className="whse-count-wet">{Whse_1214_wet}</div><div className="whse-count-held">{Whse_1214_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1215</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1215}</div><div className="whse-count-wet">{Whse_1215_wet}</div><div className="whse-count-held">{Whse_1215_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1236</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1236}</div><div className="whse-count-wet">{Whse_1236_wet}</div><div className="whse-count-held">{Whse_1236_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1334</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1334}</div><div className="whse-count-wet">{Whse_1334_wet}</div><div className="whse-count-held">{Whse_1334_held}</div></div></div>
-                <div className="whse-id__container">
-                <div className="context-container">
-                <div className="context-container__item">
-                    <ContextContainer>
-                        <div>1415</div>
-                    </ContextContainer>
-                </div>
-            </div>
-            <div className="whse-loadCount-container"><div className="whse-count-dry">{Whse_1415}</div><div className="whse-count-wet">{Whse_1415_wet}</div><div className="whse-count-held">{Whse_1415_held}</div></div></div>
-        </div>
-        </React.Fragment>
-    )
+        )))
 }
+
+
+
 export default WhseLoadCount
