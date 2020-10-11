@@ -1,24 +1,5 @@
 
 import React from 'react'
-import { Menu, Item, Separator, Submenu, MenuProvider } from 'react-contexify';
-import 'react-contexify/dist/ReactContexify.min.css';
-
-const ContextMenu = () => (
-    <Menu id='menu_id'>
-       <Item onClick={onClick}>Lorem</Item>
-       <Item onClick={onClick}>Ipsum</Item>
-       <Separator />
-       <Item disabled>Dolor</Item>
-       <Separator />
-       <Submenu label="Foobar">
-        <Item onClick={onClick}>Foo</Item>
-        <Item onClick={onClick}>Bar</Item>
-       </Submenu>
-    </Menu>
-);
-
-export default ContextMenu
-
 import React,{useState,useEffect} from 'react'
 import './ContextMenu.css'
 import ShowDryModal from '../../views/dispatch/modal/dry/ShowDryModal'
@@ -94,4 +75,3 @@ const  ContextMenu = ({parentRef}) => {
 }
 
 export default ContextMenu
->>>>>>> d1bb08875ce756604ba3f7b1a3035731af5c987c
