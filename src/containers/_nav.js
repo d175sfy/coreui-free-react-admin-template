@@ -23,7 +23,7 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'Driver Schedule',
-    to: '/dispatch/DriverSchedule',
+    to: '/dispatch/drivers/DriverSchedule',
     icon: 'cil-calendar',
   },
   {
@@ -46,7 +46,7 @@ export default [
     to: '/theme/colors',
     icon: 'cil-drop',
   },
- 
+
   {
     _tag: 'CSidebarNavItem',
     name: 'Typography',

@@ -1,5 +1,3 @@
-
-import React from 'react'
 import React,{useState,useEffect} from 'react'
 import './ContextMenu.css'
 import ShowDryModal from '../../views/dispatch/modal/dry/ShowDryModal'
