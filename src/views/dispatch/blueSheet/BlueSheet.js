@@ -2,8 +2,8 @@ import React from 'react'
 
 function BlueSheet() {
     return (
-        <div>
-            Hello Blue Sheet
+        <div className="container">
+            <h1>Hello Blue Sheet</h1>
         </div>
     )
 }
