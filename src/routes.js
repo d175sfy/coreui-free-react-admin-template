@@ -40,6 +40,7 @@ const User = React.lazy(() => import('./views/users/User'));
 const DriverDispatch = React.lazy(() => import('./views/dispatch/DriverDispatch'));
 const DriverSchedule = React.lazy(() => import('./views/dispatch/drivers/DriverSchedule'));
 const SSW = React.lazy(() => import('./views/dispatch/ssw/SSW'));
+const BlueSheet = React.lazy(() => import('./views/dispatch/blueSheet/BlueSheet'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -84,6 +85,7 @@ const routes = [
   { path: '/users/:id', exact: true, name: 'User Details', component: User },
   { path: '/dispatch/ssw', name: 'Dry Loads', component: SSW },
   { path: '/dispatch/drivers/DriverSchedule', name: 'Driver Schedule', component: DriverSchedule },
+  { path: '/dispatch/blueSheet/BlueSheet', name: 'Blue Sheet', component: BlueSheet },
   { path: '/dispatch', name: 'Driver Dispatch', component: DriverDispatch },
 
 ];

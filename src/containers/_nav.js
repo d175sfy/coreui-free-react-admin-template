@@ -22,6 +22,12 @@ export default [
   },
   {
     _tag: 'CSidebarNavItem',
+    name: 'Blue Sheet',
+    to: '/dispatch/blueSheet/BlueSheet',
+    icon: 'cil-speedometer',
+  },
+  {
+    _tag: 'CSidebarNavItem',
     name: 'Driver Schedule',
     to: '/dispatch/drivers/DriverSchedule',
     icon: 'cil-calendar',
