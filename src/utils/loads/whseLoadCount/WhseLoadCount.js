@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import As400 from '../As400'
 import WetLoads from '../wetLoads/WetLoads'
 import HeldLoads from '../heldLoads/HeldLoads'
+import DryLoadCount from '../dryLoads/DryLoadCount' 
 import ContextContainer from '../../../containers/dispatch/context/ContextContainer'
 import ShowDryModal from '../../../views/dispatch/modal/dry/ShowDryModal'
 import { TiArrowUnsorted } from 'react-icons/ti';
 import { TiArrowSortedUp } from 'react-icons/ti'
 import './WhseLoadCount.css'
+
 
 function WhseLoadCount() {
     const [loadCount, setloadCount] = useState(true)
@@ -24,9 +26,9 @@ function WhseLoadCount() {
                 </div>
                 </div>
                 <div className="whse-loadCount-container">
-                <div className="whse-count-dry">{Whse_222}</div>
-                <div className="whse-count-wet">{Whse_222_wet}</div>
-                <div className="whse-count-held">{Whse_222_held}</div>
+                <div className="whse-count-dry">{DryLoadCount}</div>
+                <div className="whse-count-wet">{DryLoadCount}</div>
+                <div className="whse-count-held">{DryLoadCount}</div>
                 </div>
                 </div>
         </div>
