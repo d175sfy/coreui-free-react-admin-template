@@ -28,7 +28,7 @@ function WhseLoadCount() {
                 <div className="whse-loadCount-container">
                 <div className="whse-count-dry">{DryLoadCount}</div>
                 <div className="whse-count-wet">{DryLoadCount}</div>
-                <div className="whse-count-held">{DryLoadCount}</div>
+                <div className="whse-count-held">{DryLoadCounte}</div>
                 </div>
                 </div>
         </div>

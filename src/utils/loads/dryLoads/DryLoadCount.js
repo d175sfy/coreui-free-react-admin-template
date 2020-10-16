@@ -1,4 +1,4 @@
-import { indexOf } from 'core-js/fn/array'
+
 import React from 'react'
 import As400 from '../As400'
 import './DryLoadCount.css'
@@ -53,7 +53,7 @@ const Whse_1415 = As400.filter(load => load.Warehouse === "1415").length
 const DryLoadCount = () => {
 
     return (
-     
+     <h1>Hello Dry Load Count</h1>
         )
         
 
