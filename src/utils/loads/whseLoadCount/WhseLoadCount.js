@@ -3,6 +3,7 @@ import As400 from '../As400'
 import WetLoads from '../wetLoads/WetLoads'
 import HeldLoads from '../heldLoads/HeldLoads'
 import DryLoadCount from '../dryLoads/DryLoadCount' 
+import StoreList from '../../stores/Storelist' 
 import ContextContainer from '../../../containers/dispatch/context/ContextContainer'
 import ShowDryModal from '../../../views/dispatch/modal/dry/ShowDryModal'
 import { TiArrowUnsorted } from 'react-icons/ti';
@@ -21,14 +22,16 @@ function WhseLoadCount() {
 
                 <div className="whse-id__container"> 
                 <div className="context-container">
-                <div context-container__item>
-                        <div>222</div>
+                <div whse-container__item>
+                       {StoreList.map(store => (
+                        <div>{store.storeID}</div>
+                       ))} 
                 </div>
                 </div>
                 <div className="whse-loadCount-container">
                 <div className="whse-count-dry">{DryLoadCount}</div>
                 <div className="whse-count-wet">{DryLoadCount}</div>
-                <div className="whse-count-held">{DryLoadCounte}</div>
+                <div className="whse-count-held">{DryLoadCount}</div>
                 </div>
                 </div>
         </div>
