@@ -19,13 +19,13 @@ function WhseLoadCount() {
         <React.Fragment>
             <div className="unsrtd" onClick={() => setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32} /> : <TiArrowUnsorted size={32} />}{loadCount ? 'Hide Whse Loads' : 'Show Whse Loads'}</div>
             <div className={loadCount ? 'whse-container' : 'hideLoadCount'}>
-
+            {StoreList.map(store => (
                 <div className="whse-id__container"> 
                 <div className="context-container">
                 <div whse-container__item>
-                       {StoreList.map(store => (
+                       
                         <div>{store.storeID}</div>
-                       ))} 
+                     
                 </div>
                 </div>
                 <div className="whse-loadCount-container">
@@ -34,6 +34,7 @@ function WhseLoadCount() {
                 <div className="whse-count-held">{DryLoadCount}</div>
                 </div>
                 </div>
+                ))} 
         </div>
         </React.Fragment>
     )
