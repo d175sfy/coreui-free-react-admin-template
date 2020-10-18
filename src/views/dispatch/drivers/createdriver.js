@@ -1,8 +1,8 @@
 import React from 'react'
 import { FcParallelTasks } from "react-icons/fc";
 import { BsChat } from "react-icons/bs";
-import Drivers from '../../../utils/drivers/driverlist'
-import Shifts from '../../../utils/shifts/ShiftList'
+import Driverlist from '../../../utils/drivers/Driverlist'
+import ShiftList from '../../../utils/shifts/ShiftList'
 import { ItemTypes } from '../../../utils/DnD/items.js'
 import { AiFillCaretDown } from 'react-icons/ai'
 import { CgListTree } from 'react-icons/cg'
@@ -27,17 +27,27 @@ const CreateDriver = props => {
                 {
                     <div className="driver-accordion__container">
                     
-                        {Shifts.map(shift => (
+                        {ShiftList.map(shift => (
                             <React.Fragment>
                             <div className="shift-container">
                                 <div className="shift-container__caret"><div className="shift-container__caret-icon"><AiFillCaretDown/></div></div>
                                 <div className="shift-container__checkbox-container"><div className="shift-container__checkbox"><input type="checkbox"/></div></div>
-                                <div className="shift-container__shift">{shift.shift}</div>
+                                    <div className="shift-container__shift"><div className="shift-container__shift-id">{shift.shift}</div></div>
                                 <div className="shift-container__subItems"><CgListTree/></div>
-
                             </div>
-                            
+                            {Driverlist.filter(driver => driver.shift === shift.shift)
+                            .map(shift => (
+                                <div>
+                                    {shift.name}
+                                </div>
+                            )
+
+                            )
+                                
+                            }
                             </React.Fragment>
+
+                            
                         ))}
                     </div>
 

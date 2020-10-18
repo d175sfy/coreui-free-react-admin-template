@@ -11,6 +11,15 @@
      background-color:#ffffff;
 
 }
+.whse-container__item {
+    background-color: #ffffff;
+}
+.whse-container__item-id {
+    color: #777676;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
 .unsrtd {
     margin: 0px 0px;
     background-color: #ffffff;

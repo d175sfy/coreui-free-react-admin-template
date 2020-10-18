@@ -99,43 +99,17 @@
   height:36px;
   border-bottom: 1px solid #e6e9ef;
 }
-
-
-.shift-container__checkbox-container::after:hover {
-  content: "";
-  position: absolute;
-  left: 39px;
-  width: 24px;
-  height: 36px;
-  background-color: #66ccff;
-  visibility: hidden;
-  transition: 0.4s ease-in-out;
-  -webkit-transition: 0.4s ease-in-out;
-  -moz-transition: 0.4s ease-in-out;
-  -ms-transition: 0.4s ease-in-out;
-  -o-transition: 0.4s ease-in-out;
-}
-.shift-container__checkbox-container:hover::after {
-  content: "";
-  position: absolute;
-  left: 39px;
-  width: 24px;
-  height: 36px;
-  border-bottom: 1px solid #e6e9ef;
-  background-color: #66ccff; 
-  visibility: visible;
-}
-.shift-container__checkbox-container:hover +.shift-container__shift {
+.shift-container__shift:hover {
   transform: translateX(24px);
-  transition: 0.3s ease-out;
+  transition: 0.3s;
   -webkit-transform: translateX(24px);
   -moz-transform: translateX(24px);
   -ms-transform: translateX(24px);
   -o-transform: translateX(24px);
-  -webkit-transition: 0.3s ease-out;
-  -moz-transition: 0.3s ease-out;
-  -ms-transition: 0.3s ease-out;
-  -o-transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ;
+  -moz-transition: 0.3s ;
+  -ms-transition: 0.3s ;
+  -o-transition: 0.3s ;
 }
 .shift-container__checkbox input{
   display: flex;

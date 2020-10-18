@@ -3,9 +3,7 @@ import As400 from '../As400'
 import WetLoads from '../wetLoads/WetLoads'
 import HeldLoads from '../heldLoads/HeldLoads'
 import DryLoadCount from '../dryLoads/DryLoadCount' 
-import StoreList from '../../stores/Storelist' 
-import ContextContainer from '../../../containers/dispatch/context/ContextContainer'
-import ShowDryModal from '../../../views/dispatch/modal/dry/ShowDryModal'
+import StoreList from '../../../utils/StoreList' 
 import { TiArrowUnsorted } from 'react-icons/ti';
 import { TiArrowSortedUp } from 'react-icons/ti'
 import './WhseLoadCount.css'
@@ -22,9 +20,9 @@ function WhseLoadCount() {
             {StoreList.map(store => (
                 <div className="whse-id__container"> 
                 <div className="context-container">
-                <div whse-container__item>
+                <div className="whse-container__item">
                        
-                        <div>{store.storeID}</div>
+                            <div className="whse-container__item-id">{store.Warehouse}</div>
                      
                 </div>
                 </div>
