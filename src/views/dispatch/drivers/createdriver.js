@@ -5,6 +5,7 @@ import Driverlist from '../../../utils/drivers/Driverlist'
 import ShiftList from '../../../utils/shifts/ShiftList'
 import { ItemTypes } from '../../../utils/DnD/items.js'
 import { AiFillCaretDown } from 'react-icons/ai'
+import { CgArrowsScrollV } from 'react-icons/cg'
 import { CgListTree } from 'react-icons/cg'
 import './createdriver.css'
 
@@ -31,15 +32,19 @@ const CreateDriver = props => {
                             <React.Fragment>
                             <div className="shift-container">
                                 <div className="shift-container__caret"><div className="shift-container__caret-icon"><AiFillCaretDown/></div></div>
-                                <div className="shift-container__checkbox-container"><div className="shift-container__checkbox"><input type="checkbox"/></div></div>
+                                    <div className="shift-container__checkbox-container"><div className="shift-container__checkbox"><CgArrowsScrollV size="23"/></div></div>
                                     <div className="shift-container__shift"><div className="shift-container__shift-id">{shift.shift}</div></div>
                                 <div className="shift-container__subItems"><CgListTree/></div>
                             </div>
                             {Driverlist.filter(driver => driver.shift === shift.shift)
                             .map(shift => (
-                                <div>
-                                    {shift.name}
+                                
+                                
+                                <div className="shift-container__driver-shift">
+                                    <div className="shift-container__checkbox"><input type="checkbox" /></div>
+                                    <div className="shift-container__driver-id">{shift.name}</div>
                                 </div>
+                            
                             )
 
                             )
