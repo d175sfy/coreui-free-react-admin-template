@@ -1,10 +1,9 @@
 import React from 'react'
 import { CgArrowsV } from "react-icons/cg";
 import { BsChat } from "react-icons/bs";
-import Drivers from '../utils/drivers/Driverlist'
 import Shifts from '../utils/shifts/ShiftList'
 import { ItemTypes } from '../utils/DnD/items.js'
-import { AiFillCaretDown } from 'react-icons/ai'
+
 import { CgListTree } from 'react-icons/cg'
 import './createdriver.css'
 
