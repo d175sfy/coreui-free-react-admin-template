@@ -1,13 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CgArrowsV } from "react-icons/cg";
-import { BsChat } from "react-icons/bs";
 import Shifts from '../utils/shifts/ShiftList'
-import { ItemTypes } from '../utils/DnD/items.js'
-
+import Driverlist from '../../src/utils/drivers/Driverlist'
 import { CgListTree } from 'react-icons/cg'
-import './createdriver.css'
+import { AiFillCaretDown } from 'react-icons/ai'
+import './CreateDriver.css'
 
-import { useDrop } from 'react-dnd';
+//import { useDrop } from 'react-dnd';
 
 const CreateDriver = props => {
 
@@ -20,41 +19,58 @@ const CreateDriver = props => {
     //     })
     // });
 
+    const [driver, setDriver] = useState(false)
 
-
-  
+    function onClickHandler() {
+        setDriver(true)
+    }
     return (
         <div className="driver-accordion">
             <React.Fragment>
                 {
                     <div className="driver-accordion__container">
-                    
+                        {/* create shifts */}
                         {Shifts.map(shift => (
                             <React.Fragment>
-                            <div className="shift-container">
-                                <div className="shift-container__caret"><div className="shift-container__caret-icon"><AiFillCaretDown/></div></div>
-                                <div className="shift-container__toggle-container"><div className="shift-container__toggle"><CgArrowsV size={14}/></div></div>
-                                <div classname="placeholder" ><CgArrowsV/></div>
-                                <div className="shift-container__shift">{shift.shift}</div>
-                                <div className="shift-container__subItems"><CgListTree/></div>
+                                <div className="shift-container">
+                                    <div className="shift-container__toggle-container">
+                                        <div className="shift-container__toggle">
+                                            <CgArrowsV size={14} onClick={onClickHandler} />
+                                        </div>
+                                    </div>
+                                    <div className="shift-container__shift">{shift.shift}</div>
+                                    <div className="shift-container__subItems"><CgListTree /></div>
+                                    <div>
 
-                            </div>
-                            
+                                        <div className="driver-shift-container">
+                                            {Driverlist.filter(driver => driver.shift === shift.shift)
+                                                .map(driver => (
+                                                    <div className="driver-shift-item-hidden" >
+                                                        {driver.name}
+                                                    </div>
+                                        ))}
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
                             </React.Fragment>
                         ))}
+
                     </div>
 
                 }
             </React.Fragment>
-                                
 
 
 
 
 
 
-            
-                {/* <div driver-accordion__container>
+
+
+            {/* <div driver-accordion__container>
                     <div className="driver-accordion__label"><div className="h3-label"><h3>8am</h3></div><div className="h5-label"><h5>Subitems</h5></div><div className="h5-label"><h5>Status</h5></div></div>
                     <div className="sriver-accordion-content__container">
                         {Drivers.filter(driver => driver.shift === "8am")
@@ -76,12 +92,12 @@ const CreateDriver = props => {
                                     </div> */}
 
 
-                                {/* </React.Fragment>
+            {/* </React.Fragment>
 
                             ))}
                     </div>
                 </div> */}
-            
+
         </div>
     )
 }
