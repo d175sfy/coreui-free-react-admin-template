@@ -3,6 +3,12 @@
   font-family:  'Poppins', 'Helvetica Neue', sans-serif, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
+:root {
+  --hover-color:#EFF0F3;
+}
+:root:hover {
+  background-color: #F5F6F8;
+}
 .driver-accordion {
   display: flex;
   flex-direction: column;
@@ -18,7 +24,7 @@
 } 
 .shift-container {
   display: flex;
-  background-color: #ffffff;
+  background-color: #F5F6F8;
   color:#ffffff;
   height: 36px;
   margin: 1px;
@@ -28,12 +34,37 @@
    cursor: pointer;
   
 }
+.shift-container:hover {
+  background-color: var(--hover-color);
+}
+.shift-container:hover .shift-container__subItems{
+  background-color: var(--hover-color);
+}
+.shift-container:hover .shift-container__toggle-container{
+  background-color: var(--hover-color);
+}
+.shift-container:hover .shift-container__caret {
+  background-color: var(--hover-color);
+}
+.shift-container:hover .shift-container__shift {
+  background-color: var(--hover-color);
+  transform: translateX(24px);
+  transition: 0.3s ;
+  -webkit-transform: translateX(24px);
+  -moz-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  -o-transform: translateX(24px);
+  -webkit-transition: 0.3s ;
+  -moz-transition: 0.3s ;
+  -ms-transition: 0.3s ;
+  -o-transition: 0.3s ;
+}
 .shift-container:hover .shift-container__caret{
   display: flex;
-  background-color: #ffffff;
+  background-color: var(--hover-color);
   width: 30px;
   max-width: 30px;
-  height: 30px;
+  height: 36px;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -42,9 +73,8 @@
 }
 .shift-container__caret {
   display: flex;
-  background-color: #ffffff;
+  background-color:var(--hover-color);
   width: 30px;
-  max-width: 30px;
   height: 36px;
   justify-content: center;
   text-align: center;
@@ -61,7 +91,13 @@
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
-
+.placeholder {
+position: absolute;
+width: 10px;
+height: 36px;
+z-index: 100;
+background-color: #323338;
+}
 .shift-container__shift {
   display: flex;
   position: absolute;
@@ -72,82 +108,57 @@
   align-items: center;
   background-color: #F5F6F8;
   color:#323338;
-  width: 70px;
+  width: 100px;
   padding-left: 8px;
   z-index: 10;
   text-align: center;
 }
+
 .shift-container__subItems {
   display: flex;
-  height: 36px;
   border-bottom: 1px solid #e6e9ef;
+  height: 36px;
   justify-content: center;
   justify-items: center;
   align-items: center;
   background-color: #F5F6F8;
   color:#323338;
-  width: 36px;
-  margin-left: 48px;
+  width: 100px;
+  margin-left: 60px;
   text-align: center;
   z-index: 12;
 }
+.shift-container__subItems:hover {
+  background-color: var(--hover-color); 
+}
 
-
-.shift-container__checkbox-container {
+.shift-container__toggle-container {
   background-color: #66CCFF;
   width:32px;
   height:36px;
   border-bottom: 1px solid #e6e9ef;
 }
-.shift-container__shift:hover {
-  transform: translateX(24px);
-  transition: 0.1s;
-  -webkit-transform: translateX(24px);
-  -moz-transform: translateX(24px);
-  -ms-transform: translateX(24px);
-  -o-transform: translateX(24px);
-  -webkit-transition: 0.1s ;
-  -moz-transition: 0.1s ;
-  -ms-transition: 0.1s ;
-  -o-transition: 0.1s ;
-}
-.shift-container__checkbox input{
+
+.shift-container__toggle {
   display: flex;
   position: absolute;
+  border-radius: 50%;
   left: 40px;
   height: 14px;
   width: 14px;
   margin-top: 10px;
-  background-color: rgba(0, 0, 0, 0.2);
-  outline: 1px rgba(255, 255, 255, 0.2) solid;
+  background-color:rgba(0,0,0,0.2);
   justify-content: center;
   align-items: center;
   z-index: 1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
-.shift-container__checkbox-item {
-  position: absolute;
-  left:0px;
-  width: 14px;
-  height: 14px;
-  background-color: red;
-}
-.shift-container__driver-id {
-  display: flex;
-  justify-items: flex-start;
-  align-items: center;
-  padding-left: 10px;
-  height: 36px;
-  width: 100%;
-  margin:1px 1px 1px 50px;
-  background-color: aqua;
-}
-.shift-container__checkbox {
 
-  
-}
-.shift-container__driver-shift {
-  left: 1px;
-}
+
+
 
 
 

@@ -1,11 +1,10 @@
 import React from 'react'
-import { FcParallelTasks } from "react-icons/fc";
+import { CgArrowsV } from "react-icons/cg";
 import { BsChat } from "react-icons/bs";
-import Driverlist from '../../../utils/drivers/Driverlist'
-import ShiftList from '../../../utils/shifts/ShiftList'
-import { ItemTypes } from '../../../utils/DnD/items.js'
+import Drivers from '../utils/drivers/Driverlist'
+import Shifts from '../utils/shifts/ShiftList'
+import { ItemTypes } from '../utils/DnD/items.js'
 import { AiFillCaretDown } from 'react-icons/ai'
-import { CgArrowsScrollV } from 'react-icons/cg'
 import { CgListTree } from 'react-icons/cg'
 import './createdriver.css'
 
@@ -22,37 +21,27 @@ const CreateDriver = props => {
     //     })
     // });
 
+
+
+  
     return (
         <div className="driver-accordion">
             <React.Fragment>
                 {
                     <div className="driver-accordion__container">
                     
-                        {ShiftList.map(shift => (
+                        {Shifts.map(shift => (
                             <React.Fragment>
                             <div className="shift-container">
                                 <div className="shift-container__caret"><div className="shift-container__caret-icon"><AiFillCaretDown/></div></div>
-                                    <div className="shift-container__checkbox-container"><div className="shift-container__checkbox"><CgArrowsScrollV size="23"/></div></div>
-                                    <div className="shift-container__shift"><div className="shift-container__shift-id">{shift.shift}</div></div>
+                                <div className="shift-container__toggle-container"><div className="shift-container__toggle"><CgArrowsV size={14}/></div></div>
+                                <div classname="placeholder" ><CgArrowsV/></div>
+                                <div className="shift-container__shift">{shift.shift}</div>
                                 <div className="shift-container__subItems"><CgListTree/></div>
+
                             </div>
-                            {Driverlist.filter(driver => driver.shift === shift.shift)
-                            .map(shift => (
-                                
-                                
-                                <div className="shift-container__driver-shift">
-                                    <div className="shift-container__checkbox"><input type="checkbox" /></div>
-                                    <div className="shift-container__driver-id">{shift.name}</div>
-                                </div>
                             
-                            )
-
-                            )
-                                
-                            }
                             </React.Fragment>
-
-                            
                         ))}
                     </div>
 
