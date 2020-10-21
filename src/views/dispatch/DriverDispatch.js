@@ -2,7 +2,7 @@ import React, { lazy } from 'react'
 import './DriverDispatch.css'
 const WhseLoadCount = lazy(() => import('../../utils/loads/whseLoadCount/WhseLoadCount.js'))
 const DispatchHeader = lazy(() => import('../../containers/dispatch/header/DispatchHeader.js'))
-const CreateDriver = lazy(() => import('../../components/CreateDriver.js'))
+const CreateShift = lazy(() => import('../../components/CreateShift.js'))
 const AddDryModal = lazy(() => import('./modal/dry/AddDryModal'))
 const AddWetModal = lazy(() => import('./modal/wet/AddWetModal'))
 const SidePanel = lazy(() => import('../../components/panel/SidePanel'))
@@ -22,7 +22,7 @@ const DriverDispatch = () => {
           <AddWetModal />
         </div>
         <div className="driver-div">
-          <CreateDriver />
+          <CreateShift />
         </div>
       </div>
     </React.Fragment>
