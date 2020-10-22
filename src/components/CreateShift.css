@@ -44,9 +44,6 @@
 .shift-container:hover .shift-container__toggle-container{
   background-color: var(--hover-color);
 }
-.shift-container:hover .shift-container__caret {
-  background-color: var(--hover-color);
-}
 .shift-container:hover .shift-container__shift {
   background-color: var(--hover-color);
   transform: translateX(24px);
@@ -93,13 +90,6 @@
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
-.placeholder {
-position: absolute;
-width: 10px;
-height: 36px;
-z-index: 100;
-background-color: #323338;
-}
 .shift-container__shift {
   display: flex;
   position: absolute;
@@ -111,33 +101,10 @@ background-color: #323338;
   color:#323338;
   width: 200px;
   padding-left: 8px;
-  z-index: 10;
+  z-index: 1000;
   text-align: center;
 }
 
-.driver-shift-container {
-  position: absolute;
-  color: #ffffff;
-  
-  background-color: #323338;
-  width:100%;
-  height:auto;
-}
-.driver-shift-container-hidden {
-  position: absolute;
-  max-height:0 ;
-
-  background-color: #323338;
-  width:100%;
-  height:auto;
-}
-.driver-shift-container-hidden {
-  color: #323338;
-  top: 100px;
-  width:100%;
-  height:auto;
-  margin:75px 3px;
-}
 
 .shift-container__subItems {
   display: flex;

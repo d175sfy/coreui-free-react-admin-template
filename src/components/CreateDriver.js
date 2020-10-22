@@ -7,7 +7,7 @@ function CreateDriver(props) {
             {Driverlist.filter(driver => driver.shift === props.shift).map(
                 driver => (
                     <div className="driver-container">
-                        <strong>{driver.shift}</strong> {driver.name} ({driver.tractor})
+                        <strong>{props.Shift}{driver.shift}</strong> {driver.name} ({driver.tractor})
                     </div>
                 )
             )}

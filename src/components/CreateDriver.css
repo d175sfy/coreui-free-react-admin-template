@@ -1,13 +1,13 @@
 .main-container {
 
-    background-color: darkgoldenrod;
+    background-color: rgb(42, 145, 241);
     width: 100%;
-    margin: 25px 3px;
     
 }
 .driver-container {
     background-color: darkcyan;
-    margin: 5px 3px;
+    margin-left:200px;
+   
 }
 .driver-container-hidden {
     background-color: darkcyan;

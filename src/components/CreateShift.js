@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { CgArrowsV } from "react-icons/cg";
 import Shifts from '../utils/shifts/ShiftList'
 import CreateDriver from '../components/CreateDriver'
@@ -20,11 +20,21 @@ const CreateShift = children => {
     // });
  
     const [driver, setDriver] = useState(false)
-
+    const arrowClickRef = useRef(null)
+        
+ 
     function onClickHandler() {
         alert('Hello There!')
         setDriver(!driver)
     }
+
+    useEffect(() => {
+        arrowClickRef.current.click();
+        return () => {
+            arrowClickRef.current.delete();
+        }
+    },[]);
+
     return (
         <React.Fragment>
             <div className="shift-accordion">
@@ -34,15 +44,16 @@ const CreateShift = children => {
                                 
                                     <div className="shift-container">
                                         <div className="shift-container__toggle-container">
-                                            <div className="shift-container__toggle">
-                                                <CgArrowsV size={18} onClick={onClickHandler} />
+                                            <div ref={arrowClickRef} className="shift-container__toggle" onClick={()=> setDriver(!driver)}>
+                                                <CgArrowsV  size={18}  />
                                             </div>
                                         </div>
                                             <div className="shift-container__shift">
                                             {shift.shift}
                                             </div>
-                                            <CreateDriver className={driver ? "driver-container":"driver-container-hidden"} shift={shift.shift} key={driver.id}/>
                                             <div className="shift-container__subItems"><CgListTree /></div>
+                                            <CreateDriver className={driver ? "driver-container":"driver-container-hidden"}  key={driver.id}/>
+
                                     </div>  
                                            
                             ))}
