@@ -42,19 +42,15 @@ const CreateShift = children => {
                             {Shifts.map(shift => (
 
                                     <div className="shift-container">
-
-                                            <div className="shift-container__shift">
-                                            {shift.shift}
-                                            <div className="driver-div" ><CreateDriver className={driver ? "driver-container":"driver-container-hidden"} shift={shift.shift} key={driver.id}/></div>
-                                            </div>
-                                            <div className="shift-container__subItems"><CgListTree /></div>
-
-
+                                            <div className="shift-container__shift">{shift.shift}</div>
+                                            <CreateDriver className={driver ? "driver-container":"driver-container-hidden"} shift={shift.shift} key={driver.id}/>
                                     </div>
-
-                            ))}
-            </div>
-        </React.Fragment>
-    )
+                        ))}
+                        </div>
+                        </React.Fragment>
+                        )
                     }
+
+
+
 export default CreateShift
