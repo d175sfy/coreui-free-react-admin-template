@@ -28,26 +28,21 @@ const CreateShift = children => {
         setDriver(!driver)
     }
 
-    useEffect(() => {
-        arrowClickRef.current.click();
-        return () => {
-            arrowClickRef.current.delete();
-        }
-    },[]);
+    // useEffect(() => {
+    //     arrowClickRef.current.click();
+    //     return () => {
+    //         arrowClickRef.current.delete();
+    //     }
+    // },[]);
 
     return (
         <React.Fragment>
-            <div className="shift-accordion">
-                    <div className="shift-accordion__container">
+            <div className="shift-accordion-container">
                         {/* create shifts */}
                             {Shifts.map(shift => (
 
                                     <div className="shift-container">
-                                        <div className="shift-container__toggle-container">
-                                            <div ref={arrowClickRef} className="shift-container__toggle" onClick={()=> setDriver(!driver)}>
-                                                <CgArrowsV  size={18}  />
-                                            </div>
-                                        </div>
+
                                             <div className="shift-container__shift">
                                             {shift.shift}
                                             <div className="driver-div" ><CreateDriver className={driver ? "driver-container":"driver-container-hidden"} shift={shift.shift} key={driver.id}/></div>
@@ -58,7 +53,6 @@ const CreateShift = children => {
                                     </div>
 
                             ))}
-                    </div>
             </div>
         </React.Fragment>
     )
