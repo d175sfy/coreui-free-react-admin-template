@@ -9,9 +9,9 @@ function DryAs400() {
             {As400.map(load => (
                 <React.Fragment>
                     <div className="dry-load-container">
-                        <label className="label-container">
-                            <input type="checkbox" />
-                            <svg width="32" height="32" viewBox="-4 -4 39 39" aria-hidden="true" focusable="false">
+                        <label htmlFor="checkbox" className="label-container">
+                            <input type="checkbox" id="checkbox"/>
+                            <svg width="24" height="24" viewBox="-4 -4 39 39" aria-hidden="true" focusable="true">
                                 {/* <!-- The background --> */}
                                 <rect class="checkbox__bg" width="35" height="35" x="-2" y="-2" stroke="currentColor" fill="none" stroke-width="3" rx="6"
                                     ry="6"></rect>
