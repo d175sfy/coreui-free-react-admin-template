@@ -1,40 +1,64 @@
-import React from 'react'
+import React,{ useState,useRef } from 'react'
 import As400 from '../utils/As400'
-import { MdCheckBoxOutlineBlank } from 'react-icons/md'
+import Storelist from '../utils/StoreList'
+import { FaArrowAltCircleDown } from 'react-icons/fa'
 import './DryAs400.css'
+import { CgArrowsExpandDownLeft } from 'react-icons/cg'
 
-function DryAs400() {
+const DryAs400 = () => {
+    const [containerState, setContainerState] = useState(false)
+    const labelRef = useRef(null)
+
+    function labelClick() {
+        console.log('Hello')
+        setContainerState('!containerState')
+    }
     return (
         <div className="main-container">
-            {As400.map(load => (
+            {Storelist.map(whse => (
                 <React.Fragment>
-                    <div className="dry-load-container">
-                        <label htmlFor="checkbox" className="label-container">
-                            <input type="checkbox" id="checkbox"/>
-                            <svg width="24" height="24" viewBox="-4 -4 39 39" aria-hidden="true" focusable="true">
-                                {/* <!-- The background --> */}
-                                <rect class="checkbox__bg" width="35" height="35" x="-2" y="-2" stroke="currentColor" fill="none" stroke-width="3" rx="6"
-                                    ry="6"></rect>
-                                {/* <!-- The checkmark--> */}
-                                <polyline class="checkbox__checkmark" points="4,14 12,23 28,5" stroke="transparent" stroke-width="4" fill="none"></polyline>
-                            </svg>
-                            <span className="checkmark"></span>
-                        </label>
-                        <div className="store">{load.Warehouse}</div>
-                        <div className="store">{load.Time}</div>
-                        <div className="store">{load.Date}</div>
-                        <div className="store">{load.Status}</div>
-                        <div className="store">{load.LoadNumber}</div>
-                        <div className="store">{load.Trailer}</div>
-                        <div className="store">{load.Seal}</div>
-                    </div>
-                </React.Fragment>
-            ))
 
-            }
+                    <div className="store-title" key={whse.Warehouse}>
+
+                            <FaArrowAltCircleDown  ref={labelRef} className="arrow-up" size={20}  onClick={labelClick}/>
+
+
+                        <div className="store">{whse.Warehouse}</div>
+                    </div>
+                    <div className="load-header">
+                        <div className="heading">Time</div>
+                        <div className="heading">Date</div>
+                        <div className="heading">Status</div>
+                        <div className="heading">LoadNumber</div>
+                        <div className="heading">Trailer</div>
+                        <div className="heading">Seal</div>
+                    </div>
+                    {As400.filter(load => load.Warehouse === whse.Warehouse)
+                        .map(load => (
+
+
+                            <div className={containerState ? "load-container" : "load-container-hidden"}>
+                                <div className="load">{load.Time}</div>
+                                <div className="load">{load.Date}</div>
+                                <div className="load">{load.Status}</div>
+                                <div className="load">{load.LoadNumber}</div>
+                                <div className="load">{load.Trailer}</div>
+                                <div className="load">{load.Seal}</div>
+                            </div>
+
+
+
+                        ))}
+
+                </React.Fragment>
+            ))}
+
+
         </div>
     )
 }
 
 export default DryAs400
+
+
 

@@ -11,24 +11,73 @@
     width: 100%;
     background-color: aliceblue;
 }
-.dry-load-container {
+.arrow-up {
+    margin:10px 5px;
+}
+.arrow-down {
+
+}
+.store {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.store-title {
     display:flex;
     z-index: 1;
     height: 36px;
     margin: 1px;
+    color: #ffffff;
+    background-color: rgb(35, 35, 36);
     transform: 0.4s;
     -webkit-transform: 0.4s;
     -moz-transform: 0.4s;
     -ms-transform: 0.4s;
     -o-transform: 0.4s;
 }
-.store {
+.heading{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 36px;
     width: 100%;
-    margin:1px auto;
+    color: #ffffff;
+    background-color: rgb(35, 35, 36);
+}
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    margin:0px auto;
+    padding-left:5px;
+    color: #ffffff;
+    background-color: rgb(35, 35, 36);
+}
+.load-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    margin:0px auto;
+    padding-left: 15px;
+    color: #ffffff;
+    background-color: rgb(35, 35, 36);
+}
+
+.load-container-hidden {
+    display: none;
+}
+.load-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+     margin:0px auto;
     padding:15px;
     color: #ffffff;
     background-color: rgb(35, 35, 36);
@@ -48,9 +97,6 @@
     -ms-user-select: none;
     user-select: none;
     background-color: rgb(35, 35, 36);
-  }
-  .label-container:hover {
-      background-color: rgb(35, 35, 36,0.8);
   }
  #checkbox {
      position: absolute;
