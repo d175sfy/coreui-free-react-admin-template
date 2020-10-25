@@ -49,9 +49,7 @@
     user-select: none;
     background-color: rgb(35, 35, 36);
   }
-  .label-container:hover {
-      background-color: rgb(35, 35, 36,0.8);
-  }
+ 
  #checkbox {
      position: absolute;
      left:-999px;
