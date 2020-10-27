@@ -11,12 +11,17 @@
     width: 100%;
     background-color: aliceblue;
 }
+
 .arrow-up {
     margin:10px 5px;
 }
 .arrow-down {
 
 }
+.arrow-container {
+    margin: 7px 5px;
+}
+
 .store {
     display: flex;
     align-items: center;
