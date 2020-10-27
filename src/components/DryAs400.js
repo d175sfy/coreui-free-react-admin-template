@@ -9,9 +9,12 @@ const DryAs400 = () => {
     const [containerState, setContainerState] = useState(false)
     const labelRef = useRef(null)
 
-    function labelClick() {
+    function showContent() {
         console.log('Hello')
+        const storeTitle = document.querySelector('.store-title')
+        if(storeTitle){
         setContainerState('!containerState')
+        }
     }
     return (
         <div className="main-container">
@@ -20,7 +23,7 @@ const DryAs400 = () => {
 
                     <div className="store-title" key={whse.Warehouse}>
 
-                            <FaArrowAltCircleDown  ref={labelRef} className="arrow-up" size={20}  onClick={labelClick}/>
+                            <FaArrowAltCircleDown  ref={labelRef} className="arrow-up" size={20}  onClick={showContent}/>
 
 
                         <div className="store">{whse.Warehouse}</div>
