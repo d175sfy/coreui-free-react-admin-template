@@ -13,12 +13,12 @@ function CreateStore() {
             {Storelist.map((whse,i) => (
                 <React.Fragment>
 
-                    <div className="store-title" key={whse.Warehouse}>
+                    <div className="store-title" key={whse.warehouse}>
 
                             <div onClick={labelClick}><ArrowDown className="rotate" width={20} fill={"#ff3333"} /></div>
 
 
-                        <div className="store ${whse.Warehouse}"><strong>{whse.Warehouse}</strong></div>
+                        <div className="store ${whse.Warehouse}"><strong>{whse.warehouse}</strong></div>
                     </div>
                    
                     <div className={containerState ? "load-container":"load-container-hidden"}>

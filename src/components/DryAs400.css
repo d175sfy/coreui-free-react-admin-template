@@ -20,6 +20,11 @@
 }
 .arrow-container {
     margin: 7px 5px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
 }
 
 .store {
@@ -28,6 +33,7 @@
     padding-left: 30px;
     cursor: pointer;
 }
+
 .store-title {
     display:flex;
     z-index: 1;
@@ -73,7 +79,7 @@
     background-color: rgb(35, 35, 36);
 }
 
-.load-container-hidden {
+.load-container-open {
     display: none;
 }
 .load-container {

@@ -5,32 +5,32 @@ import ArrowDown from "../components/Arrow-circle-down";
 import "./DryAs400.css";
 
 const DryAs400 = () => {
-  const [containerState, setContainerState] = useState(false);
-  const [setRotate, setRotateState] = useState(false);
+  const [store, setStore] = useState(...Storelist)
 
-  function labelClick(e) {
-      const storeIndex = document.querySelector('.store')
-      const storeValue = storeIndex.textContent
-      console.log(storeValue)
- 
-    // setContainerState(As400.map(load,i => {
-    //     return As400.findIndex(obj => obj.Warehouse === )
-    // }));
+  const toggleStore = index => {
+    console.log('Hello There!')
+    setStore(Storelist.map((store, i) => {
+      if(i === index){
+        store.open = !store.open
+      }else {
+        store.open = false;
+      }
+    }))
   }
   return (
     <div className="main-container">
       {Storelist.map((whse, i) => (
         <React.Fragment>
-          <div className="store-title" key={whse.Warehouse}>
-            <div className="arrow-container" onClick={labelClick}>
+          <div className="store-title" key={whse.warehouse}>
+            <div className="arrow-container" onClick={() => toggleStore(i)}>
               <ArrowDown
-                className={`${setRotate}`}
+                className="down-arrow"
                 width={20}
                 fill={"#ff3333"}
               />
-            </div>
+            </div> 
 
-            <div className="store">{whse.Warehouse}</div>
+            <div className="store">{whse.warehouse}</div>
           </div>
           <div className="load-header">
                   <div className="heading">Time</div>
@@ -41,10 +41,9 @@ const DryAs400 = () => {
                   <div className="heading">Seal</div>
                 </div>
 
-          {As400.filter((load) => load.Warehouse === whse.Warehouse).map(
+          {As400.filter((load) => load.Warehouse === whse.warehouse).map(
             (load, i) => (
-              <div className={`load-container${containerState}`}>
-               
+              <div className={"load-container-" + (store.open ? 'open':'')} key={i}>
                 <div className="load">{`${i + 1}.`}{load.Time}</div>
                 <div className="load">{load.Date}</div>
                 <div className="load">{load.Status}</div>
@@ -61,3 +60,4 @@ const DryAs400 = () => {
 };
 
 export default DryAs400;
+               
