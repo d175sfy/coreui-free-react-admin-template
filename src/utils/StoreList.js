@@ -1,5 +1,5 @@
 const StoreList = [
-    {warehouse:"222",open:"true"},
+    {warehouse:"222",open:"false"},
     {warehouse:"226",open:"false"},
     {warehouse:"230",open:"false"},
     {warehouse:"237",open:"false"},

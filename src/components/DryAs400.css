@@ -82,7 +82,7 @@
 .load-container-open {
     display: none;
 }
-.load-container {
+.load-container- {
     display: flex;
     justify-content: center;
     align-items: center;
