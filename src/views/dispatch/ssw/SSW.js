@@ -10,7 +10,7 @@ const DryLoads = () => {
       
   {/* main-load-container spans 100% */}
       <div className="main-load-container">
-          <DryAs400 />
+           <DryAs400 /> 
 
 
         </div>

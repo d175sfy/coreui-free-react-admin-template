@@ -1,12 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { CgArrowsV } from "react-icons/cg";
+import React, { useState} from 'react'
 import Shifts from '../utils/shifts/ShiftList'
 import CreateDriver from '../components/CreateDriver'
 import './CreateDriver.css'
-import { CgListTree } from 'react-icons/cg'
-import './CreateShift.css'
 
-//import { useDrop } from 'react-dnd';
+import './CreateShift.css'
 
 const CreateShift = children => {
 
@@ -20,20 +17,6 @@ const CreateShift = children => {
     // });
 
     const [driver, setDriver] = useState(false)
-    const arrowClickRef = useRef(null)
-
-
-    function onClickHandler() {
-        alert('Hello There!')
-        setDriver(!driver)
-    }
-
-    // useEffect(() => {
-    //     arrowClickRef.current.click();
-    //     return () => {
-    //         arrowClickRef.current.delete();
-    //     }
-    // },[]);
 
     return (
         <React.Fragment>

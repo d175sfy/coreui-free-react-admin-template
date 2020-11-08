@@ -1,1992 +1,1992 @@
 let As400 =  [
     {
-      "Warehouse": "222",
-      "Time": "20:00",
-      "Date": "8/2",
-      "Status": "InTrans",
-      "LoadNumber": "17558969",
-      "Trailer": "175791",
-      "Seal": "50204941"
-    },
-    {
-      "Warehouse": "222",
-      "Time": "6:00",
-      "Date": "8/26",
-      "Status": "Completed",
-      "LoadNumber": "17558995",
-      "Trailer": "175823",
-      "Seal": "50205958"
-    },
-    {
-      "Warehouse": "222",
-      "Time": " 7:00",
-      "Date": " 8/26",
-      "Status": "Loading",
-      "LoadNumber": "17559116",
-      "Trailer": "751058",
-      "Seal": "6584566"
-    },
-    {
-      "Warehouse": "222",
-      "Time": "17:00",
-      "Date": " 8/25",
-      "Status": "Completed",
-      "LoadNumber": "17558981",
-      "Trailer": "175519",
-      "Seal": "50205951"
-    },
-    {
-      "Warehouse": "226",
-      "Time": " 1:30",
-      "Date": " 8/26",
-      "Status": "Completed",
-      "LoadNumber": "17559032",
-      "Trailer": "175873",
-      "Seal": "50205972"
-    },
-    {
-      "Warehouse": "226",
-      "Time": " 3:30",
-      "Date": " 8/26",
-      "Status": "Completed",
-      "LoadNumber": "17559086",
-      "Trailer": "175766",
-      "Seal": "50204954"
-    },
-    {
-      "Warehouse": "226",
-      "Time": " 4:30",
-      "Date": " 8/26",
-      "Status": "Completed",
-      "LoadNumber": "17559109",
-      "Trailer": "175591",
-      "Seal": "50205991"
-    },
-    {
-      "Warehouse": "226",
-      "Time": " 5:00",
-      "Date": " 8/26",
-      "Status": "Loading",
-      "LoadNumber": "17559142",
-      "Trailer": "175810",
-      "Seal": "464621615"
-    },
-    {
-      "Warehouse": "226",
-      "Time": " 5:30",
-      "Date": " 8/26",
-      "Status": "Ready",
-      "LoadNumber": "175489654",
-      "Trailer": "175222",
-      "Seal": "968546136"
-    },
-    {
-      "Warehouse": "226",
-      "Time": "14:00",
-      "Date": " 8/25",
-      "Status": "Completed",
-      "LoadNumber": "17558996",
-      "Trailer": "175814",
-      "Seal": "50205676"
-    },
-    {
-      "Warehouse": "226",
-      "Time": " 5:00",
-      "Date": " 8/26",
-      "Status": "Completed",
-      "LoadNumber": "17559070",
-      "Trailer": "175800",
-      "Seal": "50204953"
-    },
-    {
-      "Warehouse": "226",
-      "Time": " 6:00",
-      "Date": " 8/26",
-      "Status": "Loading",
-      "LoadNumber": "17559147",
-      "Trailer": "751078",
-      "Seal": "46411362"
-    },
-    {
-      "Warehouse": "230",
-      "Time": " 7:00",
-      "Date": " 7:00",
-      "Status": "Ready",
-      "LoadNumber": "175456987",
-      "Trailer": "175456",
-      "Seal": "98465153"
-    },
-    {
-      "Warehouse": "230",
-      "Time": "14:00",
-      "Date": "14:00",
-      "Status": "Completed",
-      "LoadNumber": "17559012",
-      "Trailer": "175526",
-      "Seal": "50205949"
-    },
-    {
-      "Warehouse": "230",
-      "Time": "3:30",
-      "Date": "3:30",
-      "Status": "Completed",
-      "LoadNumber": "17559066",
-      "Trailer": "175530",
-      "Seal": "50205970"
-    },
-    {
-      "Warehouse": "230",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559119",
-      "Trailer": "751024",
-      "Seal": "50205992"
-    },
-    {
-      "Warehouse": "230",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Loading",
-      "LoadNumber": "17559156",
-      "Trailer": "175872",
-      "Seal": "4796551"
-    },
-    {
-      "Warehouse": "237",
-      "Time": " 7:00",
-      "Date": " 7:00",
-      "Status": "Ready",
-      "LoadNumber": "17545896565",
-      "Trailer": "1754265",
-      "Seal": "98665"
-    },
-    {
-      "Warehouse": "237",
-      "Time": "17:00",
-      "Date": "17:00",
-      "Status": "Completed",
-      "LoadNumber": "17558988",
-      "Trailer": "751019",
-      "Seal": "50204945"
-    },
-    {
-      "Warehouse": "237",
-      "Time": " 3:00",
-      "Date": " 3:00",
-      "Status": "Completed",
-      "LoadNumber": "17559050",
-      "Trailer": "175544",
-      "Seal": "50204947"
-    },
-    {
-      "Warehouse": "237",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559089",
-      "Trailer": "175940",
-      "Seal": "50205979"
-    },
-    {
-      "Warehouse": "237",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Completed",
-      "LoadNumber": "17559145",
-      "Trailer": "175706",
-      "Seal": "50205998"
-    },
-    {
-      "Warehouse": "240",
-      "Time": " 7:00",
-      "Date": " 7:00",
-      "Status": "Ready",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "240",
-      "Time": " 7:01",
-      "Date": " 7:01",
-      "Status": "Ready",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "        "
-    },
-    {
-      "Warehouse": "240",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17558997",
-      "Trailer": "175970",
-      "Seal": "50205948"
-    },
-    {
-      "Warehouse": "240",
-      "Time": " 2:00",
-      "Date": " 2:00",
-      "Status": "Completed",
-      "LoadNumber": "17559036",
-      "Trailer": "175508",
-      "Seal": "50204948"
-    },
-    {
-      "Warehouse": "240",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559091",
-      "Trailer": "175419",
-      "Seal": "50205993"
-    },
-    {
-      "Warehouse": "240",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Loading",
-      "LoadNumber": "17559154",
-      "Trailer": "175407",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "241",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17559018",
-      "Trailer": "175533",
-      "Seal": "50204944"
-    },
-    {
-      "Warehouse": "241",
-      "Time": "23:30",
-      "Date": "23:30",
-      "Status": "Completed",
-      "LoadNumber": "17559055",
-      "Trailer": "175874",
-      "Seal": "50205969"
-    },
-    {
-      "Warehouse": "241",
-      "Time": " 2:00",
-      "Date": " 2:00",
-      "Status": "Completed",
-      "LoadNumber": "17559103",
-      "Trailer": "175951",
-      "Seal": "50204963"
-    },
-    {
-      "Warehouse": "241",
-      "Time": " 7:00",
-      "Date": " 7:00",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "241",
-      "Time": "15:00",
-      "Date": "15:00",
-      "Status": "Completed",
-      "LoadNumber": "17559005",
-      "Trailer": "175469",
-      "Seal": "50204943"
-    },
-    {
-      "Warehouse": "241",
-      "Time": "23:00",
-      "Date": "23:00",
-      "Status": "Completed",
-      "LoadNumber": "17559038",
-      "Trailer": "175459",
-      "Seal": "50205975"
-    },
-    {
-      "Warehouse": "241",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "241",
-      "Time": "14:00",
-      "Date": "14:00",
-      "Status": "Completed",
-      "LoadNumber": "17559008",
-      "Trailer": "175876",
-      "Seal": "5020594"
-    },
-    {
-      "Warehouse": "243",
-      "Time": "23:00",
-      "Date": "23:00",
-      "Status": "Completed",
-      "LoadNumber": "17559045",
-      "Trailer": "175879",
-      "Seal": "50204952"
-    },
-    {
-      "Warehouse": "243",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Loading",
-      "LoadNumber": "17559124",
-      "Trailer": "175451",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "243",
-      "Time": " 6:00 ",
-      "Date": " 6:00 ",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "243",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17559025",
-      "Trailer": "175539",
-      "Seal": "50205677"
-    },
-    {
-      "Warehouse": "243",
-      "Time": "23:30",
-      "Date": "23:30",
-      "Status": "Completed",
-      "LoadNumber": "17559058",
-      "Trailer": "175891",
-      "Seal": "50205990"
-    },
-    {
-      "Warehouse": "243",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Loading",
-      "LoadNumber": "17559122",
-      "Trailer": "175987",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "244",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17559021",
-      "Trailer": "751022",
-      "Seal": "50205952"
-    },
-    {
-      "Warehouse": "244",
-      "Time": " 1:30",
-      "Date": " 1:30",
-      "Status": "Completed",
-      "LoadNumber": "17559043",
-      "Trailer": "751033",
-      "Seal": "50205968"
-    },
-    {
-      "Warehouse": "244",
-      "Time": " 2:30",
-      "Date": " 2:30",
-      "Status": "Completed",
-      "LoadNumber": "17559099",
-      "Trailer": "175568",
-      "Seal": "50205989"
-    },
-    {
-      "Warehouse": "244",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Loading",
-      "LoadNumber": "17559155",
-      "Trailer": "175861",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "244",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17558953",
-      "Trailer": "751042",
-      "Seal": "50205679"
-    },
-    {
-      "Warehouse": "244",
-      "Time": "23:30",
-      "Date": "23:30",
-      "Status": "Completed",
-      "LoadNumber": "17559009",
-      "Trailer": "751086",
-      "Seal": "5020494"
-    },
-    {
-      "Warehouse": "245",
-      "Time": " 1:30",
-      "Date": " 1:30",
-      "Status": "Completed",
-      "LoadNumber": "17559052",
-      "Trailer": "175856",
-      "Seal": "50204956"
-    },
-    {
-      "Warehouse": "245",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559067",
-      "Trailer": "751070",
-      "Seal": "50205976"
-    },
-    {
-      "Warehouse": "245",
-      "Time": " 5:30",
-      "Date": " 5:30",
-      "Status": "Completed",
-      "LoadNumber": "17559128",
-      "Trailer": "175855",
-      "Seal": "50205996"
-    },
-    {
-      "Warehouse": "246",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "246",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17559006",
-      "Trailer": "175787",
-      "Seal": "50204946"
-    },
-    {
-      "Warehouse": "246",
-      "Time": "21:00",
-      "Date": "21:00",
-      "Status": "Completed",
-      "LoadNumber": "17559046",
-      "Trailer": "175551",
-      "Seal": "50205967"
-    },
-    {
-      "Warehouse": "246",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559098",
-      "Trailer": "751002",
-      "Seal": "50205987"
-    },
-    {
-      "Warehouse": "248",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Loading",
-      "LoadNumber": "17559146",
-      "Trailer": "751064",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "248",
-      "Time": " 7:00",
-      "Date": " 7:00",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "248",
-      "Time": "22:00",
-      "Date": "22:00",
-      "Status": "Completed",
-      "LoadNumber": "17558933",
-      "Trailer": "175847",
-      "Seal": "50205957"
-    },
-    {
-      "Warehouse": "248",
-      "Time": "22:00",
-      "Date": "22:00",
-      "Status": "Completed",
-      "LoadNumber": "17558984",
-      "Trailer": "175463",
-      "Seal": "50205691"
-    },
-    {
-      "Warehouse": "305",
-      "Time": " 3:00",
-      "Date": " 3:00",
-      "Status": "Completed",
-      "LoadNumber": "17559029",
-      "Trailer": "175840",
-      "Seal": "5020596"
-    },
-    {
-      "Warehouse": "305",
-      "Time": " 4:00",
-      "Date": " 4:00",
-      "Status": "Completed",
-      "LoadNumber": "17559071",
-      "Trailer": "175417",
-      "Seal": "50204955"
-    },
-    {
-      "Warehouse": "305",
-      "Time": " 4:00",
-      "Date": " 4:00",
-      "Status": "Completed",
-      "LoadNumber": "17559088",
-      "Trailer": "175821",
-      "Seal": "50205980"
-    },
-    {
-      "Warehouse": "305",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559134",
-      "Trailer": "751027",
-      "Seal": "50204957"
-    },
-    {
-      "Warehouse": "305",
-      "Time": " 5:01",
-      "Date": " 5:01",
-      "Status": "Loading",
-      "LoadNumber": "17559151",
-      "Trailer": "175715",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "305",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Loading",
-      "LoadNumber": "17559161",
-      "Trailer": "175926",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "306",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17558989",
-      "Trailer": "175966",
-      "Seal": "50205690"
-    },
-    {
-      "Warehouse": "306",
-      "Time": " 2:00 ",
-      "Date": " 2:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559024",
-      "Trailer": "175430",
-      "Seal": "50205961"
-    },
-    {
-      "Warehouse": "306",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559077",
-      "Trailer": "175749",
-      "Seal": "50205966"
-    },
-    {
-      "Warehouse": "306",
-      "Time": " 8:00",
-      "Date": " 8:00",
-      "Status": "Completed",
-      "LoadNumber": "17559102",
-      "Trailer": "175400",
-      "Seal": "50204958"
-    },
-    {
-      "Warehouse": "306",
-      "Time": " 9:00",
-      "Date": " 9:00",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "306",
-      "Time": "10:00",
-      "Date": "10:00",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "306",
-      "Time": " 2:00",
-      "Date": " 2:00",
-      "Status": "Completed",
-      "LoadNumber": "17559014",
-      "Trailer": "175968",
-      "Seal": "5020568"
-    },
-    {
-      "Warehouse": "310",
-      "Time": " 2:00",
-      "Date": " 2:00",
-      "Status": "Completed",
-      "LoadNumber": "17559062",
-      "Trailer": "175759",
-      "Seal": "50205981"
-    },
-    {
-      "Warehouse": "310",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559139",
-      "Trailer": "175916",
-      "Seal": "50204959"
-    },
-    {
-      "Warehouse": "310",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Loading",
-      "LoadNumber": "17559148",
-      "Trailer": "175931",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "310",
-      "Time": " 6:01",
-      "Date": " 6:01",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "310",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17559002",
-      "Trailer": "751034",
-      "Seal": "50205953"
-    },
-    {
-      "Warehouse": "310",
-      "Time": " 1:00",
-      "Date": " 1:00",
-      "Status": "Completed",
-      "LoadNumber": "17559065",
-      "Trailer": "175527",
-      "Seal": "50205974"
-    },
-    {
-      "Warehouse": "310",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Loading",
-      "LoadNumber": "17559118",
-      "Trailer": "751077",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "315",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17559010",
-      "Trailer": "175733",
-      "Seal": "50205962"
-    },
-    {
-      "Warehouse": "315",
-      "Time": " 2:30",
-      "Date": " 2:30",
-      "Status": "Completed",
-      "LoadNumber": "17559096",
-      "Trailer": "175703",
-      "Seal": "50205994"
-    },
-    {
-      "Warehouse": "315",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559150",
-      "Trailer": "751120",
-      "Seal": "50205395"
-    },
-    {
-      "Warehouse": "315",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "316",
-      "Time": "17:00 ",
-      "Date": "17:00 ",
-      "Status": "Loading",
-      "LoadNumber": "17558918",
-      "Trailer": "175521",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "316",
-      "Time": "17:00",
-      "Date": "17:00",
-      "Status": "Completed",
-      "LoadNumber": "17559023",
-      "Trailer": "175904",
-      "Seal": "50204949"
-    },
-    {
-      "Warehouse": "316",
-      "Time": " 1:00",
-      "Date": " 1:00",
-      "Status": "Completed",
-      "LoadNumber": "17559100",
-      "Trailer": "175433",
-      "Seal": "50205986"
-    },
-    {
-      "Warehouse": "316",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Loading",
-      "LoadNumber": "17559166",
-      "Trailer": "175713",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "316",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17558925",
-      "Trailer": "175570",
-      "Seal": "50205693"
-    },
-    {
-      "Warehouse": "316",
-      "Time": "30",
-      "Date": "30",
-      "Status": "Completed",
-      "LoadNumber": "17559064",
-      "Trailer": "751094",
-      "Seal": "50205965"
-    },
-    {
-      "Warehouse": "316",
-      "Time": " 8:00",
-      "Date": " 8:00",
-      "Status": "Completed",
-      "LoadNumber": "17559136",
-      "Trailer": "175794",
-      "Seal": "50206000"
-    },
-    {
-      "Warehouse": "318",
-      "Time": "18:00",
-      "Date": "18:00",
-      "Status": "Completed",
-      "LoadNumber": "17558926",
-      "Trailer": "751061",
-      "Seal": "50205675"
-    },
-    {
-      "Warehouse": "318",
-      "Time": "21:00",
-      "Date": "21:00",
-      "Status": "Completed",
-      "LoadNumber": "17559069",
-      "Trailer": "175753",
-      "Seal": "50205973"
-    },
-    {
-      "Warehouse": "318",
-      "Time": "5:00",
-      "Date": "",
-      "Status": "Loading",
-      "LoadNumber": "17559164",
-      "Trailer": "175485",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "318",
-      "Time": "11:00 ",
-      "Date": "11:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17558935",
-      "Trailer": "175929",
-      "Seal": "50205692"
-    },
-    {
-      "Warehouse": "318",
-      "Time": " 2:00 ",
-      "Date": " 2:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559028",
-      "Trailer": "175827",
-      "Seal": "50205964"
-    },
-    {
-      "Warehouse": "318",
-      "Time": " 6:00 ",
-      "Date": " 6:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559095",
-      "Trailer": "175428",
-      "Seal": "5020598"
-    },
-    {
-      "Warehouse": "318",
-      "Time": " 7:00 ",
-      "Date": " 7:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "318",
-      "Time": "11:00 ",
-      "Date": "11:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559017",
-      "Trailer": "175780",
-      "Seal": "50205673"
-    },
-    {
-      "Warehouse": "318",
-      "Time": " 5:00 ",
-      "Date": " 5:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559084",
-      "Trailer": "751098",
-      "Seal": "50204951"
-    },
-    {
-      "Warehouse": "318",
-      "Time": " 8:00 ",
-      "Date": " 8:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559138",
-      "Trailer": "175540",
-      "Seal": "50205999"
-    },
-    {
-      "Warehouse": "318",
-      "Time": " 9:00 ",
-      "Date": " 9:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "320",
-      "Time": " 6:00 ",
-      "Date": " 6:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17558912",
-      "Trailer": "175883",
-      "Seal": "50205954"
-    },
-    {
-      "Warehouse": "320",
-      "Time": " 9:00 ",
-      "Date": " 9:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559040",
-      "Trailer": "751093",
-      "Seal": "50205995"
-    },
-    {
-      "Warehouse": "320",
-      "Time": "10:00 ",
-      "Date": "10:00 ",
-      "Status": "Loading",
-      "LoadNumber": "17559165",
-      "Trailer": "751036",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "320",
-      "Time": " 2:00 ",
-      "Date": " 2:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559011",
-      "Trailer": "751105",
-      "Seal": "50205674"
-    },
-    {
-      "Warehouse": "320",
-      "Time": " 2:00 ",
-      "Date": " 2:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559101",
-      "Trailer": "175745",
-      "Seal": "50205984"
-    },
-    {
-      "Warehouse": "320",
-      "Time": " 4:00 ",
-      "Date": "8/26",
-      "Status": "Loading",
-      "LoadNumber": "17559140",
-      "Trailer": "175515",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "320",
-      "Time": " 1:00 ",
-      "Date": "8/26",
-      "Status": "Completed",
-      "LoadNumber": "17558987",
-      "Trailer": "175408",
-      "Seal": "5020595"
-    },
-    {
-      "Warehouse": "321",
-      "Time": " 2:00",
-      "Date": " 2:00",
-      "Status": "Completed",
-      "LoadNumber": "17559061",
-      "Trailer": "175547",
-      "Seal": "50204950"
-    },
-    {
-      "Warehouse": "321",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559110",
-      "Trailer": "175801",
-      "Seal": "50205983"
-    },
-    {
-      "Warehouse": "321",
-      "Time": " 5:30",
-      "Date": " 5:30",
-      "Status": "Loading",
-      "LoadNumber": "17559143",
-      "Trailer": "175402",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "321",
-      "Time": "10:00",
-      "Date": "10:00",
-      "Status": "Received",
-      "LoadNumber": "17558938",
-      "Trailer": "175583",
-      "Seal": "50205946"
-    },
-    {
-      "Warehouse": "321",
-      "Time": " 3:30",
-      "Date": " 3:30",
-      "Status": "Completed",
-      "LoadNumber": "17559022",
-      "Trailer": "175852",
-      "Seal": "50205956"
-    },
-    {
-      "Warehouse": "321",
-      "Time": " 5:30",
-      "Date": " 5:30",
-      "Status": "Completed",
-      "LoadNumber": "17559063",
-      "Trailer": "175750",
-      "Seal": "50205982"
-    },
-    {
-      "Warehouse": "321",
-      "Time": " 7:30",
-      "Date": " 7:30",
-      "Status": "Ready",
-      "LoadNumber": "",
-      "Trailer": "",
-      "Seal": ""
-    },
-    {
-      "Warehouse": "321",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17559004",
-      "Trailer": "175956",
-      "Seal": "50205875"
-    },
-    {
-      "Warehouse": "322",
-      "Time": " 3:30",
-      "Date": " 3:30",
-      "Status": "Completed",
-      "LoadNumber": "17559060",
-      "Trailer": "175475",
-      "Seal": "50205857"
-    },
-    {
-      "Warehouse": "322",
-      "Time": " 5:30",
-      "Date": " 5:30",
-      "Status": "Completed",
-      "LoadNumber": "17559104",
-      "Trailer": "751014",
-      "Seal": "50205843"
-    },
-    {
-      "Warehouse": "322",
-      "Time": "12:30",
-      "Date": "12:30",
-      "Status": "Completed",
-      "LoadNumber": "17559015",
-      "Trailer": "175406",
-      "Seal": "50205672"
-    },
-    {
-      "Warehouse": "322",
-      "Time": " 3:30",
-      "Date": " 3:30",
-      "Status": "Completed",
-      "LoadNumber": "17559082",
-      "Trailer": "175450",
-      "Seal": "5020585"
-    },
-    {
-      "Warehouse": "322",
-      "Time": " 5:30 ",
-      "Date": " 5:30 ",
-      "Status": "Loading",
-      "LoadNumber": "17559130",
-      "Trailer": "175776",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "323",
-      "Time": "10:00 ",
-      "Date": "10:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559035",
-      "Trailer": "175884",
-      "Seal": "50205671"
-    },
-    {
-      "Warehouse": "323",
-      "Time": " 4:00 ",
-      "Date": " 4:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559094",
-      "Trailer": "175446",
-      "Seal": "50205848"
-    },
-    {
-      "Warehouse": "323",
-      "Time": " 6:00 ",
-      "Date": " 6:00 ",
-      "Status": "Loading",
-      "LoadNumber": "17559157",
-      "Trailer": "175833",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "323",
-      "Time": "10:30 ",
-      "Date": "10:30 ",
-      "Status": "Received  ",
-      "LoadNumber": "17559047",
-      "Trailer": "175509",
-      "Seal": "50205670"
-    },
-    {
-      "Warehouse": "323",
-      "Time": " 1:00 ",
-      "Date": " 1:00 ",
-      "Status": "Loading",
-      "LoadNumber": "17559131",
-      "Trailer": "175842",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "324",
-      "Time": " 5:00 ",
-      "Date": " 5:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "324",
-      "Time": "16:00 ",
-      "Date": "16:00 ",
-      "Status": "In Trans  ",
-      "LoadNumber": "17558991",
-      "Trailer": "751074",
-      "Seal": "50205681"
-    },
-    {
-      "Warehouse": "324",
-      "Time": " 1:00 ",
-      "Date": " 1:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559081",
-      "Trailer": "175958",
-      "Seal": "50205847"
-    },
-    {
-      "Warehouse": "324",
-      "Time": " 5:00 ",
-      "Date": " 5:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "324",
-      "Time": "11:00 ",
-      "Date": "11:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559013",
-      "Trailer": "175990",
-      "Seal": "50205879"
-    },
-    {
-      "Warehouse": "326",
-      "Time": " 2:00 ",
-      "Date": " 2:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559054",
-      "Trailer": "751082",
-      "Seal": "5020586"
-    },
-    {
-      "Warehouse": "326",
-      "Time": " 5:00 ",
-      "Date": " 5:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559106",
-      "Trailer": "175969",
-      "Seal": "50205665"
-    },
-    {
-      "Warehouse": "326",
-      "Time": " 6:00 ",
-      "Date": " 6:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "326",
-      "Time": " 7:00 ",
-      "Date": " 7:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "326",
-      "Time": "21:00 ",
-      "Date": "21:00 ",
-      "Status": "In Trans  ",
-      "LoadNumber": "17559020",
-      "Trailer": "175887",
-      "Seal": "50205874"
-    },
-    {
-      "Warehouse": "329",
-      "Time": " 1:30 ",
-      "Date": " 1:30 ",
-      "Status": "Completed",
-      "LoadNumber": "17559090",
-      "Trailer": "175549",
-      "Seal": "50205851"
-    },
-    {
-      "Warehouse": "329",
-      "Time": " 2:30 ",
-      "Date": " 2:30 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "329",
-      "Time": " 5:00 ",
-      "Date": " 5:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "329",
-      "Time": " 6:00 ",
-      "Date": " 6:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559007",
-      "Trailer": "751114",
-      "Seal": "50205682"
-    },
-    {
-      "Warehouse": "729",
-      "Time": " 8:00 ",
-      "Date": " 8:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559114",
-      "Trailer": "175945",
-      "Seal": "50205664"
-    },
-    {
-      "Warehouse": "729",
-      "Time": "18:00 ",
-      "Date": "18:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "729",
-      "Time": "21:00 ",
-      "Date": "21:00 ",
-      "Status": "Ready     ",
-      "LoadNumber": "           ",
-      "Trailer": "                ",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "739",
-      "Time": "11:00 ",
-      "Date": "11:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17558950",
-      "Trailer": "175769",
-      "Seal": "5020587"
-    },
-    {
-      "Warehouse": "739",
-      "Time": "10:00 ",
-      "Date": "10:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559092",
-      "Trailer": "175963",
-      "Seal": "50205846"
-    },
-    {
-      "Warehouse": "739",
-      "Time": "      ",
-      "Date": "      ",
-      "Status": "Loading",
-      "LoadNumber": "17559152",
-      "Trailer": "175993",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "739",
-      "Time": "20:30 ",
-      "Date": "20:30 ",
-      "Status": "Completed",
-      "LoadNumber": "17558959",
-      "Trailer": "175972",
-      "Seal": "50205877"
-    },
-    {
-      "Warehouse": "739",
-      "Time": "15",
-      "Date": "15",
-      "Status": "Completed",
-      "LoadNumber": "17559057",
-      "Trailer": "175912",
-      "Seal": "50205667"
-    },
-    {
-      "Warehouse": "749",
-      "Time": "30",
-      "Date": "30",
-      "Status": "Loading",
-      "LoadNumber": "17559126",
-      "Trailer": "175565",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "749",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "749",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "749",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "749",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1025",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1025",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1025",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1062",
-      "Time": "10:00 ",
-      "Date": "10:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559092",
-      "Trailer": "175963",
-      "Seal": "50205846"
-    },
-    {
-      "Warehouse": "1062",
-      "Time": "      ",
-      "Date": "      ",
-      "Status": "Loading",
-      "LoadNumber": "17559152",
-      "Trailer": "175993",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "1062",
-      "Time": "20:30 ",
-      "Date": "20:30 ",
-      "Status": "Completed",
-      "LoadNumber": "17558959",
-      "Trailer": "175972",
-      "Seal": "50205877"
-    },
-    {
-      "Warehouse": "1062",
-      "Time": "15",
-      "Date": "15",
-      "Status": "Completed",
-      "LoadNumber": "17559057",
-      "Trailer": "175912",
-      "Seal": "50205667"
-    },
-    {
-      "Warehouse": "1070",
-      "Time": "30",
-      "Date": "30",
-      "Status": "Loading",
-      "LoadNumber": "17559126",
-      "Trailer": "175565",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "1070",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1070",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1070",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1070",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1070",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1070",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1081",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1081",
-      "Time": "10:00 ",
-      "Date": "10:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559092",
-      "Trailer": "175963",
-      "Seal": "50205846"
-    },
-    {
-      "Warehouse": "1081",
-      "Time": "      ",
-      "Date": "      ",
-      "Status": "Loading",
-      "LoadNumber": "17559152",
-      "Trailer": "175993",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "1093",
-      "Time": "20:30 ",
-      "Date": "20:30 ",
-      "Status": "Completed",
-      "LoadNumber": "17558959",
-      "Trailer": "175972",
-      "Seal": "50205877"
-    },
-    {
-      "Warehouse": "1093",
-      "Time": "15",
-      "Date": "15",
-      "Status": "Completed",
-      "LoadNumber": "17559057",
-      "Trailer": "175912",
-      "Seal": "50205667"
-    },
-    {
-      "Warehouse": "1093",
-      "Time": "30",
-      "Date": "30",
-      "Status": "Loading",
-      "LoadNumber": "17559126",
-      "Trailer": "175565",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "1093",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1103",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1103",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1103",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1103",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1114",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1114",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1114",
-      "Time": "10:00 ",
-      "Date": "10:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559092",
-      "Trailer": "175963",
-      "Seal": "50205846"
-    },
-    {
-      "Warehouse": "1114",
-      "Time": "      ",
-      "Date": "      ",
-      "Status": "Loading",
-      "LoadNumber": "17559152",
-      "Trailer": "175993",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "1166",
-      "Time": "20:30 ",
-      "Date": "20:30 ",
-      "Status": "Completed",
-      "LoadNumber": "17558959",
-      "Trailer": "175972",
-      "Seal": "50205877"
-    },
-    {
-      "Warehouse": "1166",
-      "Time": "15",
-      "Date": "15",
-      "Status": "Completed",
-      "LoadNumber": "17559057",
-      "Trailer": "175912",
-      "Seal": "50205667"
-    },
-    {
-      "Warehouse": "1166",
-      "Time": "30",
-      "Date": "30",
-      "Status": "Loading",
-      "LoadNumber": "17559126",
-      "Trailer": "175565",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "1174",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1174",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1174",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1177",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1177",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1177",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1177",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1177",
-      "Time": "10:00 ",
-      "Date": "10:00 ",
-      "Status": "Completed",
-      "LoadNumber": "17559092",
-      "Trailer": "175963",
-      "Seal": "50205846"
-    },
-    {
-      "Warehouse": "1177",
-      "Time": "      ",
-      "Date": "      ",
-      "Status": "Loading",
-      "LoadNumber": "17559152",
-      "Trailer": "175993",
-      "Seal": "          "
-    },
-    {
-      "Warehouse": "1199",
-      "Time": "20:30 ",
-      "Date": "20:30 ",
-      "Status": "Completed",
-      "LoadNumber": "17558959",
-      "Trailer": "175972",
-      "Seal": "50205877"
-    },
-    {
-      "Warehouse": "1199",
-      "Time": "15",
-      "Date": "15",
-      "Status": "Completed",
-      "LoadNumber": "17559057",
-      "Trailer": "175912",
-      "Seal": "50205667"
-    },
-    {
-      "Warehouse": "1199",
-      "Time": "30",
-      "Date": "30",
-      "Status": "Loading",
-      "LoadNumber": "17559126",
-      "Trailer": "175565",
-      "Seal": "123456"
-    },
-    {
-      "Warehouse": "1199",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "175858",
-      "Seal": "123456"
-    },
-    {
-      "Warehouse": "1211",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1211",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1211",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": "0",
-      "Date": "0",
-      "Status": "0",
-      "LoadNumber": "0",
-      "Trailer": "0",
-      "Seal": "0"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Completed",
-      "LoadNumber": "17559106",
-      "Trailer": "175969",
-      "Seal": "50205665"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Ready",
-      "LoadNumber": "1754986",
-      "Trailer": "175422",
-      "Seal": "695456"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": " 7:00",
-      "Date": " 7:00",
-      "Status": "Ready",
-      "LoadNumber": "175459865",
-      "Trailer": "175466",
-      "Seal": "49646"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": "21:00",
-      "Date": "21:00",
-      "Status": "In Trans",
-      "LoadNumber": "17559020",
-      "Trailer": "175887",
-      "Seal": "50205874"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": " 1:30",
-      "Date": " 1:30",
-      "Status": "Completed",
-      "LoadNumber": "17559090",
-      "Trailer": "175549",
-      "Seal": "50205851"
-    },
-    {
-      "Warehouse": "1214",
-      "Time": " 2:30",
-      "Date": " 2:30",
-      "Status": "Ready",
-      "LoadNumber": "175964654",
-      "Trailer": "175455",
-      "Seal": "496464"
-    },
-    {
-      "Warehouse": "1215",
-      "Time": " 5:00",
-      "Date": " 5:00",
-      "Status": "Ready",
-      "LoadNumber": "1754694",
-      "Trailer": "175955",
-      "Seal": "96446"
-    },
-    {
-      "Warehouse": "1215",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Completed",
-      "LoadNumber": "17559007",
-      "Trailer": "751114",
-      "Seal": "50205682"
-    },
-    {
-      "Warehouse": "1215",
-      "Time": " 8:00",
-      "Date": " 8:00",
-      "Status": "Completed",
-      "LoadNumber": "17559114",
-      "Trailer": "175945",
-      "Seal": "50205664"
-    },
-    {
-      "Warehouse": "1215",
-      "Time": "18:00",
-      "Date": "18:00",
-      "Status": "Ready",
-      "LoadNumber": "6+545654",
-      "Trailer": "175986",
-      "Seal": "164964965"
-    },
-    {
-      "Warehouse": "1236",
-      "Time": "21:00",
-      "Date": "21:00",
-      "Status": "Ready",
-      "LoadNumber": "17589654",
-      "Trailer": "175487",
-      "Seal": "125985"
-    },
-    {
-      "Warehouse": "1236",
-      "Time": "11:00",
-      "Date": "11:00",
-      "Status": "Completed",
-      "LoadNumber": "17558950",
-      "Trailer": "175769",
-      "Seal": "5020587"
-    },
-    {
-      "Warehouse": "1236",
-      "Time": " 5:30",
-      "Date": " 5:30",
-      "Status": "Loading",
-      "LoadNumber": "17559130",
-      "Trailer": "175776",
-      "Seal": "124587"
-    },
-    {
-      "Warehouse": "1334",
-      "Time": "10:00",
-      "Date": "10:00",
-      "Status": "Completed",
-      "LoadNumber": "17559035",
-      "Trailer": "175884",
-      "Seal": "50205671"
-    },
-    {
-      "Warehouse": "1334",
-      "Time": " 4:00",
-      "Date": " 4:00",
-      "Status": "Completed",
-      "LoadNumber": "17559094",
-      "Trailer": "175446",
-      "Seal": "50205848"
-    },
-    {
-      "Warehouse": "1334",
-      "Time": " 6:00",
-      "Date": " 6:00",
-      "Status": "Loading",
-      "LoadNumber": "17559157",
-      "Trailer": "175833",
-      "Seal": "123456"
-    },
-    {
-      "Warehouse": "1334",
-      "Time": "10:30",
-      "Date": "10:30",
-      "Status": "Received",
-      "LoadNumber": "17559047",
-      "Trailer": "175509",
-      "Seal": "50205670"
+      "warehouse": "222",
+      "time": "20:00",
+      "date": "8/2",
+      "status": "InTrans",
+      "loadNumber": "17558969",
+      "trailer": "175791",
+      "seal": "50204941"
+    },
+    {
+      "warehouse": "222",
+      "time": "6:00",
+      "date": "8/26",
+      "status": "Completed",
+      "loadNumber": "17558995",
+      "trailer": "175823",
+      "seal": "50205958"
+    },
+    {
+      "warehouse": "222",
+      "time": " 7:00",
+      "date": " 8/26",
+      "status": "Loading",
+      "loadNumber": "17559116",
+      "trailer": "751058",
+      "seal": "6584566"
+    },
+    {
+      "warehouse": "222",
+      "time": "17:00",
+      "date": " 8/25",
+      "status": "Completed",
+      "loadNumber": "17558981",
+      "trailer": "175519",
+      "seal": "50205951"
+    },
+    {
+      "warehouse": "226",
+      "time": " 1:30",
+      "date": " 8/26",
+      "status": "Completed",
+      "loadNumber": "17559032",
+      "trailer": "175873",
+      "seal": "50205972"
+    },
+    {
+      "warehouse": "226",
+      "time": " 3:30",
+      "date": " 8/26",
+      "status": "Completed",
+      "loadNumber": "17559086",
+      "trailer": "175766",
+      "seal": "50204954"
+    },
+    {
+      "warehouse": "226",
+      "time": " 4:30",
+      "date": " 8/26",
+      "status": "Completed",
+      "loadNumber": "17559109",
+      "trailer": "175591",
+      "seal": "50205991"
+    },
+    {
+      "warehouse": "226",
+      "time": " 5:00",
+      "date": " 8/26",
+      "status": "Loading",
+      "loadNumber": "17559142",
+      "trailer": "175810",
+      "seal": "464621615"
+    },
+    {
+      "warehouse": "226",
+      "time": " 5:30",
+      "date": " 8/26",
+      "status": "Ready",
+      "loadNumber": "175489654",
+      "trailer": "175222",
+      "seal": "968546136"
+    },
+    {
+      "warehouse": "226",
+      "time": "14:00",
+      "date": " 8/25",
+      "status": "Completed",
+      "loadNumber": "17558996",
+      "trailer": "175814",
+      "seal": "50205676"
+    },
+    {
+      "warehouse": "226",
+      "time": " 5:00",
+      "date": " 8/26",
+      "status": "Completed",
+      "loadNumber": "17559070",
+      "trailer": "175800",
+      "seal": "50204953"
+    },
+    {
+      "warehouse": "226",
+      "time": " 6:00",
+      "date": " 8/26",
+      "status": "Loading",
+      "loadNumber": "17559147",
+      "trailer": "751078",
+      "seal": "46411362"
+    },
+    {
+      "warehouse": "230",
+      "time": " 7:00",
+      "date": " 7:00",
+      "status": "Ready",
+      "loadNumber": "175456987",
+      "trailer": "175456",
+      "seal": "98465153"
+    },
+    {
+      "warehouse": "230",
+      "time": "14:00",
+      "date": "14:00",
+      "status": "Completed",
+      "loadNumber": "17559012",
+      "trailer": "175526",
+      "seal": "50205949"
+    },
+    {
+      "warehouse": "230",
+      "time": "3:30",
+      "date": "3:30",
+      "status": "Completed",
+      "loadNumber": "17559066",
+      "trailer": "175530",
+      "seal": "50205970"
+    },
+    {
+      "warehouse": "230",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559119",
+      "trailer": "751024",
+      "seal": "50205992"
+    },
+    {
+      "warehouse": "230",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Loading",
+      "loadNumber": "17559156",
+      "trailer": "175872",
+      "seal": "4796551"
+    },
+    {
+      "warehouse": "237",
+      "time": " 7:00",
+      "date": " 7:00",
+      "status": "Ready",
+      "loadNumber": "17545896565",
+      "trailer": "1754265",
+      "seal": "98665"
+    },
+    {
+      "warehouse": "237",
+      "time": "17:00",
+      "date": "17:00",
+      "status": "Completed",
+      "loadNumber": "17558988",
+      "trailer": "751019",
+      "seal": "50204945"
+    },
+    {
+      "warehouse": "237",
+      "time": " 3:00",
+      "date": " 3:00",
+      "status": "Completed",
+      "loadNumber": "17559050",
+      "trailer": "175544",
+      "seal": "50204947"
+    },
+    {
+      "warehouse": "237",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559089",
+      "trailer": "175940",
+      "seal": "50205979"
+    },
+    {
+      "warehouse": "237",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Completed",
+      "loadNumber": "17559145",
+      "trailer": "175706",
+      "seal": "50205998"
+    },
+    {
+      "warehouse": "240",
+      "time": " 7:00",
+      "date": " 7:00",
+      "status": "Ready",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "240",
+      "time": " 7:01",
+      "date": " 7:01",
+      "status": "Ready",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "        "
+    },
+    {
+      "warehouse": "240",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17558997",
+      "trailer": "175970",
+      "seal": "50205948"
+    },
+    {
+      "warehouse": "240",
+      "time": " 2:00",
+      "date": " 2:00",
+      "status": "Completed",
+      "loadNumber": "17559036",
+      "trailer": "175508",
+      "seal": "50204948"
+    },
+    {
+      "warehouse": "240",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559091",
+      "trailer": "175419",
+      "seal": "50205993"
+    },
+    {
+      "warehouse": "240",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Loading",
+      "loadNumber": "17559154",
+      "trailer": "175407",
+      "seal": "          "
+    },
+    {
+      "warehouse": "241",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17559018",
+      "trailer": "175533",
+      "seal": "50204944"
+    },
+    {
+      "warehouse": "241",
+      "time": "23:30",
+      "date": "23:30",
+      "status": "Completed",
+      "loadNumber": "17559055",
+      "trailer": "175874",
+      "seal": "50205969"
+    },
+    {
+      "warehouse": "241",
+      "time": " 2:00",
+      "date": " 2:00",
+      "status": "Completed",
+      "loadNumber": "17559103",
+      "trailer": "175951",
+      "seal": "50204963"
+    },
+    {
+      "warehouse": "241",
+      "time": " 7:00",
+      "date": " 7:00",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "241",
+      "time": "15:00",
+      "date": "15:00",
+      "status": "Completed",
+      "loadNumber": "17559005",
+      "trailer": "175469",
+      "seal": "50204943"
+    },
+    {
+      "warehouse": "241",
+      "time": "23:00",
+      "date": "23:00",
+      "status": "Completed",
+      "loadNumber": "17559038",
+      "trailer": "175459",
+      "seal": "50205975"
+    },
+    {
+      "warehouse": "241",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "241",
+      "time": "14:00",
+      "date": "14:00",
+      "status": "Completed",
+      "loadNumber": "17559008",
+      "trailer": "175876",
+      "seal": "5020594"
+    },
+    {
+      "warehouse": "243",
+      "time": "23:00",
+      "date": "23:00",
+      "status": "Completed",
+      "loadNumber": "17559045",
+      "trailer": "175879",
+      "seal": "50204952"
+    },
+    {
+      "warehouse": "243",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Loading",
+      "loadNumber": "17559124",
+      "trailer": "175451",
+      "seal": ""
+    },
+    {
+      "warehouse": "243",
+      "time": " 6:00 ",
+      "date": " 6:00 ",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "243",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17559025",
+      "trailer": "175539",
+      "seal": "50205677"
+    },
+    {
+      "warehouse": "243",
+      "time": "23:30",
+      "date": "23:30",
+      "status": "Completed",
+      "loadNumber": "17559058",
+      "trailer": "175891",
+      "seal": "50205990"
+    },
+    {
+      "warehouse": "243",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Loading",
+      "loadNumber": "17559122",
+      "trailer": "175987",
+      "seal": "          "
+    },
+    {
+      "warehouse": "244",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17559021",
+      "trailer": "751022",
+      "seal": "50205952"
+    },
+    {
+      "warehouse": "244",
+      "time": " 1:30",
+      "date": " 1:30",
+      "status": "Completed",
+      "loadNumber": "17559043",
+      "trailer": "751033",
+      "seal": "50205968"
+    },
+    {
+      "warehouse": "244",
+      "time": " 2:30",
+      "date": " 2:30",
+      "status": "Completed",
+      "loadNumber": "17559099",
+      "trailer": "175568",
+      "seal": "50205989"
+    },
+    {
+      "warehouse": "244",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Loading",
+      "loadNumber": "17559155",
+      "trailer": "175861",
+      "seal": ""
+    },
+    {
+      "warehouse": "244",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17558953",
+      "trailer": "751042",
+      "seal": "50205679"
+    },
+    {
+      "warehouse": "244",
+      "time": "23:30",
+      "date": "23:30",
+      "status": "Completed",
+      "loadNumber": "17559009",
+      "trailer": "751086",
+      "seal": "5020494"
+    },
+    {
+      "warehouse": "245",
+      "time": " 1:30",
+      "date": " 1:30",
+      "status": "Completed",
+      "loadNumber": "17559052",
+      "trailer": "175856",
+      "seal": "50204956"
+    },
+    {
+      "warehouse": "245",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559067",
+      "trailer": "751070",
+      "seal": "50205976"
+    },
+    {
+      "warehouse": "245",
+      "time": " 5:30",
+      "date": " 5:30",
+      "status": "Completed",
+      "loadNumber": "17559128",
+      "trailer": "175855",
+      "seal": "50205996"
+    },
+    {
+      "warehouse": "246",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "246",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17559006",
+      "trailer": "175787",
+      "seal": "50204946"
+    },
+    {
+      "warehouse": "246",
+      "time": "21:00",
+      "date": "21:00",
+      "status": "Completed",
+      "loadNumber": "17559046",
+      "trailer": "175551",
+      "seal": "50205967"
+    },
+    {
+      "warehouse": "246",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559098",
+      "trailer": "751002",
+      "seal": "50205987"
+    },
+    {
+      "warehouse": "248",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Loading",
+      "loadNumber": "17559146",
+      "trailer": "751064",
+      "seal": "          "
+    },
+    {
+      "warehouse": "248",
+      "time": " 7:00",
+      "date": " 7:00",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "248",
+      "time": "22:00",
+      "date": "22:00",
+      "status": "Completed",
+      "loadNumber": "17558933",
+      "trailer": "175847",
+      "seal": "50205957"
+    },
+    {
+      "warehouse": "248",
+      "time": "22:00",
+      "date": "22:00",
+      "status": "Completed",
+      "loadNumber": "17558984",
+      "trailer": "175463",
+      "seal": "50205691"
+    },
+    {
+      "warehouse": "305",
+      "time": " 3:00",
+      "date": " 3:00",
+      "status": "Completed",
+      "loadNumber": "17559029",
+      "trailer": "175840",
+      "seal": "5020596"
+    },
+    {
+      "warehouse": "305",
+      "time": " 4:00",
+      "date": " 4:00",
+      "status": "Completed",
+      "loadNumber": "17559071",
+      "trailer": "175417",
+      "seal": "50204955"
+    },
+    {
+      "warehouse": "305",
+      "time": " 4:00",
+      "date": " 4:00",
+      "status": "Completed",
+      "loadNumber": "17559088",
+      "trailer": "175821",
+      "seal": "50205980"
+    },
+    {
+      "warehouse": "305",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559134",
+      "trailer": "751027",
+      "seal": "50204957"
+    },
+    {
+      "warehouse": "305",
+      "time": " 5:01",
+      "date": " 5:01",
+      "status": "Loading",
+      "loadNumber": "17559151",
+      "trailer": "175715",
+      "seal": ""
+    },
+    {
+      "warehouse": "305",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Loading",
+      "loadNumber": "17559161",
+      "trailer": "175926",
+      "seal": ""
+    },
+    {
+      "warehouse": "306",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17558989",
+      "trailer": "175966",
+      "seal": "50205690"
+    },
+    {
+      "warehouse": "306",
+      "time": " 2:00 ",
+      "date": " 2:00 ",
+      "status": "Completed",
+      "loadNumber": "17559024",
+      "trailer": "175430",
+      "seal": "50205961"
+    },
+    {
+      "warehouse": "306",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559077",
+      "trailer": "175749",
+      "seal": "50205966"
+    },
+    {
+      "warehouse": "306",
+      "time": " 8:00",
+      "date": " 8:00",
+      "status": "Completed",
+      "loadNumber": "17559102",
+      "trailer": "175400",
+      "seal": "50204958"
+    },
+    {
+      "warehouse": "306",
+      "time": " 9:00",
+      "date": " 9:00",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "306",
+      "time": "10:00",
+      "date": "10:00",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "306",
+      "time": " 2:00",
+      "date": " 2:00",
+      "status": "Completed",
+      "loadNumber": "17559014",
+      "trailer": "175968",
+      "seal": "5020568"
+    },
+    {
+      "warehouse": "310",
+      "time": " 2:00",
+      "date": " 2:00",
+      "status": "Completed",
+      "loadNumber": "17559062",
+      "trailer": "175759",
+      "seal": "50205981"
+    },
+    {
+      "warehouse": "310",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559139",
+      "trailer": "175916",
+      "seal": "50204959"
+    },
+    {
+      "warehouse": "310",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Loading",
+      "loadNumber": "17559148",
+      "trailer": "175931",
+      "seal": ""
+    },
+    {
+      "warehouse": "310",
+      "time": " 6:01",
+      "date": " 6:01",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "310",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17559002",
+      "trailer": "751034",
+      "seal": "50205953"
+    },
+    {
+      "warehouse": "310",
+      "time": " 1:00",
+      "date": " 1:00",
+      "status": "Completed",
+      "loadNumber": "17559065",
+      "trailer": "175527",
+      "seal": "50205974"
+    },
+    {
+      "warehouse": "310",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Loading",
+      "loadNumber": "17559118",
+      "trailer": "751077",
+      "seal": ""
+    },
+    {
+      "warehouse": "315",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17559010",
+      "trailer": "175733",
+      "seal": "50205962"
+    },
+    {
+      "warehouse": "315",
+      "time": " 2:30",
+      "date": " 2:30",
+      "status": "Completed",
+      "loadNumber": "17559096",
+      "trailer": "175703",
+      "seal": "50205994"
+    },
+    {
+      "warehouse": "315",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559150",
+      "trailer": "751120",
+      "seal": "50205395"
+    },
+    {
+      "warehouse": "315",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "316",
+      "time": "17:00 ",
+      "date": "17:00 ",
+      "status": "Loading",
+      "loadNumber": "17558918",
+      "trailer": "175521",
+      "seal": ""
+    },
+    {
+      "warehouse": "316",
+      "time": "17:00",
+      "date": "17:00",
+      "status": "Completed",
+      "loadNumber": "17559023",
+      "trailer": "175904",
+      "seal": "50204949"
+    },
+    {
+      "warehouse": "316",
+      "time": " 1:00",
+      "date": " 1:00",
+      "status": "Completed",
+      "loadNumber": "17559100",
+      "trailer": "175433",
+      "seal": "50205986"
+    },
+    {
+      "warehouse": "316",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Loading",
+      "loadNumber": "17559166",
+      "trailer": "175713",
+      "seal": ""
+    },
+    {
+      "warehouse": "316",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17558925",
+      "trailer": "175570",
+      "seal": "50205693"
+    },
+    {
+      "warehouse": "316",
+      "time": "30",
+      "date": "30",
+      "status": "Completed",
+      "loadNumber": "17559064",
+      "trailer": "751094",
+      "seal": "50205965"
+    },
+    {
+      "warehouse": "316",
+      "time": " 8:00",
+      "date": " 8:00",
+      "status": "Completed",
+      "loadNumber": "17559136",
+      "trailer": "175794",
+      "seal": "50206000"
+    },
+    {
+      "warehouse": "318",
+      "time": "18:00",
+      "date": "18:00",
+      "status": "Completed",
+      "loadNumber": "17558926",
+      "trailer": "751061",
+      "seal": "50205675"
+    },
+    {
+      "warehouse": "318",
+      "time": "21:00",
+      "date": "21:00",
+      "status": "Completed",
+      "loadNumber": "17559069",
+      "trailer": "175753",
+      "seal": "50205973"
+    },
+    {
+      "warehouse": "318",
+      "time": "5:00",
+      "date": "",
+      "status": "Loading",
+      "loadNumber": "17559164",
+      "trailer": "175485",
+      "seal": "          "
+    },
+    {
+      "warehouse": "318",
+      "time": "11:00 ",
+      "date": "11:00 ",
+      "status": "Completed",
+      "loadNumber": "17558935",
+      "trailer": "175929",
+      "seal": "50205692"
+    },
+    {
+      "warehouse": "318",
+      "time": " 2:00 ",
+      "date": " 2:00 ",
+      "status": "Completed",
+      "loadNumber": "17559028",
+      "trailer": "175827",
+      "seal": "50205964"
+    },
+    {
+      "warehouse": "318",
+      "time": " 6:00 ",
+      "date": " 6:00 ",
+      "status": "Completed",
+      "loadNumber": "17559095",
+      "trailer": "175428",
+      "seal": "5020598"
+    },
+    {
+      "warehouse": "318",
+      "time": " 7:00 ",
+      "date": " 7:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "318",
+      "time": "11:00 ",
+      "date": "11:00 ",
+      "status": "Completed",
+      "loadNumber": "17559017",
+      "trailer": "175780",
+      "seal": "50205673"
+    },
+    {
+      "warehouse": "318",
+      "time": " 5:00 ",
+      "date": " 5:00 ",
+      "status": "Completed",
+      "loadNumber": "17559084",
+      "trailer": "751098",
+      "seal": "50204951"
+    },
+    {
+      "warehouse": "318",
+      "time": " 8:00 ",
+      "date": " 8:00 ",
+      "status": "Completed",
+      "loadNumber": "17559138",
+      "trailer": "175540",
+      "seal": "50205999"
+    },
+    {
+      "warehouse": "318",
+      "time": " 9:00 ",
+      "date": " 9:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "320",
+      "time": " 6:00 ",
+      "date": " 6:00 ",
+      "status": "Completed",
+      "loadNumber": "17558912",
+      "trailer": "175883",
+      "seal": "50205954"
+    },
+    {
+      "warehouse": "320",
+      "time": " 9:00 ",
+      "date": " 9:00 ",
+      "status": "Completed",
+      "loadNumber": "17559040",
+      "trailer": "751093",
+      "seal": "50205995"
+    },
+    {
+      "warehouse": "320",
+      "time": "10:00 ",
+      "date": "10:00 ",
+      "status": "Loading",
+      "loadNumber": "17559165",
+      "trailer": "751036",
+      "seal": "          "
+    },
+    {
+      "warehouse": "320",
+      "time": " 2:00 ",
+      "date": " 2:00 ",
+      "status": "Completed",
+      "loadNumber": "17559011",
+      "trailer": "751105",
+      "seal": "50205674"
+    },
+    {
+      "warehouse": "320",
+      "time": " 2:00 ",
+      "date": " 2:00 ",
+      "status": "Completed",
+      "loadNumber": "17559101",
+      "trailer": "175745",
+      "seal": "50205984"
+    },
+    {
+      "warehouse": "320",
+      "time": " 4:00 ",
+      "date": "8/26",
+      "status": "Loading",
+      "loadNumber": "17559140",
+      "trailer": "175515",
+      "seal": "          "
+    },
+    {
+      "warehouse": "320",
+      "time": " 1:00 ",
+      "date": "8/26",
+      "status": "Completed",
+      "loadNumber": "17558987",
+      "trailer": "175408",
+      "seal": "5020595"
+    },
+    {
+      "warehouse": "321",
+      "time": " 2:00",
+      "date": " 2:00",
+      "status": "Completed",
+      "loadNumber": "17559061",
+      "trailer": "175547",
+      "seal": "50204950"
+    },
+    {
+      "warehouse": "321",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559110",
+      "trailer": "175801",
+      "seal": "50205983"
+    },
+    {
+      "warehouse": "321",
+      "time": " 5:30",
+      "date": " 5:30",
+      "status": "Loading",
+      "loadNumber": "17559143",
+      "trailer": "175402",
+      "seal": ""
+    },
+    {
+      "warehouse": "321",
+      "time": "10:00",
+      "date": "10:00",
+      "status": "Received",
+      "loadNumber": "17558938",
+      "trailer": "175583",
+      "seal": "50205946"
+    },
+    {
+      "warehouse": "321",
+      "time": " 3:30",
+      "date": " 3:30",
+      "status": "Completed",
+      "loadNumber": "17559022",
+      "trailer": "175852",
+      "seal": "50205956"
+    },
+    {
+      "warehouse": "321",
+      "time": " 5:30",
+      "date": " 5:30",
+      "status": "Completed",
+      "loadNumber": "17559063",
+      "trailer": "175750",
+      "seal": "50205982"
+    },
+    {
+      "warehouse": "321",
+      "time": " 7:30",
+      "date": " 7:30",
+      "status": "Ready",
+      "loadNumber": "",
+      "trailer": "",
+      "seal": ""
+    },
+    {
+      "warehouse": "321",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17559004",
+      "trailer": "175956",
+      "seal": "50205875"
+    },
+    {
+      "warehouse": "322",
+      "time": " 3:30",
+      "date": " 3:30",
+      "status": "Completed",
+      "loadNumber": "17559060",
+      "trailer": "175475",
+      "seal": "50205857"
+    },
+    {
+      "warehouse": "322",
+      "time": " 5:30",
+      "date": " 5:30",
+      "status": "Completed",
+      "loadNumber": "17559104",
+      "trailer": "751014",
+      "seal": "50205843"
+    },
+    {
+      "warehouse": "322",
+      "time": "12:30",
+      "date": "12:30",
+      "status": "Completed",
+      "loadNumber": "17559015",
+      "trailer": "175406",
+      "seal": "50205672"
+    },
+    {
+      "warehouse": "322",
+      "time": " 3:30",
+      "date": " 3:30",
+      "status": "Completed",
+      "loadNumber": "17559082",
+      "trailer": "175450",
+      "seal": "5020585"
+    },
+    {
+      "warehouse": "322",
+      "time": " 5:30 ",
+      "date": " 5:30 ",
+      "status": "Loading",
+      "loadNumber": "17559130",
+      "trailer": "175776",
+      "seal": "          "
+    },
+    {
+      "warehouse": "323",
+      "time": "10:00 ",
+      "date": "10:00 ",
+      "status": "Completed",
+      "loadNumber": "17559035",
+      "trailer": "175884",
+      "seal": "50205671"
+    },
+    {
+      "warehouse": "323",
+      "time": " 4:00 ",
+      "date": " 4:00 ",
+      "status": "Completed",
+      "loadNumber": "17559094",
+      "trailer": "175446",
+      "seal": "50205848"
+    },
+    {
+      "warehouse": "323",
+      "time": " 6:00 ",
+      "date": " 6:00 ",
+      "status": "Loading",
+      "loadNumber": "17559157",
+      "trailer": "175833",
+      "seal": "          "
+    },
+    {
+      "warehouse": "323",
+      "time": "10:30 ",
+      "date": "10:30 ",
+      "status": "Received  ",
+      "loadNumber": "17559047",
+      "trailer": "175509",
+      "seal": "50205670"
+    },
+    {
+      "warehouse": "323",
+      "time": " 1:00 ",
+      "date": " 1:00 ",
+      "status": "Loading",
+      "loadNumber": "17559131",
+      "trailer": "175842",
+      "seal": "          "
+    },
+    {
+      "warehouse": "324",
+      "time": " 5:00 ",
+      "date": " 5:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "324",
+      "time": "16:00 ",
+      "date": "16:00 ",
+      "status": "In Trans  ",
+      "loadNumber": "17558991",
+      "trailer": "751074",
+      "seal": "50205681"
+    },
+    {
+      "warehouse": "324",
+      "time": " 1:00 ",
+      "date": " 1:00 ",
+      "status": "Completed",
+      "loadNumber": "17559081",
+      "trailer": "175958",
+      "seal": "50205847"
+    },
+    {
+      "warehouse": "324",
+      "time": " 5:00 ",
+      "date": " 5:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "324",
+      "time": "11:00 ",
+      "date": "11:00 ",
+      "status": "Completed",
+      "loadNumber": "17559013",
+      "trailer": "175990",
+      "seal": "50205879"
+    },
+    {
+      "warehouse": "326",
+      "time": " 2:00 ",
+      "date": " 2:00 ",
+      "status": "Completed",
+      "loadNumber": "17559054",
+      "trailer": "751082",
+      "seal": "5020586"
+    },
+    {
+      "warehouse": "326",
+      "time": " 5:00 ",
+      "date": " 5:00 ",
+      "status": "Completed",
+      "loadNumber": "17559106",
+      "trailer": "175969",
+      "seal": "50205665"
+    },
+    {
+      "warehouse": "326",
+      "time": " 6:00 ",
+      "date": " 6:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "326",
+      "time": " 7:00 ",
+      "date": " 7:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "326",
+      "time": "21:00 ",
+      "date": "21:00 ",
+      "status": "In Trans  ",
+      "loadNumber": "17559020",
+      "trailer": "175887",
+      "seal": "50205874"
+    },
+    {
+      "warehouse": "329",
+      "time": " 1:30 ",
+      "date": " 1:30 ",
+      "status": "Completed",
+      "loadNumber": "17559090",
+      "trailer": "175549",
+      "seal": "50205851"
+    },
+    {
+      "warehouse": "329",
+      "time": " 2:30 ",
+      "date": " 2:30 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "329",
+      "time": " 5:00 ",
+      "date": " 5:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "329",
+      "time": " 6:00 ",
+      "date": " 6:00 ",
+      "status": "Completed",
+      "loadNumber": "17559007",
+      "trailer": "751114",
+      "seal": "50205682"
+    },
+    {
+      "warehouse": "729",
+      "time": " 8:00 ",
+      "date": " 8:00 ",
+      "status": "Completed",
+      "loadNumber": "17559114",
+      "trailer": "175945",
+      "seal": "50205664"
+    },
+    {
+      "warehouse": "729",
+      "time": "18:00 ",
+      "date": "18:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "729",
+      "time": "21:00 ",
+      "date": "21:00 ",
+      "status": "Ready     ",
+      "loadNumber": "           ",
+      "trailer": "                ",
+      "seal": "          "
+    },
+    {
+      "warehouse": "739",
+      "time": "11:00 ",
+      "date": "11:00 ",
+      "status": "Completed",
+      "loadNumber": "17558950",
+      "trailer": "175769",
+      "seal": "5020587"
+    },
+    {
+      "warehouse": "739",
+      "time": "10:00 ",
+      "date": "10:00 ",
+      "status": "Completed",
+      "loadNumber": "17559092",
+      "trailer": "175963",
+      "seal": "50205846"
+    },
+    {
+      "warehouse": "739",
+      "time": "      ",
+      "date": "      ",
+      "status": "Loading",
+      "loadNumber": "17559152",
+      "trailer": "175993",
+      "seal": "          "
+    },
+    {
+      "warehouse": "739",
+      "time": "20:30 ",
+      "date": "20:30 ",
+      "status": "Completed",
+      "loadNumber": "17558959",
+      "trailer": "175972",
+      "seal": "50205877"
+    },
+    {
+      "warehouse": "739",
+      "time": "15",
+      "date": "15",
+      "status": "Completed",
+      "loadNumber": "17559057",
+      "trailer": "175912",
+      "seal": "50205667"
+    },
+    {
+      "warehouse": "749",
+      "time": "30",
+      "date": "30",
+      "status": "Loading",
+      "loadNumber": "17559126",
+      "trailer": "175565",
+      "seal": "          "
+    },
+    {
+      "warehouse": "749",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "749",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "749",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "749",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1025",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1025",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1025",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1062",
+      "time": "10:00 ",
+      "date": "10:00 ",
+      "status": "Completed",
+      "loadNumber": "17559092",
+      "trailer": "175963",
+      "seal": "50205846"
+    },
+    {
+      "warehouse": "1062",
+      "time": "      ",
+      "date": "      ",
+      "status": "Loading",
+      "loadNumber": "17559152",
+      "trailer": "175993",
+      "seal": "          "
+    },
+    {
+      "warehouse": "1062",
+      "time": "20:30 ",
+      "date": "20:30 ",
+      "status": "Completed",
+      "loadNumber": "17558959",
+      "trailer": "175972",
+      "seal": "50205877"
+    },
+    {
+      "warehouse": "1062",
+      "time": "15",
+      "date": "15",
+      "status": "Completed",
+      "loadNumber": "17559057",
+      "trailer": "175912",
+      "seal": "50205667"
+    },
+    {
+      "warehouse": "1070",
+      "time": "30",
+      "date": "30",
+      "status": "Loading",
+      "loadNumber": "17559126",
+      "trailer": "175565",
+      "seal": "          "
+    },
+    {
+      "warehouse": "1070",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1070",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1070",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1070",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1070",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1070",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1081",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1081",
+      "time": "10:00 ",
+      "date": "10:00 ",
+      "status": "Completed",
+      "loadNumber": "17559092",
+      "trailer": "175963",
+      "seal": "50205846"
+    },
+    {
+      "warehouse": "1081",
+      "time": "      ",
+      "date": "      ",
+      "status": "Loading",
+      "loadNumber": "17559152",
+      "trailer": "175993",
+      "seal": "          "
+    },
+    {
+      "warehouse": "1093",
+      "time": "20:30 ",
+      "date": "20:30 ",
+      "status": "Completed",
+      "loadNumber": "17558959",
+      "trailer": "175972",
+      "seal": "50205877"
+    },
+    {
+      "warehouse": "1093",
+      "time": "15",
+      "date": "15",
+      "status": "Completed",
+      "loadNumber": "17559057",
+      "trailer": "175912",
+      "seal": "50205667"
+    },
+    {
+      "warehouse": "1093",
+      "time": "30",
+      "date": "30",
+      "status": "Loading",
+      "loadNumber": "17559126",
+      "trailer": "175565",
+      "seal": "          "
+    },
+    {
+      "warehouse": "1093",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1103",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1103",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1103",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1103",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1114",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1114",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1114",
+      "time": "10:00 ",
+      "date": "10:00 ",
+      "status": "Completed",
+      "loadNumber": "17559092",
+      "trailer": "175963",
+      "seal": "50205846"
+    },
+    {
+      "warehouse": "1114",
+      "time": "      ",
+      "date": "      ",
+      "status": "Loading",
+      "loadNumber": "17559152",
+      "trailer": "175993",
+      "seal": "          "
+    },
+    {
+      "warehouse": "1166",
+      "time": "20:30 ",
+      "date": "20:30 ",
+      "status": "Completed",
+      "loadNumber": "17558959",
+      "trailer": "175972",
+      "seal": "50205877"
+    },
+    {
+      "warehouse": "1166",
+      "time": "15",
+      "date": "15",
+      "status": "Completed",
+      "loadNumber": "17559057",
+      "trailer": "175912",
+      "seal": "50205667"
+    },
+    {
+      "warehouse": "1166",
+      "time": "30",
+      "date": "30",
+      "status": "Loading",
+      "loadNumber": "17559126",
+      "trailer": "175565",
+      "seal": "          "
+    },
+    {
+      "warehouse": "1174",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1174",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1174",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1177",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1177",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1177",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1177",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1177",
+      "time": "10:00 ",
+      "date": "10:00 ",
+      "status": "Completed",
+      "loadNumber": "17559092",
+      "trailer": "175963",
+      "seal": "50205846"
+    },
+    {
+      "warehouse": "1177",
+      "time": "      ",
+      "date": "      ",
+      "status": "Loading",
+      "loadNumber": "17559152",
+      "trailer": "175993",
+      "seal": "          "
+    },
+    {
+      "warehouse": "1199",
+      "time": "20:30 ",
+      "date": "20:30 ",
+      "status": "Completed",
+      "loadNumber": "17558959",
+      "trailer": "175972",
+      "seal": "50205877"
+    },
+    {
+      "warehouse": "1199",
+      "time": "15",
+      "date": "15",
+      "status": "Completed",
+      "loadNumber": "17559057",
+      "trailer": "175912",
+      "seal": "50205667"
+    },
+    {
+      "warehouse": "1199",
+      "time": "30",
+      "date": "30",
+      "status": "Loading",
+      "loadNumber": "17559126",
+      "trailer": "175565",
+      "seal": "123456"
+    },
+    {
+      "warehouse": "1199",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "175858",
+      "seal": "123456"
+    },
+    {
+      "warehouse": "1211",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1211",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1211",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1214",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1214",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1214",
+      "time": "0",
+      "date": "0",
+      "status": "0",
+      "loadNumber": "0",
+      "trailer": "0",
+      "seal": "0"
+    },
+    {
+      "warehouse": "1214",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Completed",
+      "loadNumber": "17559106",
+      "trailer": "175969",
+      "seal": "50205665"
+    },
+    {
+      "warehouse": "1214",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Ready",
+      "loadNumber": "1754986",
+      "trailer": "175422",
+      "seal": "695456"
+    },
+    {
+      "warehouse": "1214",
+      "time": " 7:00",
+      "date": " 7:00",
+      "status": "Ready",
+      "loadNumber": "175459865",
+      "trailer": "175466",
+      "seal": "49646"
+    },
+    {
+      "warehouse": "1214",
+      "time": "21:00",
+      "date": "21:00",
+      "status": "In Trans",
+      "loadNumber": "17559020",
+      "trailer": "175887",
+      "seal": "50205874"
+    },
+    {
+      "warehouse": "1214",
+      "time": " 1:30",
+      "date": " 1:30",
+      "status": "Completed",
+      "loadNumber": "17559090",
+      "trailer": "175549",
+      "seal": "50205851"
+    },
+    {
+      "warehouse": "1214",
+      "time": " 2:30",
+      "date": " 2:30",
+      "status": "Ready",
+      "loadNumber": "175964654",
+      "trailer": "175455",
+      "seal": "496464"
+    },
+    {
+      "warehouse": "1215",
+      "time": " 5:00",
+      "date": " 5:00",
+      "status": "Ready",
+      "loadNumber": "1754694",
+      "trailer": "175955",
+      "seal": "96446"
+    },
+    {
+      "warehouse": "1215",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Completed",
+      "loadNumber": "17559007",
+      "trailer": "751114",
+      "seal": "50205682"
+    },
+    {
+      "warehouse": "1215",
+      "time": " 8:00",
+      "date": " 8:00",
+      "status": "Completed",
+      "loadNumber": "17559114",
+      "trailer": "175945",
+      "seal": "50205664"
+    },
+    {
+      "warehouse": "1215",
+      "time": "18:00",
+      "date": "18:00",
+      "status": "Ready",
+      "loadNumber": "6+545654",
+      "trailer": "175986",
+      "seal": "164964965"
+    },
+    {
+      "warehouse": "1236",
+      "time": "21:00",
+      "date": "21:00",
+      "status": "Ready",
+      "loadNumber": "17589654",
+      "trailer": "175487",
+      "seal": "125985"
+    },
+    {
+      "warehouse": "1236",
+      "time": "11:00",
+      "date": "11:00",
+      "status": "Completed",
+      "loadNumber": "17558950",
+      "trailer": "175769",
+      "seal": "5020587"
+    },
+    {
+      "warehouse": "1236",
+      "time": " 5:30",
+      "date": " 5:30",
+      "status": "Loading",
+      "loadNumber": "17559130",
+      "trailer": "175776",
+      "seal": "124587"
+    },
+    {
+      "warehouse": "1334",
+      "time": "10:00",
+      "date": "10:00",
+      "status": "Completed",
+      "loadNumber": "17559035",
+      "trailer": "175884",
+      "seal": "50205671"
+    },
+    {
+      "warehouse": "1334",
+      "time": " 4:00",
+      "date": " 4:00",
+      "status": "Completed",
+      "loadNumber": "17559094",
+      "trailer": "175446",
+      "seal": "50205848"
+    },
+    {
+      "warehouse": "1334",
+      "time": " 6:00",
+      "date": " 6:00",
+      "status": "Loading",
+      "loadNumber": "17559157",
+      "trailer": "175833",
+      "seal": "123456"
+    },
+    {
+      "warehouse": "1334",
+      "time": "10:30",
+      "date": "10:30",
+      "status": "Received",
+      "loadNumber": "17559047",
+      "trailer": "175509",
+      "seal": "50205670"
     }
   ]
   export default As400

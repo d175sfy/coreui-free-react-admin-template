@@ -1,40 +1,65 @@
-import React from 'react'
-import As400 from '../utils/As400'
-import { MdCheckBoxOutlineBlank } from 'react-icons/md'
-import './DryAs400.css'
+import React, { useState } from "react";
+import As400 from "../utils/As400";
+import StoreList from "../utils/StoreList";
+import ArrowDown from "../components/Arrow-circle-down";
+import "./DryAs400.css";
 
-function DryAs400() {
-    return (
-        <div className="main-container">
-            {As400.map(load => (
-                <React.Fragment>
-                    <div className="dry-load-container">
-                        <label htmlFor="checkbox" className="label-container">
-                            <input type="checkbox" id="checkbox"/>
-                            <svg width="24" height="24" viewBox="-4 -4 39 39" aria-hidden="true" focusable="true">
-                                {/* <!-- The background --> */}
-                                <rect class="checkbox__bg" width="35" height="35" x="-2" y="-2" stroke="currentColor" fill="none" stroke-width="3" rx="6"
-                                    ry="6"></rect>
-                                {/* <!-- The checkmark--> */}
-                                <polyline class="checkbox__checkmark" points="4,14 12,23 28,5" stroke="transparent" stroke-width="4" fill="none"></polyline>
-                            </svg>
-                            <span className="checkmark"></span>
-                        </label>
-                        <div className="store">{load.Warehouse}</div>
-                        <div className="store">{load.Time}</div>
-                        <div className="store">{load.Date}</div>
-                        <div className="store">{load.Status}</div>
-                        <div className="store">{load.LoadNumber}</div>
-                        <div className="store">{load.Trailer}</div>
-                        <div className="store">{load.Seal}</div>
-                    </div>
-                </React.Fragment>
-            ))
+const DryAs400 = () => {
+  const [store, setStore] = useState(...StoreList)
+  const [load, setLoad] = useState(...As400)
 
-            }
-        </div>
-    )
-}
+  const toggleStore = index => {
+    setStore(StoreList.map((store, i) => {
+      if(i === index){
+        console.log(i,index)
+        store.open = store.open
+      }else {
+        store.open = false;
+      }
+      return StoreList
+    }))
+  }
+  return (
+    <div className="main-container">
+      {StoreList.map((whse, i) => (
+        <React.Fragment>
+          <div className="store-title" key={whse.warehouse}>
+            <div className="arrow-container" onClick={() => toggleStore(i)}>
+              <ArrowDown
+                className="down-arrow"
+                width={20}
+                fill={"#ff3333"}
+              />
+            </div> 
 
-export default DryAs400
+            <div className="store">{whse.warehouse}</div>
+          </div>
+          <div className="load-header">
+                  <div className="heading">Time</div>
+                  <div className="heading">Date</div>
+                  <div className="heading">Status</div>
+                  <div className="heading">LoadNumber</div>
+                  <div className="heading">Trailer</div>
+                  <div className="heading">Seal</div>
+                </div>
 
+          {As400.filter((load) => load.warehouse === whse.warehouse).map(
+            (load, i) => (
+              <div className={"load-container-" + (store.open === false ? '':'open')} key={i}>
+                <div className="load">{`${i + 1}.`}{load.time}</div>
+                <div className="load">{load.date}</div>
+                <div className="load">{load.status}</div>
+                <div className="load">{load.loadNumber}</div>
+                <div className="load">{load.trailer}</div>
+                <div className="load">{load.seal}</div>
+              </div>
+            )
+          )}
+        </React.Fragment>
+      ))}
+    </div>
+  );
+};
+
+export default DryAs400;
+               
