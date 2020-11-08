@@ -5,14 +5,12 @@ import ArrowDown from "../components/Arrow-circle-down";
 import "./DryAs400.css";
 
 const DryAs400 = () => {
-  const [store, setStore] = useState(...StoreList)
-  const [load, setLoad] = useState(...As400)
-
+  const [store, setStore] = useState(false)
   const toggleStore = index => {
     setStore(StoreList.map((store, i) => {
-      if(i === index){
+      if(i=== index){
         console.log(i,index)
-        store.open = store.open
+       setStore(true)
       }else {
         store.open = false;
       }
@@ -45,7 +43,7 @@ const DryAs400 = () => {
 
           {As400.filter((load) => load.warehouse === whse.warehouse).map(
             (load, i) => (
-              <div className={"load-container-" + (store.open === false ? '':'open')} key={i}>
+              <div className={"load-container-" + (store === false ? 'closed':'open')} key={i}>
                 <div className="load">{`${i + 1}.`}{load.time}</div>
                 <div className="load">{load.date}</div>
                 <div className="load">{load.status}</div>

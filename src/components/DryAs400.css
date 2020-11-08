@@ -80,6 +80,10 @@
 }
 
 .load-container-open {
+    display: block;
+    transition: 0.5s;
+}
+.load-container-closed {
     display: none;
 }
 .load-container- {
