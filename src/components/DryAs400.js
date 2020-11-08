@@ -5,12 +5,12 @@ import ArrowDown from "../components/Arrow-circle-down";
 import "./DryAs400.css";
 
 const DryAs400 = () => {
-  const [store, setStore] = useState(false)
+  const [store, setStore] = useState(...StoreList)
   const toggleStore = index => {
     setStore(StoreList.map((store, i) => {
       if(i=== index){
-        console.log(i,index)
-       setStore(true)
+        console.log('This is store:'+store.warehouse,'I\'m store number:'+index)
+      
       }else {
         store.open = false;
       }
