@@ -52,13 +52,13 @@ const DryAs400 = () => {
           // 1 means remove 1 item
           // remove one item if found
           shownHeader.splice(index, 1)
-          setshowHeader(shownHeader)
-          console.log(shownHeader)
+          setshowHeader(showHeader)
+          console.log(showHeader)
           
         
         }else {
           shownHeader.push(warehouse)
-          setshowHeader(shownHeader)
+          setshowHeader(showHeader)
         }
   
       
