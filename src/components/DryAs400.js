@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import As400 from "../utils/As400";
 import StoreList from "../utils/StoreList";
+import CountLoads from '../components/countItems/CountLoads'
 import ArrowDown from "../components/Arrow-circle-down";
 import "./DryAs400.css";
 
@@ -25,7 +26,7 @@ const DryAs400 = () => {
         // remove one item if found
         shownState.splice(index, 1)
         setloadShown(shownState)
-        
+        console.log(shownState)
       
       }else {
         shownState.push(warehouse)
@@ -44,7 +45,7 @@ const DryAs400 = () => {
      // console.log(shownHeader)
       //indexOf to search array for specified item
       const index = shownHeader.indexOf(warehouse)
-      //console.log(index)
+      console.log(index)
       
         if(index >= 0) {
           //splice // adds/removes item
@@ -52,6 +53,7 @@ const DryAs400 = () => {
           // remove one item if found
           shownHeader.splice(index, 1)
           setshowHeader(shownHeader)
+          console.log(shownHeader)
           
         
         }else {
@@ -75,7 +77,8 @@ const DryAs400 = () => {
               />
             </div> 
 
-            <div className="store">{whse.warehouse}</div>
+            <div className="store">{whse.warehouse} <CountLoads className="count-loads" props={whse.warehouse}/></div>
+            
           </div>
           <div className={showHeader == whse.warehouse ? "load-header" : "load-header-hidden"}>
                   <div className="heading">Time</div>

@@ -51,7 +51,7 @@
     align-items: center;
     height: 36px;
     width: 100%;
-    color: #ffffff;
+    color: #22fd05;
     background-color: #303030;
 }
 .load{
@@ -73,7 +73,7 @@
     width: 100%;
     margin:0px auto;
     padding-left: 15px;
-    color: #ffffff;
+    color: #22fd05;
     background-color: #303030;
 }
 .load-header-hidden {
@@ -87,7 +87,7 @@
     width: 100%;
     margin:0px auto;
     padding-left: 15px;
-    color: #ffffff;
+    color:#22fd05;
     background-color: #303030;
 }
 
@@ -134,3 +134,8 @@
  /* .checkmark:hover {
      background-color: red;
  } */
+
+ .count-loads {
+     background-color: #ffffff;
+     color:black
+ }
