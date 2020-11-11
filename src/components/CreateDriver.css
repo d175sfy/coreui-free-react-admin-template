@@ -15,11 +15,12 @@
 .driver-container {
     display: flex;
     align-items: center;
-    margin: 0 5px;
+    margin: 5px 5px;
     padding: 0 15px;
     
     background-color: rgba(0, 0, 0, .5);
     height:36px;
+
     color: #ffffff;
     
 
