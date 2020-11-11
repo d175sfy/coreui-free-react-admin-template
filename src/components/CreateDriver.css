@@ -1,11 +1,26 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins';
+}
 .main-container {
 
-    background-color: rgb(42, 145, 241);
+    background-color: #303030;
     width: 100%;
 
 }
 .driver-container {
-    background-color: darkcyan;
-    margin: 3px 5px;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    padding: 0 15px;
+    
+    background-color: rgba(0, 0, 0, .5);
+    height:36px;
+    color: #ffffff;
+    
 
 }
