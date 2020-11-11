@@ -1,16 +1,16 @@
+
 import React from 'react'
 import As400 from '../../utils/As400'
+import './CountLoads.css'
 
-function CountLoads(props) {
+
+const CountLoads = (props) => {
+    const count =  As400.reduce((counter, obj) => obj.warehouse === props.warehouse ? counter += 1 : counter,0)
+    console.log(count)
     return (
-        As400.filter(load => load.warehouse === props)
-            .map( load => (
-                <div>
-                    {load}
-                </div>
-            
-        ) )
-    )  
+      <div className="item-count">{count}</div>
+      
+        )
     }
 
 export default CountLoads

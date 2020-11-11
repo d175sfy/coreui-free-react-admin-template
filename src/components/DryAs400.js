@@ -76,11 +76,12 @@ const DryAs400 = () => {
                 fill={"#ff3333"}
               />
             </div> 
-
-            <div className="store">{whse.warehouse} <CountLoads className="count-loads" props={whse.warehouse}/></div>
+              {/* whse*/}
+            <div className="store">{whse.warehouse}</div>
+           <CountLoads warehouse={whse.warehouse}/>
             
           </div>
-          <div className={showHeader == whse.warehouse ? "load-header" : "load-header-hidden"}>
+          <div className={showHeader === whse.warehouse ? "load-header" : "load-header-hidden"}>
                   <div className="heading">Time</div>
                   <div className="heading">Date</div>
                   <div className="heading">Status</div>
@@ -88,11 +89,13 @@ const DryAs400 = () => {
                   <div className="heading">Trailer</div>
                   <div className="heading">Seal</div>
                 </div>
+
+              {/* loads */}
           {loadShown.includes(whse.warehouse) && (
             As400.filter((load) => load.warehouse === whse.warehouse).map(
             (load, i) => (
               <div className={loadShown === whse.warehouse? 'load-container-hidden' : 'load-container'} key={i}>
-                <div className="load">{`${i + 1}.`}{load.time}</div> 
+                <div className="load">{load.time}</div> 
                 <div className="load">{load.date}</div>
                 <div className="load">{load.status}</div>
                 <div className="load">{load.loadNumber}</div>

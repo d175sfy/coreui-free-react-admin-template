@@ -28,6 +28,8 @@
 .store {
     display: flex;
     align-items: center;
+    font-weight: 300;
+    font-size: larger;
     padding-left: 30px;
     cursor: pointer;
 }
