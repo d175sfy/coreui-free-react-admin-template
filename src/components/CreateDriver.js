@@ -8,12 +8,14 @@ const onDrag =  (e) => {
 }
 const handle_onDrop = (e) => {
     e.preventDefault()
-    e.dataTransfer.getData('text/plain',e.target.id)
+    e.dataTransfer.getData('text/html',e.target.id)
+    e.currentTarget.style.background = "lightyellow";
     console.log(e.target.id)
+
 
 }
 const handle_onDragStart = (e) => {
-    e.dataTransfer.setData('text/plain',e.target.id)
+    e.dataTransfer.setData('text/html',e.target.id)
     e.dataTransfer.dropEffect = 'move'
     console.log(e.target.innerText)
     console.log(e.target.pageX)

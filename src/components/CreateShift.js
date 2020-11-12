@@ -24,7 +24,7 @@ const CreateShift = children => {
                         {/* create shifts */}
                             {Shifts.map(shift => (
 
-                                    <div className="shift-container">
+                                    <div className="shift-container" key={shift.shift}>
                                             <div className="shift-container__shift" key={shift.shift}>{shift.shift}</div>
                                             <CreateDriver className={driver ? "driver-container":"driver-container-hidden"} shift={shift.shift} key={driver.id}/>
                                     </div>
