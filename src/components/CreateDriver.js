@@ -6,33 +6,43 @@ const onDrag =  (e) => {
     e.preventDefault()
     console.log('Help, I\'m being dragged!')
 }
-const onDrop = (e) => {
+const handle_onDrop = (e) => {
     e.preventDefault()
-    console.log('Help, I\'ve been dropped!')
+    e.dataTransfer.getData('text/plain',e.target.id)
+    console.log(e.target.id)
+
 }
-const onDragStart = (e) => {
-    e.dataTransfer.setData('text/plain',"This Text may be Dragged!")
-    console.log('Whoa, What a Ride!!!')
+const handle_onDragStart = (e) => {
+    e.dataTransfer.setData('text/plain',e.target.id)
+    e.dataTransfer.dropEffect = 'move'
+    console.log(e.target.innerText)
+    console.log(e.target.pageX)
+    console.log(e.target.pageY)
 }
-const onDragOver = (e) => {
+const handle_onDragOver = (e) => {
+    e.stopPropagation()
     e.preventDefault()
+    e.dataTransfer.dropEffect = 'move'
+    
 }
-const onDragEnter = (e) => {
+const handle_onDragEnter = (e) => {
     e.preventDefault()
-   // console.log('Help! I\'ve been entered into!')
+    e.stopPropagation()
+    console.log('Help! I\'ve been entered into!')
 }
-const onDragEnd = (e) => {
+const handle_onDragEnd = (e) => {
     e.preventDefault()
+    e.stopPropagation()
     console.log('Help! I\'ve been dragged into!')
 }
 
-function CreateDriver(props) {
+const CreateDriver = (props) =>  {
     const containerRef = useRef()
     return (
-        <div className="main-container" ref={containerRef} onDragOver={onDragOver} onDragEnter={onDragEnter}>
+        <div className="main-container" ref={containerRef} onDragEnter={handle_onDragEnter} onDragOver={handle_onDragOver} onDrop= {handle_onDrop}>
             {Driverlist.filter(driver => driver.shift === props.shift).map(
                 driver => (
-                    <div className="driver-container" key={driver.id} draggable="true" onDrag = {onDrag} onDragStart={onDragStart}>
+                    <div className="driver-container" key={driver.id} draggable="true" onDragStart={handle_onDragStart} onDragEnd={handle_onDragEnd}>
                     <strong>{driver.name} {driver.tractor}</strong>
                     </div>
                 )
