@@ -42,6 +42,17 @@ export default [
     to: '/dispatch/ssw/SSW',
     icon: 'cil-pencil',
   },
+  ,
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['ADMIN']
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Drivers',
+    to: '/dispatch/ssw/SSW',
+    icon: 'cil-people',
+  },
   {
     _tag: 'CSidebarNavTitle',
     _children: ['Theme']
