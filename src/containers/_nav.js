@@ -50,7 +50,7 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'Drivers',
-    to: '/dispatch/ssw/SSW',
+    to: '/dispatch/drivers/DriverAdmin',
     icon: 'cil-people',
   },
   {
