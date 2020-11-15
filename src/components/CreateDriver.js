@@ -16,6 +16,16 @@ const handle_onDragStart = (e) => {
     e.dataTransfer.setData('text/html',e.target.id)
     e.dataTransfer.dropEffect = 'move'
     console.log(e.target.innerText)
+
+    const y = e.pageY
+    const x = e.pageX
+    if(y <= 1000){
+    //console.log(x)
+    console.log(y)
+    }else{
+        console.log(x)
+    }
+
 }
 const handle_onDragOver = (e) => {
     e.stopPropagation()
