@@ -6,7 +6,7 @@ import ArrowDown from "../components/Arrow-circle-down";
 import "./DryAs400.css";
 
 const DryAs400 = () => {
-  const [store, setStore] = useState(...StoreList)
+  //const [store, setStore] = useState(...StoreList)
   const [loadShown, setloadShown] = useState([])
   const [showHeader, setshowHeader] = useState([])
 
