@@ -21,7 +21,7 @@ import {
     }
   }
   const fields = ['store','city','address', 'phone']
-function DriverAdmin() {
+function StoreAddresses() {
     return (
         <>
         <CRow>
@@ -59,4 +59,4 @@ function DriverAdmin() {
       </>
     )
   }
-export default DriverAdmin
+export default StoreAddresses
