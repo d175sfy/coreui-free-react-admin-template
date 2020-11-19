@@ -9,7 +9,7 @@ import {
     CRow
   } from '@coreui/react'
   
-  import StoreAddresses from '../../../../utils/stores/StoreAddresses.js'
+  import Store_Addresses from '../../../../utils/stores/Store_Addresses.js'
   
   const getBadge = status => {
     switch (status) {
@@ -32,7 +32,7 @@ function StoreAddress() {
               </CCardHeader>
               <CCardBody>
               <CDataTable
-                items={StoreAddresses}
+                items={Store_Addresses}
                 fields={fields}
                 bordered
                 itemsPerPage={14}
