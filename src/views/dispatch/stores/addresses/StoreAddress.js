@@ -36,7 +36,6 @@ function StoreAddress() {
                 fields={fields}
                 bordered
                 itemsPerPage={14}
-                pagination
                 scopedSlots = {{
                   'status':
                     (item)=>(
