@@ -56,8 +56,8 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'Store Address',
-    to: '/dispatch/stores/storeAddresses/StoreAddress',
-    icon: 'cil-building',
+    to: '/dispatch/stores/addresses/StoreAddress',
+    icon: 'cil-people',
   },
   {
     _tag: 'CSidebarNavTitle',

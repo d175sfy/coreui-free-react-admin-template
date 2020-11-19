@@ -90,7 +90,7 @@ const routes = [
   { path: '/dispatch/blueSheet/BlueSheet', name: 'Blue Sheet', component: BlueSheet },
   { path: '/dispatch/DriverDispatch', name: 'Driver Dispatch', component: DriverDispatch },
   { path: '/dispatch/drivers/DriverAdmin', name: 'Driver Admin', component: DriverAdmin },
-  { path: '/dispatch/stores/addresses/StoreAddress', name: 'Store Address', component: StoreAddress }
+  { path: '/dispatch/stores/addresses', name: 'Store Address', component: StoreAddress }
   
 
 ];

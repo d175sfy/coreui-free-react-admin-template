@@ -28,7 +28,7 @@ function StoreAddress() {
           <CCol xs="12" lg="12">
             <CCard>
               <CCardHeader>
-                Depot 175 Fleet Drivers
+                Store Address
               </CCardHeader>
               <CCardBody>
               <CDataTable
