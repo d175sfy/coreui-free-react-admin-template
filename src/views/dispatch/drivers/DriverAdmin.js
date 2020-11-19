@@ -9,7 +9,7 @@ import {
     CRow
   } from '@coreui/react'
   
-  import StoreAddresses from '../../../utils/stores/StoreAddresses'
+  import StoreAddresses from '../../../utils/stores/Store_Addresses'
   
   const getBadge = status => {
     switch (status) {
