@@ -1,4 +1,4 @@
-const Store_Addresses = [
+const StoreAddresses = [
  {
    "Store": 222,
    "City": "Hazlet",
@@ -240,4 +240,4 @@ const Store_Addresses = [
    "Phone": "(908) 905-7210"
  }
 ]
-export default Store_Addresses
+export default StoreAddresses
