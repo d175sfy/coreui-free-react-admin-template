@@ -9,7 +9,7 @@ import {
     CRow
   } from '@coreui/react'
   
-  import StoreAddresses from '../storeAddresses/Store_Addresses.js'
+  import StoreAddresses from '../../../../utils/stores/StoreAddresses.js'
   
   const getBadge = status => {
     switch (status) {
@@ -21,7 +21,7 @@ import {
     }
   }
   const fields = ['store','city','address', 'phone']
-function StoreAddresses() {
+function StoreAddress() {
     return (
         <>
         <CRow>
@@ -59,4 +59,4 @@ function StoreAddresses() {
       </>
     )
   }
-export default StoreAddresses
+export default StoreAddress
