@@ -9,7 +9,7 @@ import {
     CRow
   } from '@coreui/react'
   
-  import StoreAddresses from '../../../utils/stores/StoreAddresses'
+  import DriverList from '../../../utils/drivers/Driverlist.js'
   
   const getBadge = status => {
     switch (status) {
@@ -20,7 +20,7 @@ import {
       default: return 'primary'
     }
   }
-  const fields = ['store','city','address', 'phone']
+  const fields = ['id','name','tractor', 'shift']
 function DriverAdmin() {
     return (
         <>
@@ -28,11 +28,11 @@ function DriverAdmin() {
           <CCol xs="12" lg="12">
             <CCard>
               <CCardHeader>
-                Store Addresses
+                Depot 175 Fleet Drivers
               </CCardHeader>
               <CCardBody>
               <CDataTable
-                items={StoreAddresses}
+                items={DriverList}
                 fields={fields}
                 bordered
                 itemsPerPage={14}

@@ -54,6 +54,12 @@ export default [
     icon: 'cil-people',
   },
   {
+    _tag: 'CSidebarNavItem',
+    name: 'Store Address',
+    to: '/dispatch/stores/StoreAddresses',
+    icon: 'cil-building',
+  },
+  {
     _tag: 'CSidebarNavTitle',
     _children: ['Theme']
   },
