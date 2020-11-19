@@ -1,4 +1,4 @@
-let HeldLoads =  [
+let HeldLoadList =  [
     {
       "Warehouse": "222",
       "Time": "20:00",
@@ -1989,4 +1989,4 @@ let HeldLoads =  [
       "Seal": "50205670"
     }
   ]
-  export default HeldLoads
+  export default HeldLoadList

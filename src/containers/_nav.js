@@ -35,8 +35,8 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'Held Loads',
-    to: '/dispatch/drivers/DriverSchedule',
-    icon: 'cil-calendar',
+    to: '/dispatch/loads/HeldLoads',
+    icon: 'cil-pencil',
   },
   {
     _tag: 'CSidebarNavTitle',
