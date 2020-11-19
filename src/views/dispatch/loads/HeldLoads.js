@@ -1,17 +1,19 @@
 import React from 'react'
-import HeldLoadList from '../../../utils/loads/heldLoads/HeldLoadList'
-import Storelist from '../../../utils/stores/Storelist'
+import CreateHeldLoads from '../../../components/CreateHeldLoads'
+// import Storelist from '../../../utils/stores/Storelist'
+import HeldLoadList from '../../../utils//loads/heldLoads/HeldLoadList'
+import './HeldLoads.css'
 function HeldLoads(props) {
     return (
         <React.Fragment>
             <div className="held-load-container">
-                {Storelist.filter(store => store.storeID === HeldLoadList.Warehouse).map(
+                {HeldLoadList.filter(load => load.Warehouse === props.Warehouse).map(
                     load => (
-                        <div className="load-container" key={load.LoadNumber}>
-                            <strong>{load.Trailer}</strong>
-                        </div>
-                    )
-                )}
+                
+                        <CreateHeldLoads>{load.Trailer}</CreateHeldLoads>
+                    ))
+                
+                }
             </div>
         </React.Fragment>
     )
