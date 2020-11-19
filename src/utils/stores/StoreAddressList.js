@@ -170,7 +170,7 @@ let StoreAddressList = [
   {
     store: "1062",
     city: "Manhattan",
-    address: "East River Plaza",
+    address: "(East River Plaza) 517 East 117th St New York, NY 10035",
     phone: "(212) 896-5873"
   },
   {
@@ -230,8 +230,8 @@ let StoreAddressList = [
   {
     store: "1215",
     city: "Oceanside",
-    address: "Coming Soon",
-    phone: "Coming Soon"
+    address: "3705 Hampton Rd, Oceanside, NY 11572",
+    phone: "(516) 259-7004"
   },
   {
     store: "1236",

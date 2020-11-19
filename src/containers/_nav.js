@@ -33,6 +33,12 @@ export default [
     icon: 'cil-calendar',
   },
   {
+    _tag: 'CSidebarNavItem',
+    name: 'Held Loads',
+    to: '/dispatch/drivers/DriverSchedule',
+    icon: 'cil-calendar',
+  },
+  {
     _tag: 'CSidebarNavTitle',
     _children: ['AS400']
   },
@@ -56,7 +62,7 @@ export default [
     _tag: 'CSidebarNavItem',
     name: 'Store Address',
     to: '/dispatch/stores/addresses/StoreAddress',
-    icon: 'cil-people',
+    icon: 'cil-pencil',
   },
   {
     _tag: 'CSidebarNavTitle',

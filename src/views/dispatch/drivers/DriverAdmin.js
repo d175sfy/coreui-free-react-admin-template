@@ -35,6 +35,7 @@ function DriverAdmin() {
                 items={DriverList}
                 fields={fields}
                 bordered
+                striped
                 itemsPerPage={14}
                 pagination
                 scopedSlots = {{
