@@ -86,7 +86,7 @@ const routes = [
   { path: '/dispatch/ssw', name: 'Dry Loads', component: SSW },
   { path: '/dispatch/drivers/DriverSchedule', name: 'Driver Schedule', component: DriverSchedule },
   { path: '/dispatch/blueSheet/BlueSheet', name: 'Blue Sheet', component: BlueSheet },
-  { path: '/dispatch', name: 'Driver Dispatch', component: DriverDispatch },
+  { path: '/dispatch/DriverDispatch', name: 'Driver Dispatch', component: DriverDispatch },
 
 ];
 

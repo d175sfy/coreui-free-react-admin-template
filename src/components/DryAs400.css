@@ -28,6 +28,8 @@
 .store {
     display: flex;
     align-items: center;
+    font-weight: 300;
+    font-size: larger;
     padding-left: 30px;
     cursor: pointer;
 }
@@ -51,7 +53,7 @@
     align-items: center;
     height: 36px;
     width: 100%;
-    color: #ffffff;
+    color: #22fd05;
     background-color: #303030;
 }
 .load{
@@ -73,7 +75,21 @@
     width: 100%;
     margin:0px auto;
     padding-left: 15px;
-    color: #ffffff;
+    color: #22fd05;
+    background-color: #303030;
+}
+.load-header-hidden {
+    position: absolute;
+    left:0;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    margin:0px auto;
+    padding-left: 15px;
+    color:#22fd05;
     background-color: #303030;
 }
 
@@ -81,7 +97,7 @@
     display: block;
     transition: 0.5s;
 }
-.load-container-closed {
+.load-container-hidden {
     
     display: none;
 }
@@ -91,7 +107,7 @@
     align-items: center;
     height: 36px;
     width: 100%;
-     margin:0px auto;
+    margin:0px auto;
     padding:15px;
     color: #ffffff;
     background-color: #303030;
@@ -120,3 +136,8 @@
  /* .checkmark:hover {
      background-color: red;
  } */
+
+ .count-loads {
+     background-color: #ffffff;
+     color:black
+ }

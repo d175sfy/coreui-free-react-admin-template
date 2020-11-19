@@ -18,18 +18,18 @@ function WhseLoadCount() {
             <div className="unsrtd" onClick={() => setloadCount(!loadCount)}>{loadCount ? <TiArrowSortedUp size={32} /> : <TiArrowUnsorted size={32} />}{loadCount ? 'Hide Whse Loads' : 'Show Whse Loads'}</div>
             <div className={loadCount ? 'whse-container' : 'hideLoadCount'}>
             {StoreList.map(store => (
-                <div className="whse-id__container"> 
-                <div className="context-container">
-                <div className="whse-container__item">
+                <div className="whse-id__container" key={store.warehouse}> 
+                <div className="context-container" key={store.warehouse}>
+                <div className="whse-container__item" key={store.warehouse}>
                        
                             <div className="whse-container__item-id">{store.Warehouse}</div>
                      
                 </div>
                 </div>
                 <div className="whse-loadCount-container">
-                <div className="whse-count-dry">{DryLoadCount}</div>
-                <div className="whse-count-wet">{DryLoadCount}</div>
-                <div className="whse-count-held">{DryLoadCount}</div>
+                <div className="whse-count-dry">hello</div>
+                <div className="whse-count-wet">hello</div>
+                <div className="whse-count-held">hello</div>
                 </div>
                 </div>
                 ))} 
