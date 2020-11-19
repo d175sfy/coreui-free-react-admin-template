@@ -28,7 +28,7 @@ function DriverAdmin() {
           <CCol xs="12" lg="12">
             <CCard>
               <CCardHeader>
-                Store Addresses
+                Driver List
               </CCardHeader>
               <CCardBody>
               <CDataTable

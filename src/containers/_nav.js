@@ -42,7 +42,6 @@ export default [
     to: '/dispatch/ssw/SSW',
     icon: 'cil-pencil',
   },
-  ,
   {
     _tag: 'CSidebarNavTitle',
     _children: ['ADMIN']
