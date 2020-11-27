@@ -44,6 +44,7 @@ const BlueSheet = React.lazy(() => import('./views/dispatch/blueSheet/BlueSheet'
 const DriverAdmin = React.lazy(() => import('./views/dispatch/drivers/DriverAdmin'));
 const StoreAddress = React.lazy(() => import('./views/dispatch/stores/addresses/StoreAddress'));
 const HeldLoads = React.lazy(() => import('./views/dispatch/loads/HeldLoads'));
+const SwitcherSchedule = React.lazy(() => import('./views/dispatch/switchers/SwitcherSchedule'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -92,7 +93,8 @@ const routes = [
   { path: '/dispatch/DriverDispatch', name: 'Driver Dispatch', component: DriverDispatch },
   { path: '/dispatch/drivers/DriverAdmin', name: 'Driver Admin', component: DriverAdmin },
   { path: '/dispatch/stores/addresses/StoreAddress', name: 'Store Address', component: StoreAddress },
-  { path: '/dispatch/loads/HeldLoads', name: 'Store Address', component: HeldLoads }
+  { path: '/dispatch/loads/HeldLoads', name: 'Store Address', component: HeldLoads },
+  { path: '/dispatch/switchers/SwitcherSchedule', name: 'Switcher Schedule', component: SwitcherSchedule },
   
 
 ];
