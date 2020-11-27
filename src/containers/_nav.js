@@ -39,6 +39,12 @@ export default [
     icon: 'cil-pencil',
   },
   {
+    _tag: 'CSidebarNavItem',
+    name: 'Switcher Schedule',
+    to: '/dispatch/switchers/SwitcherSchedule',
+    icon: 'cil-pencil',
+  },
+  {
     _tag: 'CSidebarNavTitle',
     _children: ['AS400']
   },
