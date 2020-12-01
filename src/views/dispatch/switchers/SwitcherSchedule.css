@@ -1,0 +1,29 @@
+.switcher-main-container {
+    display: flex;
+}
+.switcher-container {
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.switcher-item-container{
+    display:flex;
+    width: auto;
+    background-color:#303C54;
+    margin:1px;
+    background-color:#303C54;
+
+}
+.switcher-item {
+    
+}
+.switcher-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height:36px;
+    color:#fff;
+    background-color:#46546C;
+}

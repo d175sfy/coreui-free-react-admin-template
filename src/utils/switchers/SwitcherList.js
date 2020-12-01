@@ -1,77 +1,108 @@
-const switcher = [{
+const Switcher = [{
     name:"KEVIN O'NEILL",
-    start:"",
+    start:"5:30",
     hostler:"",
-    quad:"shp/plt"
+    quad:"shp/plt",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"ANGEL ROSARIO",
-    start:"",
+    start:"5:00",
     hostler:"",
-    quad:"Rec/Chill"
+    quad:"Rec/Chill",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"JAMES SELBY",
-    start:"",
+    start:"5:45",
     hostler:"",
-    quad:"shp/plt"
+    quad:"shp/plt",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"ROBERT MCCLANAHAN",
-    start:"",
+    start:"5:30",
     hostler:"",
-    quad:"Rec/Chill"
+    quad:"Rec/Chill",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"RICH LOOCK",
-    start:"",
+    start:"5:45",
     hostler:"9",
-    quad:"shp/plt"
+    quad:"shp/plt",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"DAN ALONZO",
-    start:"",
+    start:"5:00",
     hostler:"14",
-    quad:""
+    quad:"",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"JUAN RUIZ",
-    start:"",
+    start:"5:45",
     hostler:"15",
-    quad:"shp/plt"
+    quad:"shp/plt",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"CARLOS GUERRERO",
-    start:"",
+    start:"5:45",
     hostler:"4",
-    quad:"shp/plt"
+    quad:"shp/plt",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"TERRANCE UPCHURCH",
-    start:"",
+    start:"5:45",
     hostler:"2",
-    quad:"shp/plt"
+    quad:"shp/plt",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"NICK MOLINO",
-    start:"",
+    start:"5:45",
     hostler:"3",
-    quad:""
+    quad:"",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"IVAN ROBINSON",
-    start:"",
+    start:"5:45",
     hostler:"8",
-    quad:"Rec/Chill"
+    quad:"Rec/Chill",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"DOMINIK KON",
-    start:"",
+    start:"5:45",
     hostler:"10",
-    quad:"shp/plt"
+    quad:"shp/plt",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"VICTOR CRUZ",
-    start:"",
+    start:"6:00",
     hostler:"7",
-    quad:"Rec/Chill"
+    quad:"Rec/Chill",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"ERIK ROSADO",
-    start:"",
+    start:"5:45",
     hostler:"1",
-    quad:""
+    quad:"",
+    category:"reg",
+    off:"Sat/Sun"
 },
   {  name:"THOMAS BEERS",
-    start:"",
+    start:"5:45",
     hostler:"",
-    quad:""
+    quad:"",
+    category:"reg",
+    off:"Sat/Sun"
 },
 ]
+export default Switcher
