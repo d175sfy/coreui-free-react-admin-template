@@ -1,0 +1,9 @@
+.held-load-item-container {
+    margin:1px;
+}
+.held-load-item {
+    display:flex;
+    flex-direction: column;
+    color:#fff;
+    padding:15px;
+}

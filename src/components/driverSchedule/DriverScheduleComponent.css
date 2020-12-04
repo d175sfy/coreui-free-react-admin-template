@@ -1,0 +1,93 @@
+body,html {
+    padding:0;
+}
+.main {
+    display:flex;
+
+}
+.schedule-dashboard {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    margin-left:1865px;
+    height:100%;
+    width:310px;
+    padding-left: 5px;
+    color:#fff;
+    background-color:#3C4B64;
+}
+.schedule-dashboard-item{
+    margin-left:1865px;
+    height:36px;
+    width:300px;
+    margin:1px;
+    padding-left: 5px;
+    color:#fff;
+    background-color: #46546C;
+}
+
+.driver-schedule__container {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.driver-schedule__items-title {
+    display:flex;
+    flex-flow:nowrap;
+    width:100%;
+    text-align:center;
+    height:36px;
+    color:red;
+}
+.driver-schedule__items-title-items {
+    display:flex;
+    flex-flow:nowrap;
+    text-align:center;
+    height:36px;
+    margin-left:0;
+    margin-right: 5px;
+    color:red;
+}
+.driver-schedule__items {
+    display:flex;
+    height:36px;
+    margin:0px 1px;
+    padding:1px;
+    justify-items: center;
+    align-items: center;
+    background-color:#3C4B64;
+    color:#fff;
+}
+.item:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.driver-schedule__items-tractor {
+    background-color: #46546C;
+    height:30px;
+    width:70px;
+    margin:1px;
+    text-align: center;
+
+}
+.driver-schedule__items-name {
+    background-color: #46546C;
+    height:30px;
+    width:170px;
+    margin:1px;
+    padding-left:5px;
+}
+.driver-schedule__items-shift {
+    background-color: #46546C;
+    height:30px;
+    width:70px;
+    margin:1px;
+    text-align: center;
+}
+.driver-schedule__items-off {
+    background-color: #46546C;
+    height:30px;
+    width:70px;
+    margin:1px;
+    text-align: center;
+}

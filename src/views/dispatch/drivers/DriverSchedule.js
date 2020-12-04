@@ -1,9 +1,10 @@
 import React from 'react'
+import DriverScheduleComponent from '../../../components/driverSchedule/DriverScheduleComponent'
 
 const DriverSchedule = () => {
     return (
         <React.Fragment>
-            <h1>Hello Drivers</h1>
+            <DriverScheduleComponent/>
         </React.Fragment>
     )
 }

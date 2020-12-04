@@ -1,14 +1,18 @@
 import React from 'react'
 import HeldLoadList from '../../src/utils/loads/heldLoads/HeldLoadList'
-function CreateHeldLoads() {
+import './CreateHeldLoads.css'
+function CreateHeldLoads(props) {
     return (
-        <div>
+        <div className="held-load-item-container">
             {
-                HeldLoadList.map(load => (
-                    <div className="held-load-item" store={load.Warehouse} trailer={load.Trailer}>
-                        {load.Trailer}
+                HeldLoadList.filter(load => load.Warehouse === props.Warehouse)
+                .map(whse => (
+                    <div className="held-load-item" store={whse.Warehouse} trailer={whse.Trailer}>
+                        {whse.Warehouse}
                     </div>
                 ))
+                 
+                
             }
         </div>
     )

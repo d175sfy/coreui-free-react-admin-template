@@ -3,14 +3,14 @@ let drivers= [
             id:6063882,
             name:"Abraham Bruno",	
             tractor:844,	
-            shift:"16:00",
+            shift:"4pm",
             off:"Sat/Sun"
             },
             {
             id:6297776,
             name:"Ajay Pattel",	
             tractor:361,	
-            shift:"14:00",
+            shift:"2pm",
             off:"Sat/Sun"
             },
             {
@@ -24,7 +24,7 @@ let drivers= [
             id:6210537,
             name:"Ali Elsayed",	
             tractor:880,	
-            shift:"14:00",
+            shift:"2pm",
             off:"Sat/Sun"
             },
             {
@@ -45,14 +45,14 @@ let drivers= [
             id:691932,
             name:"Andre Benjamin",	
             tractor:874,	
-            shift:"19:00",
+            shift:"7pm",
             off:"Sat/Sun"
             },
             {
             id:6301820,
             name:"Andres Torres",	
             tractor:884,	
-            shift:"17:00",
+            shift:"5pm",
             off:"Sat/Sun"
             },
             {
@@ -87,7 +87,7 @@ let drivers= [
             id:6272417,
             name:"Aurelio Miranda",	
             tractor:360,	
-            shift:"14:00",
+            shift:"2pm",
             off:"Sat/Sun"
             },
             {
@@ -101,14 +101,14 @@ let drivers= [
             id:6065603,
             name:"Bekir Ak",	
             tractor:891,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
             id:6076697,
             name:"Benjamin Cunningham",	
             tractor:877,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
@@ -171,35 +171,35 @@ let drivers= [
             id:6173910,
             name:"Carlos Ruiz",	
             tractor:865,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
             id:6192273,
             name:"Cesar Crespo",	
             tractor:876,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
             id:547973,
             name:"Chris Aiello",	
             tractor:864,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
             id:668321,
             name:"Claudio Carpio",	
             tractor:849,	
-            shift:"16:00",
+            shift:"4pm",
             off:"Sat/Sun"
             },
             {
             id:529078,
             name:"Craig Gumilar",	
             tractor:823,	
-            shift:"19:00",
+            shift:"7pm",
             off:"Sat/Sun"
             },
             {
@@ -213,7 +213,7 @@ let drivers= [
             id:6195890,
             name:"Darryl Brown",	
             tractor:824,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
@@ -227,14 +227,14 @@ let drivers= [
             id:6167578,
             name:"David Puskas",	
             tractor:890,
-            shift:"16:00",
+            shift:"4pm",
             off:"Sat/Sun"
             },
             {
             id:6035100,
             name:"David Ramos",	
             tractor:855,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
@@ -248,7 +248,7 @@ let drivers= [
             id:6170215,
             name:"Derek Stewart",	
             tractor:886,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
@@ -269,14 +269,14 @@ let drivers= [
             id:6111968,
             name:"Donald Walker",	
             tractor:848,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
             id:6195815,
             name:"Ed Hassani",	
             tractor:882,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
@@ -290,21 +290,21 @@ let drivers= [
             id:6022072,
             name:"Efrain Sanchez",	
             tractor:870,	
-            shift:"16:00",
+            shift:"4pm",
             off:"Sat/Sun"
             },
             {
             id:6195903,
             name:"Eleftheri Marousis",	
             tractor:859,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
             id:6095057,
             name:"Emiliano Martinez",	
             tractor:883,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
@@ -318,14 +318,14 @@ let drivers= [
             id:6272415,
             name:"Eric Lupo",	
             tractor:363,	
-            shift:"14:00",
+            shift:"2pm",
             off:"Sat/Sun"
             },
             {
             id:6098045,
             name:"Erick Marin",	
             tractor:364,	
-            shift:"15:00",
+            shift:"3pm",
             off:"Sat/Sun"
             },
             {
@@ -353,7 +353,7 @@ let drivers= [
             id:6072591,
             name:"Geno Reiser",	
             tractor:841,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
@@ -388,7 +388,7 @@ let drivers= [
             id:6218400,
             name:"Hevere Cajuste",	
             tractor:896,	
-            shift:"17:00",
+            shift:"5pm",
             off:"Sat/Sun"
             },
             {
@@ -423,14 +423,14 @@ let drivers= [
             id:637530,
             name:"Jaime Torres",	
             tractor:839,
-            shift:"19:00",
+            shift:"7pm",
             off:"Sat/Sun"
             },
             {
             id:6235854,
             name:"Jairo Palada",	
             tractor:868,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
@@ -444,7 +444,7 @@ let drivers= [
             id:588795,
             name:"James Mellen",	
             tractor:885,	
-            shift:"19:00",
+            shift:"7pm",
             off:"Sat/Sun"
             },
             {
@@ -458,7 +458,7 @@ let drivers= [
             id:6202447,
             name:"Jay Kenyatta",	
             tractor:111,
-            shift:"13:00",
+            shift:"1pm",
             off:"Sat/Sun"
             },
             {
@@ -472,7 +472,7 @@ let drivers= [
             id:619765,
             name:"Jeff Keeler",	
             tractor:892,	
-            shift:"19:00",
+            shift:"7pm",
             off:"Sat/Sun"
             },
             {
@@ -507,14 +507,14 @@ let drivers= [
             id:6198853,
             name:"Jimmy Dodds",	
             tractor:880,	
-            shift:"16:00",
+            shift:"4pm",
             off:"Sat/Sun"
             },
             {
             id:6132225,
             name:"Job Enriquez",	
             tractor:895,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
@@ -563,7 +563,7 @@ let drivers= [
             id:6216711,
             name:"Jonathan Luton",	
             tractor:863,	
-            shift:"15:00",
+            shift:"3pm",
             off:"Sat/Sun"
             },
             {
@@ -584,7 +584,7 @@ let drivers= [
             id:6202637,
             name:"Jose Espinal",	
             tractor:831,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
@@ -598,7 +598,7 @@ let drivers= [
             id:561900,
             name:"Jose Peralta",	
             tractor:835,	
-            shift:"15:00",
+            shift:"3pm",
             off:"Sat/Sun"
             },
             {
@@ -640,7 +640,7 @@ let drivers= [
             id:6202640,
             name:"Julien Lewis",	
             tractor:826,	
-            shift:"17:00",
+            shift:"5pm",
             off:"Sat/Sun"
             },
             {
@@ -668,7 +668,7 @@ let drivers= [
             id:6021211,
             name:"Kevin Tulloch",	
             tractor:860,	
-            shift:"17:00",
+            shift:"5pm",
             off:"Sat/Sun"
             },
             {
@@ -731,7 +731,7 @@ let drivers= [
             id:6088344,
             name:"Mark Lazzaro",	
             tractor:854,	
-            shift:"17:00",
+            shift:"5pm",
             off:"Sat/Sun"
             },
             {
@@ -766,7 +766,7 @@ let drivers= [
             id:6029332,
             name:"Miguel Palominos",	
             tractor:867,	
-            shift:"14:00",
+            shift:"2pm",
             off:"Sat/Sun"
             },
             {
@@ -780,21 +780,21 @@ let drivers= [
             id:572701,
             name:"Mike Korbobo",	
             tractor:875,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
             id:6175066,
             name:"Mike Krause",	
             tractor:226,
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
             id:687599,
             name:"Mike Lane",	
             tractor:840,	
-            shift:"16:00",
+            shift:"4pm",
             off:"Sat/Sun"
             },
             {
@@ -815,7 +815,7 @@ let drivers= [
             id:6201806,
             name:"Mohamed Barrie",	
             tractor:875,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
@@ -836,7 +836,7 @@ let drivers= [
             id:6203201,
             name:"Nick Pellegrino",	
             tractor:894,	
-            shift:"16:00",
+            shift:"4pm",
             off:"Sat/Sun"
             },
             {
@@ -871,7 +871,7 @@ let drivers= [
             id:6204708,
             name:"Pedro Espinal",	
             tractor:846,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
@@ -885,7 +885,7 @@ let drivers= [
             id:6041373,
             name:"Ramon Jimenez",	
             tractor:852,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
@@ -941,7 +941,7 @@ let drivers= [
             id:6212490,
             name:"Rickey Narine",	
             tractor:887,	
-            shift:"15:00",
+            shift:"3pm",
             off:"Sat/Sun"
             },
             {
@@ -997,7 +997,7 @@ let drivers= [
             id:6152437,
             name:"Roger Znyski",	
             tractor:832,	
-            shift:"23:00",
+            shift:"11pm",
             off:"Sat/Sun"
             },
             {
@@ -1025,7 +1025,7 @@ let drivers= [
             id:6082411,
             name:"Stan Medrzykowski",	
             tractor:856,	
-            shift:"15:00",
+            shift:"3pm",
             off:"Sat/Sun"
             },
             {
@@ -1081,14 +1081,14 @@ let drivers= [
             id:6218401,
             name:"Thomas Duah",	
             tractor:862,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
             id:6022442,
             name:"Thomas Feimer",	
             tractor:879,	
-            shift:"17:00",
+            shift:"5pm",
             off:"Sat/Sun"
             },
             {
@@ -1130,7 +1130,7 @@ let drivers= [
             id:6242085,
             name:"Uriel Chaves",	
             tractor:362,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
@@ -1165,14 +1165,14 @@ let drivers= [
             id:703182,
             name:"Waheid Hana",	
             tractor:836,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun"
             },
             {
             id:6078418,
             name:"Wayne Taylor",	
             tractor:850,	
-            shift:"12:00",
+            shift:"12pm",
             off:"Sat/Sun" 
             },
             {
@@ -1207,14 +1207,14 @@ let drivers= [
             id:6192278,
             name:"Winston Gonzalez",	
             tractor:825,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {
             id:6220913,
             name:"Yulier Rodriguez-Barrero",
             tractor:847,	
-            shift:"18:00",
+            shift:"6pm",
             off:"Sat/Sun"
             },
             {

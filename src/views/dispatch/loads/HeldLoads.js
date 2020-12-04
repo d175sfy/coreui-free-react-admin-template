@@ -3,14 +3,14 @@ import CreateHeldLoads from '../../../components/CreateHeldLoads'
 // import Storelist from '../../../utils/stores/Storelist'
 import HeldLoadList from '../../../utils//loads/heldLoads/HeldLoadList'
 import './HeldLoads.css'
-function HeldLoads(props) {
+function HeldLoads() {
     return (
         <React.Fragment>
             <div className="held-load-container">
-                {HeldLoadList.filter(load => load.Warehouse === props.Warehouse).map(
+                {HeldLoadList.map(
                     load => (
                 
-                        <CreateHeldLoads>{load.Trailer}</CreateHeldLoads>
+                        <CreateHeldLoads Warehouse={load.Warehouse}>{load.Warehouse}</CreateHeldLoads>
                     ))
                 
                 }
