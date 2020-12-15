@@ -95,12 +95,12 @@ const DryAs400 = () => {
             As400.filter((load) => load.warehouse === whse.warehouse).map(
             (load, i) => (
               <div className={loadShown === whse.warehouse? 'load-container-hidden' : 'load-container'} key={i}>
-                <div className="load">{load.time}</div> 
-                <div className="load">{load.date}</div>
-                <div className="load">{load.status}</div>
-                <div className="load">{load.loadNumber}</div>
-                <div className="load">{load.trailer}</div>
-                <div className="load">{load.seal}</div>
+                <div className="load" contenteditable="true">{load.time}</div> 
+                <div className="load" contenteditable="true">{load.date}</div>
+                <div className="load" contenteditable="true">{load.status}</div>
+                <div className="load" contenteditable="true">{load.loadNumber}</div>
+                <div className="load" contenteditable="true">{load.trailer}</div>
+                <div className="load" contenteditable="true">{load.seal}</div>
               </div>
             )
           ))}

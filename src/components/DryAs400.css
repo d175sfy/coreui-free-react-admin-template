@@ -141,3 +141,23 @@
      background-color: #ffffff;
      color:black
  }
+
+
+[contenteditable="true"]:hover{
+    border: 1px dashed grey;
+}
+[contenteditable="true"]:active{
+    border: none;
+    border-color:none;
+    background-color:none;
+}
+[contenteditable="true"]:focus{
+    border: none;
+    border-color:none;
+    background-color:none;
+}
+[contenteditable="true"]:enabled{
+    border: none;
+    border-color:none;
+    background-color:none;
+}
