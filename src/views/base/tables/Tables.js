@@ -20,6 +20,7 @@ const getBadge = status => {
     default: return 'primary'
   }
 }
+
 const fields = ['name','registered', 'role', 'status']
 
 const Tables = () => {
@@ -33,6 +34,7 @@ const Tables = () => {
             </CCardHeader>
             <CCardBody>
             <CDataTable
+              isSortable
               items={usersData}
               fields={fields}
               itemsPerPage={6}

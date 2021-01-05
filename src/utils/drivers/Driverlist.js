@@ -2,7 +2,8 @@ let drivers= [
       {
             id:6063882,
             name:"Abraham Bruno",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "3/15/2018",
             tractor:844,	
             shift:"4pm",
             off:"Sat/Sun",
@@ -10,19 +11,10 @@ let drivers= [
             status: "Active"
 },
             {
-            id:6297776,
-            name:"Ajay Pattel",	
-            employeeSince: "",
-            tractor:361,	
-            shift:"2pm",
-            off:"Sat/Sun",
-            type:"driver",
-            status: "Active"
-},
-            {
             id:6272409,
             name:"Alexander Lipnitsky",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:844,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -32,7 +24,8 @@ let drivers= [
             {
             id:6210537,
             name:"Ali Elsayed",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:880,	
             shift:"2pm",
             off:"Sat/Sun",
@@ -42,7 +35,8 @@ let drivers= [
             {
             id:6219882,
             name:"Alice Martinez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:833,
             shift:"0:15",
             off:"Sat/Sun",
@@ -52,7 +46,8 @@ let drivers= [
             {
             id:6235583,
             name:"Alvin Hunter",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:360,
             shift:"0:15",
             off:"Sat/Sun",
@@ -62,7 +57,8 @@ let drivers= [
             {
             id:691932,
             name:"Andre Benjamin",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:874,	
             shift:"7pm",
             off:"Sat/Sun",
@@ -72,7 +68,8 @@ let drivers= [
             {
             id:6301820,
             name:"Andres Torres",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:884,	
             shift:"5pm",
             off:"Sat/Sun",
@@ -82,7 +79,8 @@ let drivers= [
             {
             id:388257,
             name:"Angel Feliciano",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:871,	
             shift:"19:30",
             off:"Sat/Sun",
@@ -92,7 +90,8 @@ let drivers= [
             {
             id:619845,
             name:"Angel Rosario",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:00",
             off:"Sat/Sun",
@@ -102,7 +101,8 @@ let drivers= [
             {
             id:627414,
             name:"Arnaldo Escobales",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:337,
             shift:"2:30",
             off:"Sat/Sun",
@@ -112,7 +112,8 @@ let drivers= [
             {
             id:6026555,
             name:"Audraj Hemraj",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:887,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -122,7 +123,8 @@ let drivers= [
             {
             id:6272417,
             name:"Aurelio Miranda",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:360,	
             shift:"2pm",
             off:"Sat/Sun",
@@ -132,7 +134,8 @@ let drivers= [
             {
             id:6139120,
             name:"Awni Elsherbeiny",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:845,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -142,7 +145,8 @@ let drivers= [
             {
             id:6065603,
             name:"Bekir Ak",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:891,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -152,7 +156,8 @@ let drivers= [
             {
             id:6076697,
             name:"Benjamin Cunningham",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:877,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -162,7 +167,8 @@ let drivers= [
             {
             id:378181,
             name:"Bill Stojanovski",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:829,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -172,7 +178,8 @@ let drivers= [
             {
             id:516450,
             name:"Bill Symes",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:827,	
             shift:"9:00",
             off:"Sat/Sun",
@@ -182,7 +189,8 @@ let drivers= [
             {
             id:6035573,
             name:"Bill White",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:881,	
             shift:"20:30",
             off:"Sat/Sun",
@@ -192,7 +200,8 @@ let drivers= [
             {
             id:619073,
             name:"Brian Hluchy",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:889,	
             shift:"19:30",
             off:"Sat/Sun",
@@ -202,7 +211,8 @@ let drivers= [
             {
             id:6068162,
             name:"Brian Pullen",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:871,	
             shift:"8:00",
             off:"Sat/Sun",
@@ -212,7 +222,8 @@ let drivers= [
             {
             id:6213592,
             name:"Bryan Stephens",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:365,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -222,7 +233,8 @@ let drivers= [
             {
             id:309748,
             name:"Carl Annibale",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:361,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -232,7 +244,8 @@ let drivers= [
             {
             id:668732,
             name:"Carlos Guerrero",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -242,7 +255,8 @@ let drivers= [
             {
             id:6173910,
             name:"Carlos Ruiz",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:865,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -252,7 +266,8 @@ let drivers= [
             {
             id:6192273,
             name:"Cesar Crespo",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:876,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -262,7 +277,8 @@ let drivers= [
             {
             id:547973,
             name:"Chris Aiello",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:864,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -272,7 +288,8 @@ let drivers= [
             {
             id:668321,
             name:"Claudio Carpio",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:849,	
             shift:"4pm",
             off:"Sat/Sun",
@@ -282,7 +299,8 @@ let drivers= [
             {
             id:529078,
             name:"Craig Gumilar",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:823,	
             shift:"7pm",
             off:"Sat/Sun",
@@ -292,7 +310,8 @@ let drivers= [
             {
             id:704000,
             name:"Dan Alonzo",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:892,	
             shift:"5:00",
             off:"Sat/Sun",
@@ -302,7 +321,8 @@ let drivers= [
             {
             id:6195890,
             name:"Darryl Brown",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:824,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -312,7 +332,8 @@ let drivers= [
             {
             id:697831,
             name:"David Modola",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:838,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -322,7 +343,8 @@ let drivers= [
             {
             id:6167578,
             name:"David Puskas",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:890,
             shift:"4pm",
             off:"Sat/Sun",
@@ -332,7 +354,8 @@ let drivers= [
             {
             id:6035100,
             name:"David Ramos",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:855,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -342,7 +365,8 @@ let drivers= [
             {
             id:6071355,
             name:"David Tomei",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:857,	
             shift:"8:00",
             off:"Sat/Sun",
@@ -352,7 +376,8 @@ let drivers= [
             {
             id:6170215,
             name:"Derek Stewart",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:886,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -362,7 +387,8 @@ let drivers= [
             {
             id:6161177,
             name:"Dominik Kon",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -372,7 +398,8 @@ let drivers= [
             {
             id:334645,
             name:"Donald Hinds",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:834,	
             shift:"9:00",
             off:"Sat/Sun",
@@ -382,7 +409,8 @@ let drivers= [
             {
             id:6111968,
             name:"Donald Walker",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:848,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -392,7 +420,8 @@ let drivers= [
             {
             id:6195815,
             name:"Ed Hassani",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:882,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -402,7 +431,8 @@ let drivers= [
             {
             id:534116,
             name:"Edgar Solivan",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:848,
             shift:"11:00",
             off:"Sat/Sun",
@@ -412,7 +442,8 @@ let drivers= [
             {
             id:6022072,
             name:"Efrain Sanchez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:870,	
             shift:"4pm",
             off:"Sat/Sun",
@@ -422,7 +453,8 @@ let drivers= [
             {
             id:6195903,
             name:"Eleftheri Marousis",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:859,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -432,7 +464,8 @@ let drivers= [
             {
             id:6095057,
             name:"Emiliano Martinez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:883,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -442,7 +475,8 @@ let drivers= [
             {
             id:6242133,
             name:"Enmanuel Canela",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:363,	
             shift:"23:30",
             off:"Sat/Sun",
@@ -452,7 +486,8 @@ let drivers= [
             {
             id:6272415,
             name:"Eric Lupo",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:363,	
             shift:"2pm",
             off:"Sat/Sun",
@@ -462,7 +497,8 @@ let drivers= [
             {
             id:6098045,
             name:"Erick Marin",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:364,	
             shift:"3pm",
             off:"Sat/Sun",
@@ -472,7 +508,8 @@ let drivers= [
             {
             id:6022195,
             name:"Erik Rosado",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:863,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -482,7 +519,8 @@ let drivers= [
             {
             id:6151891,
             name:"Felipe Lopez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:865,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -492,7 +530,8 @@ let drivers= [
             {
             id:557651,
             name:"Francis Attuh-Asamani",
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:830,
             shift:"20:30",
             off:"Sat/Sun",
@@ -502,7 +541,8 @@ let drivers= [
             {
             id:6072591,
             name:"Geno Reiser",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:841,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -512,7 +552,8 @@ let drivers= [
             {
             id:518445,
             name:"George Best",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:886,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -522,7 +563,8 @@ let drivers= [
             {
             id:278564,
             name:"Greg Williams",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:860,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -532,7 +574,8 @@ let drivers= [
             {
             id:6123308,
             name:"Guadalupe Sierra",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:866,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -542,7 +585,8 @@ let drivers= [
             {
             id:508328,
             name:"Henry Kohlmann",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:854,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -552,7 +596,8 @@ let drivers= [
             {
             id:6218400,
             name:"Hevere Cajuste",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:896,	
             shift:"5pm",
             off:"Sat/Sun",
@@ -562,7 +607,8 @@ let drivers= [
             {
             id:444289,
             name:"Ira Heller",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:835,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -572,7 +618,8 @@ let drivers= [
             {
             id:6272411,
             name:"Ismael Ramos",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:274,
             shift:"2:30",
             off:"Sat/Sun",
@@ -582,7 +629,8 @@ let drivers= [
             {
             id:6272410,
             name:"Ivan Anokhin",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:2268,
             shift:"9:00",
             off:"Sat/Sun",
@@ -592,7 +640,8 @@ let drivers= [
             {
             id:699474,
             name:"Ivan Robinson",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -602,7 +651,8 @@ let drivers= [
             {
             id:637530,
             name:"Jaime Torres",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:839,
             shift:"7pm",
             off:"Sat/Sun",
@@ -612,7 +662,8 @@ let drivers= [
             {
             id:6235854,
             name:"Jairo Palada",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:868,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -622,7 +673,8 @@ let drivers= [
             {
             id:6215149,
             name:"Jamal Ashman",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:895,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -632,7 +684,8 @@ let drivers= [
             {
             id:588795,
             name:"James Mellen",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:885,	
             shift:"7pm",
             off:"Sat/Sun",
@@ -642,7 +695,8 @@ let drivers= [
             {
             id:620334,
             name:"James Selby",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -652,7 +706,8 @@ let drivers= [
             {
             id:6202447,
             name:"Jay Kenyatta",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:111,
             shift:"1pm",
             off:"Sat/Sun",
@@ -662,7 +717,8 @@ let drivers= [
             {
             id:623018,
             name:"Jeff Givens",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:869,	
             shift:"8:00",
             off:"Sat/Sun",
@@ -672,7 +728,8 @@ let drivers= [
             {
             id:619765,
             name:"Jeff Keeler",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:892,	
             shift:"7pm",
             off:"Sat/Sun",
@@ -682,7 +739,8 @@ let drivers= [
             {
             id:6209161,
             name:"Jeffrey Barnes",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:873,	
             shift:"21:30",
             off:"Sat/Sun",
@@ -692,7 +750,8 @@ let drivers= [
             {
             id:6272408,
             name:"Jeffrey Sarnoff",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:870,	
             shift:"9:00",
             off:"Sat/Sun",
@@ -702,7 +761,8 @@ let drivers= [
             {
             id:6064165,
             name:"Jeffrey Shell",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:881,	
             shift:"9:00",
             off:"Sat/Sun",
@@ -712,7 +772,8 @@ let drivers= [
             {
             id:6308013,
             name:"Jesus Chihuan",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:861,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -722,7 +783,8 @@ let drivers= [
             {
             id:6198853,
             name:"Jimmy Dodds",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:880,	
             shift:"4pm",
             off:"Sat/Sun",
@@ -732,7 +794,8 @@ let drivers= [
             {
             id:6132225,
             name:"Job Enriquez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:895,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -742,7 +805,8 @@ let drivers= [
             {
             id:560855,
             name:"Joe Arnashus",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:30",
             off:"Sat/Sun",
@@ -752,7 +816,8 @@ let drivers= [
             {
             id:335376,
             name:"Joe Coccia",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:834,	
             shift:"21:30",
             off:"Sat/Sun",
@@ -762,7 +827,8 @@ let drivers= [
             {
             id:6034535,
             name:"Joe Hoffman",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:833,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -772,7 +838,8 @@ let drivers= [
             {
             id:6048553,
             name:"Joe Mugavero",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:867,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -782,7 +849,8 @@ let drivers= [
             {
             id:104689,
             name:"John Hagelgans",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:830,	
             shift:"9:00",
             off:"Sat/Sun",
@@ -792,7 +860,8 @@ let drivers= [
             {
             id:587249,
             name:"John Macdonald",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:857,	
             shift:"19:30",
             off:"Sat/Sun",
@@ -802,7 +871,8 @@ let drivers= [
             {
             id:6216711,
             name:"Jonathan Luton",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:863,	
             shift:"3pm",
             off:"Sat/Sun",
@@ -812,7 +882,8 @@ let drivers= [
             {
             id:6195891,
             name:"Jorge Cuesta",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:851,	
             shift:"20:30",
             off:"Sat/Sun",
@@ -822,7 +893,8 @@ let drivers= [
             {
             id:6246500,
             name:"Jose Almada",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:853,	
             shift:"5:00",
             off:"Sat/Sun",
@@ -832,7 +904,8 @@ let drivers= [
             {
             id:6202637,
             name:"Jose Espinal",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:831,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -842,7 +915,8 @@ let drivers= [
             {
             id:6245979,
             name:"Jose Garcia",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:364,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -852,7 +926,8 @@ let drivers= [
             {
             id:561900,
             name:"Jose Peralta",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:835,	
             shift:"3pm",
             off:"Sat/Sun",
@@ -862,7 +937,8 @@ let drivers= [
             {
             id:6111050,
             name:"Jose Villeda",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:896,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -872,7 +948,8 @@ let drivers= [
             {
             id:6100544,
             name:"Joseph Spears",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:874,	
             shift:"5:00",
             off:"Sat/Sun",
@@ -882,7 +959,8 @@ let drivers= [
             {
             id:6155632,
             name:"Juan Flores",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:883,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -892,7 +970,8 @@ let drivers= [
             {
             id:6066105,
             name:"Juan Ortiz",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:868,	
             shift:"5:00",
             off:"Sat/Sun",
@@ -902,7 +981,8 @@ let drivers= [
             {
             id:667796,
             name:"Juan Ruiz",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -912,7 +992,8 @@ let drivers= [
             {
             id:6202640,
             name:"Julien Lewis",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:826,	
             shift:"5pm",
             off:"Sat/Sun",
@@ -922,7 +1003,8 @@ let drivers= [
             {
             id:495823,
             name:"Kenneth Thornton",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:824,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -932,7 +1014,8 @@ let drivers= [
             {
             id:6293469,
             name:"Kevin Applegate",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:851,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -942,7 +1025,8 @@ let drivers= [
             {
             id:381101,
             name:"Kevin O\"Neill",
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:30",
             off:"Sat/Sun",
@@ -952,7 +1036,8 @@ let drivers= [
             {
             id:6021211,
             name:"Kevin Tulloch",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:860,	
             shift:"5pm",
             off:"Sat/Sun",
@@ -962,7 +1047,8 @@ let drivers= [
             {
             id:665302,
             name:"Laurence Lake",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:837,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -972,7 +1058,8 @@ let drivers= [
             {
             id:6293466,
             name:"Laurito Sousa",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:832,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -982,7 +1069,8 @@ let drivers= [
             {
             id:6308018,
             name:"Lazaro Baez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:873,	
             shift:"8:00",
             off:"Sat/Sun",
@@ -992,7 +1080,8 @@ let drivers= [
             {
             id:6215292,
             name:"Leo Vargas",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:865,	
             shift:"12:45",
             off:"Sat/Sun",
@@ -1002,7 +1091,8 @@ let drivers= [
             {
             id:6276406,
             name:"Lloyd Townes",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:866,	
             shift:"12:45",
             off:"Sat/Sun",
@@ -1012,7 +1102,8 @@ let drivers= [
             {
             id:6118261,
             name:"Luis Ramos",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:823,	
             shift:"5:00",
             off:"Sat/Sun",
@@ -1022,7 +1113,8 @@ let drivers= [
             {
             id:6297777,
             name:"Manuel Yunga",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:861,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1032,7 +1124,8 @@ let drivers= [
             {
             id:536869,
             name:"Mario Crespo",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:876,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -1042,7 +1135,8 @@ let drivers= [
             {
             id:6088344,
             name:"Mark Lazzaro",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:854,	
             shift:"5pm",
             off:"Sat/Sun",
@@ -1052,7 +1146,8 @@ let drivers= [
             {
             id:6173915,
             name:"Mark Taylor",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:837,	
             shift:"7:00",
             off:"Sat/Sun",
@@ -1062,7 +1157,8 @@ let drivers= [
             {
             id:6033652,
             name:"Marcelino Iraheta",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:363,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -1072,7 +1168,8 @@ let drivers= [
             {
             id:328692,
             name:"Marcos Sedlmayer",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:847,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -1082,7 +1179,8 @@ let drivers= [
             {
             id:6021917,
             name:"Mauricio Quintero",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:843,	
             shift:"9:00",
             off:"Sat/Sun",
@@ -1092,7 +1190,8 @@ let drivers= [
             {
             id:6029332,
             name:"Miguel Palominos",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:867,	
             shift:"2pm",
             off:"Sat/Sun",
@@ -1102,7 +1201,8 @@ let drivers= [
             {
             id:6276401,
             name:"Michael Ten",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:89,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -1112,7 +1212,8 @@ let drivers= [
             {
             id:572701,
             name:"Mike Korbobo",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:875,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -1122,7 +1223,8 @@ let drivers= [
             {
             id:6175066,
             name:"Mike Krause",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:226,
             shift:"12pm",
             off:"Sat/Sun",
@@ -1132,7 +1234,8 @@ let drivers= [
             {
             id:687599,
             name:"Mike Lane",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:840,	
             shift:"4pm",
             off:"Sat/Sun",
@@ -1142,7 +1245,8 @@ let drivers= [
             {
             id:384484,
             name:"Mike Spano",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:831,	
             shift:"9:00",
             off:"Sat/Sun",
@@ -1152,7 +1256,8 @@ let drivers= [
             {
             id:451665,
             name:"Mike Wondoloski",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:893,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1162,7 +1267,8 @@ let drivers= [
             {
             id:6201806,
             name:"Mohamed Barrie",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:875,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -1172,7 +1278,8 @@ let drivers= [
             {
             id:384513,
             name:"Nate Johnson",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:879,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -1182,7 +1289,8 @@ let drivers= [
             {
             id:104781,
             name:"Nick Molino",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -1192,7 +1300,8 @@ let drivers= [
             {
             id:6203201,
             name:"Nick Pellegrino",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:894,	
             shift:"4pm",
             off:"Sat/Sun",
@@ -1202,7 +1311,8 @@ let drivers= [
             {
             id:6173431,
             name:"Norberto Ruiz",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:843,
             shift:"21:30",
             off:"Sat/Sun",
@@ -1212,7 +1322,8 @@ let drivers= [
             {
             id:6151305,
             name:"Orlando Mejias",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:872,	
             shift:"21:30",
             off:"Sat/Sun",
@@ -1222,7 +1333,8 @@ let drivers= [
             {
             id:6209160,
             name:"Osmar Calmo",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:859,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1232,7 +1344,8 @@ let drivers= [
             {
             id:105366,
             name:"Patrick Burns",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:847,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -1242,7 +1355,8 @@ let drivers= [
             {
             id:6204708,
             name:"Pedro Espinal",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:846,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -1252,7 +1366,8 @@ let drivers= [
             {
             id:680330,
             name:"Rafael Lorenzo",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:852,
             shift:"3:30",
             off:"Sat/Sun",
@@ -1262,7 +1377,8 @@ let drivers= [
             {
             id:6041373,
             name:"Ramon Jimenez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:852,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -1272,7 +1388,8 @@ let drivers= [
             {
             id:637529,
             name:"Ramon Melendez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:827,	
             shift:"20:30",
             off:"Sat/Sun",
@@ -1282,7 +1399,8 @@ let drivers= [
             {
             id:278853,
             name:"Raymond Jones",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:840,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -1292,7 +1410,8 @@ let drivers= [
             {
             id:6177840,
             name:"Renyldo Trinta",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:853,	
             shift:"19:30",
             off:"Sat/Sun",
@@ -1302,7 +1421,8 @@ let drivers= [
             {
             id:545514,
             name:"Rich Loock",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Swticher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -1312,7 +1432,8 @@ let drivers= [
             {
             id:6201976,
             name:"Rich Lubov",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:891,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1322,7 +1443,8 @@ let drivers= [
             {
             id:619038,
             name:"Richard Joaquim",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:858,	
             shift:"20:30",
             off:"Sat/Sun",
@@ -1332,7 +1454,8 @@ let drivers= [
             {
             id:574679,
             name:"Richard Mihansky",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:828,	
             shift:"20:30",
             off:"Sat/Sun",
@@ -1342,7 +1465,8 @@ let drivers= [
             {
             id:6212490,
             name:"Rickey Narine",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:887,	
             shift:"3pm",
             off:"Sat/Sun",
@@ -1352,7 +1476,8 @@ let drivers= [
             {
             id:6245967,
             name:"Robert Bulinsky",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:849,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -1362,7 +1487,8 @@ let drivers= [
             {
             id:629289,
             name:"Robert Mcclanahan",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:30",
             off:"Sat/Sun",
@@ -1372,7 +1498,8 @@ let drivers= [
             {
             id:6201805,
             name:"Robert Pinero",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:884,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -1382,7 +1509,8 @@ let drivers= [
             {
             id:6216073,
             name:"Robert Sanders",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:878,	
             shift:"21:30",
             off:"Sat/Sun",
@@ -1392,7 +1520,8 @@ let drivers= [
             {
             id:699724,
             name:"Robert Zyskowski",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:882,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -1402,7 +1531,8 @@ let drivers= [
             {
             id:549537,
             name:"Roberto Martinez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:855,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -1412,7 +1542,8 @@ let drivers= [
             {
             id:6192240,
             name:"Rodrick Phillips",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:888,	
             shift:"21:30",
             off:"Sat/Sun",
@@ -1422,7 +1553,8 @@ let drivers= [
             {
             id:6152437,
             name:"Roger Znyski",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:832,	
             shift:"11pm",
             off:"Sat/Sun",
@@ -1432,7 +1564,8 @@ let drivers= [
             {
             id:6022171,
             name:"Ronald Poles",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:836,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1442,7 +1575,8 @@ let drivers= [
             {
             id:6083882,
             name:"Rui Borges",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:893,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -1452,7 +1586,8 @@ let drivers= [
             {
             id:531468,
             name:"Silvio Acosta",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:842,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -1462,7 +1597,8 @@ let drivers= [
             {
             id:6082411,
             name:"Stan Medrzykowski",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:856,	
             shift:"3pm",
             off:"Sat/Sun",
@@ -1472,7 +1608,8 @@ let drivers= [
             {
             id:530883,
             name:"Stephen Smith",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:825,	
             shift:"3:30",
             off:"Sat/Sun",
@@ -1482,7 +1619,8 @@ let drivers= [
             {
             id:6293468,
             name:"Syed Shah",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:861,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -1492,7 +1630,8 @@ let drivers= [
             {
             id:691927,
             name:"Terrance Upchurch",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"5:45",
             off:"Sat/Sun",
@@ -1502,7 +1641,8 @@ let drivers= [
             {
             id:530902,
             name:"Terrell Thompson",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:828,	
             shift:"8:00",
             off:"Sat/Sun",
@@ -1512,7 +1652,8 @@ let drivers= [
             {
             id:324473,
             name:"Terry Rowan",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:890,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -1522,7 +1663,8 @@ let drivers= [
             {
             id:647495,
             name:"Thomas Adamiec",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:877,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1532,7 +1674,8 @@ let drivers= [
             {
             id:689639,
             name:"Thomas Beers",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:":5:00",
             off:"Sat/Sun",
@@ -1542,7 +1685,8 @@ let drivers= [
             {
             id:6218401,
             name:"Thomas Duah",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:862,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -1552,7 +1696,8 @@ let drivers= [
             {
             id:6022442,
             name:"Thomas Feimer",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:879,	
             shift:"5pm",
             off:"Sat/Sun",
@@ -1562,7 +1707,8 @@ let drivers= [
             {
             id:6064819,
             name:"Thomas Shell",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:862,	
             shift:"5:00",
             off:"Sat/Sun",
@@ -1572,7 +1718,8 @@ let drivers= [
             {
             id:104733,
             name:"Timothy Holleran",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:826,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -1582,7 +1729,8 @@ let drivers= [
             {
             id:6192216,
             name:"Tino Mocreia",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:869,	
             shift:"20:30",
             off:"Sat/Sun",
@@ -1592,7 +1740,8 @@ let drivers= [
             {
             id:6202641,
             name:"Tom Marple",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:864,	
             shift:"5:00",
             off:"Sat/Sun",
@@ -1602,7 +1751,8 @@ let drivers= [
             {
             id:6246230,
             name:"Tom Ruggirello",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:850,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1612,7 +1762,8 @@ let drivers= [
             {
             id:6242085,
             name:"Uriel Chaves",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:362,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -1622,7 +1773,8 @@ let drivers= [
             {
             id:6280433,
             name:"Victor Blot",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:846,	
             shift:"12:45",
             off:"Sat/Sun",
@@ -1632,7 +1784,8 @@ let drivers= [
             {
             id:6067173,
             name:"Victor Cruz",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:"Switcher",
             shift:"6:30",
             off:"Sat/Sun",
@@ -1642,7 +1795,8 @@ let drivers= [
             {
             id:6272412,
             name:"Vladimir Filin",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:330,
             shift:"2:30",
             off:"Sat/Sun",
@@ -1652,7 +1806,8 @@ let drivers= [
             {
             id:691929,
             name:"Vladimir Sokol",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:856,	
             shift:"2:30",
             off:"Sat/Sun",
@@ -1662,7 +1817,8 @@ let drivers= [
             {
             id:703182,
             name:"Waheid Hana",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:836,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -1672,7 +1828,8 @@ let drivers= [
             {
             id:6078418,
             name:"Wayne Taylor",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:850,	
             shift:"12pm",
             off:"Sat/Sun",
@@ -1682,7 +1839,8 @@ let drivers= [
             {
             id:458201,
             name:"Wayne Wilson",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:872,	
             shift:"11:00",
             off:"Sat/Sun",
@@ -1692,7 +1850,8 @@ let drivers= [
             {
             id:6031394,
             name:"William Chalmers",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:841,
             shift:"0:15",
             off:"Sat/Sun",
@@ -1702,7 +1861,8 @@ let drivers= [
             {
             id:6220911,
             name:"William Watson",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:845,	
             shift:"0:15",
             off:"Sat/Sun",
@@ -1712,7 +1872,8 @@ let drivers= [
             {
             id:120047,
             name:"Wilson Rivera",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:849,	
             shift:"3:00",
             off:"Sat/Sun",
@@ -1722,7 +1883,8 @@ let drivers= [
             {
             id:6192278,
             name:"Winston Gonzalez",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:825,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -1732,7 +1894,8 @@ let drivers= [
             {
             id:6220913,
             name:"Yulier Rodriguez-Barrero",
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:847,	
             shift:"6pm",
             off:"Sat/Sun",
@@ -1742,7 +1905,8 @@ let drivers= [
             {
             id:6215146,
             name:"Yuriy Khitro",	
-            employeeSince: "",
+            employeeSince:"2021",
+            startDate: "",
             tractor:884,	
             shift:"9:00",
             off:"Sat/Sun",
