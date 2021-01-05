@@ -29,13 +29,13 @@ const Tables = () => {
         <CCol xs="12" lg="6">
           <CCard>
             <CCardHeader>
-              Simple Table
+              Driver Table
             </CCardHeader>
             <CCardBody>
             <CDataTable
               items={usersData}
               fields={fields}
-              itemsPerPage={5}
+              itemsPerPage={6}
               pagination
               scopedSlots = {{
                 'status':
