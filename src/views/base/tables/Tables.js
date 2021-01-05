@@ -119,6 +119,7 @@ const Tables = () => {
             </CCardHeader>
             <CCardBody>
             <CDataTable
+            isSortable
               items={usersData}
               fields={fields}
               bordered

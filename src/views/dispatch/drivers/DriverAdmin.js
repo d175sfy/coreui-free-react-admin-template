@@ -32,6 +32,7 @@ function DriverAdmin() {
               </CCardHeader>
               <CCardBody>
               <CDataTable
+              isSortable
                 items={DriverList}
                 fields={fields}
                 bordered
