@@ -40,6 +40,7 @@ const User = React.lazy(() => import('./views/users/User'));
 const DriverDispatch = React.lazy(() => import('./views/dispatch/DriverDispatch'));
 const DriverSchedule = React.lazy(() => import('./views/dispatch/drivers/DriverSchedule'));
 const SSW = React.lazy(() => import('./views/dispatch/ssw/SSW'));
+const WetLoadView = React.lazy(() => import('./views/dispatch/ssw/WetLoadView'));
 const BlueSheet = React.lazy(() => import('./views/dispatch/blueSheet/BlueSheet'));
 const DriverAdmin = React.lazy(() => import('./views/dispatch/drivers/DriverAdmin'));
 const StoreAddress = React.lazy(() => import('./views/dispatch/stores/addresses/StoreAddress'));
@@ -87,7 +88,8 @@ const routes = [
   { path: '/widgets', name: 'Widgets', component: Widgets },
   { path: '/users', exact: true,  name: 'Users', component: Users },
   { path: '/users/:id', exact: true, name: 'User Details', component: User },
-  { path: '/dispatch/ssw', name: 'Dry Loads', component: SSW },
+  { path: '/dispatch/ssw/WetLoadView', name: 'WET AS400', component: WetLoadView },
+  { path: '/dispatch/ssw', name: 'DRY AS400', component: SSW },
   { path: '/dispatch/drivers/DriverSchedule', name: 'Driver Schedule', component: DriverSchedule },
   { path: '/dispatch/blueSheet/BlueSheet', name: 'Blue Sheet', component: BlueSheet },
   { path: '/dispatch/DriverDispatch', name: 'Driver Dispatch', component: DriverDispatch },

@@ -35,6 +35,7 @@ function StoreAddress() {
                 items={StoreAddressList}
                 fields={fields}
                 bordered
+                outlined
                 striped
                 itemsPerPage={14}
                 scopedSlots = {{

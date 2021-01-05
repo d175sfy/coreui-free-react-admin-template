@@ -49,10 +49,22 @@ export default [
     _children: ['AS400']
   },
   {
+    _tag: 'CSidebarNavDropdown',
+    name: 'AS400',
+    route: '/as400',
+    icon: 'cil-puzzle',
+    _children: [
+  {
     _tag: 'CSidebarNavItem',
-    name: 'DRY As400',
+    name: 'DRY AS400',
     to: '/dispatch/ssw/SSW',
-    icon: 'cil-pencil',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'WET AS400',
+    to: '/dispatch/ssw/WetLoadView',
+  },
+],
   },
   {
     _tag: 'CSidebarNavTitle',
