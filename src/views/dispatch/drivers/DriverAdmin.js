@@ -20,7 +20,7 @@ import {
       default: return 'primary'
     }
   }
-  const fields = ['id','name','tractor', 'shift', 'status']
+  const fields = ['id','name', 'employee Since','shift','tractor', 'status']
 function DriverAdmin() {
     return (
         <>
