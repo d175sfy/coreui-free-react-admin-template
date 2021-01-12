@@ -41,7 +41,7 @@ const fields = [
   {
     key: "show_details",
     label: "",
-    _style: { width: "1%" },
+    _style: { width: "5%" },
     sorter: false,
     filter: false,
   },
@@ -114,7 +114,7 @@ const DryAs400 = () => {
                     return (
                       <td className="py-2">
                         <CButton
-                          color="primary"
+                          color="danger"
                           variant="outline"
                           shape="square"
                           size="sm"
