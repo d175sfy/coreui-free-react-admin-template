@@ -1,115 +1,139 @@
 import React, { useState } from "react";
-import As400 from "../utils/As400";
-import StoreList from "../utils/StoreList";
-import CountLoads from '../components/countItems/CountLoads'
-import ArrowDown from "../components/Arrow-circle-down";
-import "./DryAs400.css";
+import {
+  CBadge,
+  CButton,
+  CCard,
+  CCardBody,
+  CCardHeader,
+  CCol,
+  CCollapse,
+  CDataTable,
+  CRow,
+} from "@coreui/react";
 
-const DryAs400 = () => {
-  //const [store, setStore] = useState(...StoreList)
-  const [loadShown, setloadShown] = useState([])
-  const [showHeader, setshowHeader] = useState([])
+import DryLoads from "../../src/utils/loads/dryLoads/DryLoads";
 
-
-  const toggleLoad = warehouse => {
-   // console.log(warehouse)
-    //slice method to return selected elements as new array object
-    const shownState = loadShown.slice()
-    //console.log(shownState)
-    //indexOf to search array for specified item
-    const index = shownState.indexOf(warehouse)
-    //console.log(index)
-    
-      if(index >= 0) {
-        //splice // adds/removes item
-        // 1 means remove 1 item
-        // remove one item if found
-        shownState.splice(index, 1)
-        setloadShown(shownState)
-        console.log(shownState)
-      
-      }else {
-        shownState.push(warehouse)
-        setloadShown(shownState)
-      }
-
-      headerShow(warehouse)
-     // console.log(showHeader)
-    }
-// function for showing header
-
-    const headerShow = warehouse => {
-      console.log(warehouse)
-      //slice method to return selected elements as new array object
-      const shownHeader = showHeader.slice()
-     // console.log(shownHeader)
-      //indexOf to search array for specified item
-      const index = shownHeader.indexOf(warehouse)
-      console.log(index)
-      
-        if(index >= 0) {
-          //splice // adds/removes item
-          // 1 means remove 1 item
-          // remove one item if found
-          shownHeader.splice(index, 1)
-          setshowHeader(showHeader)
-          console.log(showHeader)
-          
-        
-        }else {
-          shownHeader.push(warehouse)
-          setshowHeader(showHeader)
-        }
-  
-      
-      }
-  
-  return (
-    <div className="main-container">
-      {StoreList.map((whse) => (
-        <React.Fragment>
-          <div className="store-title" key={whse.warehouse}>
-            <div className="arrow-container" onClick={() => toggleLoad(whse.warehouse)}>
-              <ArrowDown
-                className="down-arrow"
-                width={20}
-                fill={"#ff3333"}
-              />
-            </div> 
-              {/* whse*/}
-            <div className="store">{whse.warehouse}</div>
-           <CountLoads warehouse={whse.warehouse}/>
-            
-          </div>
-          <div className={showHeader === whse.warehouse ? "load-header" : "load-header-hidden"}>
-                  <div className="heading">Time</div>
-                  <div className="heading">Date</div>
-                  <div className="heading">Status</div>
-                  <div className="heading">LoadNumber</div>
-                  <div className="heading">Trailer</div>
-                  <div className="heading">Seal</div>
-                </div>
-
-              {/* loads */}
-          {loadShown.includes(whse.warehouse) && (
-            As400.filter((load) => load.warehouse === whse.warehouse).map(
-            (load, i) => (
-              <div className={loadShown === whse.warehouse? 'load-container-hidden' : 'load-container'} key={i}>
-                <div className="load" contenteditable="true">{load.time}</div> 
-                <div className="load" contenteditable="true">{load.date}</div>
-                <div className="load" contenteditable="true">{load.status}</div>
-                <div className="load" contenteditable="true">{load.loadNumber}</div>
-                <div className="load" contenteditable="true">{load.trailer}</div>
-                <div className="load" contenteditable="true">{load.seal}</div>
-              </div>
-            )
-          ))}
-     
-        </React.Fragment>
-      ))}
-    </div>
-  );
+const getBadge = (status) => {
+  switch (status) {
+    case "Active":
+      return "success";
+    case "Inactive":
+      return "secondary";
+    case "LOA":
+      return "warning";
+    case "Banned":
+      return "danger";
+    default:
+      return "primary";
+  }
 };
 
-export default DryAs400;
-               
+
+
+const fields = [
+  { key: "Warehouse" },
+  "Time",
+  "Date",
+  "Status",
+  "LoadNumber",
+  "Trailer",
+  "Seal",
+  {
+    key: "show_details",
+    label: "",
+    _style: { width: "1%" },
+    sorter: false,
+    filter: false,
+  },
+];
+
+const DryAs400 = () => {
+  const [details, setDetails] = useState([]);
+  // const [items, setItems] = useState(usersData)
+
+  const toggleDetails = (index) => {
+    const position = details.indexOf(index)
+    let newDetails = details.slice()
+    if (position !== -1) {
+      newDetails.splice(position, 1)
+    } else {
+      newDetails = [...details, index]
+    }
+    setDetails(newDetails)
+  }
+
+  return (
+    <>
+      <CRow>
+        <CCol xs="12" lg="12">
+          <CCard>
+            <CCardHeader>DRY AS400</CCardHeader>
+            <CCardBody>
+              <CDataTable
+                sorter="{ external: true, resetable: true }"
+                tableFilter="{ external: true, lazy: true }"
+                clickableRows
+                footer
+                items={DryLoads}
+                fields={fields}
+                bordered
+                striped
+                itemsPerPageSelect
+                itemsPerPage={20}
+                hover
+                outlined
+                responsive
+                pagination
+                scopedSlots={{
+                  status: (item) => (
+                    <td>
+                      <CBadge color={getBadge(item.status)}>
+                        {item.status}
+                      </CBadge>
+                    </td>
+                  ),
+                  details: (item, index) => {
+                    return (
+                      <CCollapse show={details.includes(index)}>
+                        <CCardBody>
+                          <h4>{item.Warehouse}</h4>
+                          <p className="text-muted">
+                            Employee since: {item.startDate}
+                          </p>
+                          <CButton size="sm" color="info">
+                            User Settings
+                          </CButton>
+                          <CButton size="sm" color="danger" className="ml-1">
+                            Delete
+                          </CButton>
+                        </CCardBody>
+                      </CCollapse>
+                    );
+                  },
+                  show_details: (item, index) => {
+                    return (
+                      <td className="py-2">
+                        <CButton
+                          color="primary"
+                          variant="outline"
+                          shape="square"
+                          size="sm"
+                          onClick={() => {
+                            toggleDetails(index);
+                          }}
+                        >
+                          {details.includes(index) ? "Hide" : "Show"}
+                        </CButton>
+                      </td>
+                    );
+                  }
+                }}
+              />
+            </CCardBody>
+          </CCard>
+        </CCol>
+      </CRow>
+    </>
+  );
+};
+export default DryAs400
