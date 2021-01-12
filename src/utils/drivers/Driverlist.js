@@ -16,7 +16,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:844,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -38,7 +38,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:833,
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -49,7 +49,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:360,
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -82,7 +82,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:871,	
-            shift:"19:30",
+            shift:"730pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -93,7 +93,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -104,7 +104,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:337,
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -115,7 +115,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:887,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -137,7 +137,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:845,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -170,7 +170,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:829,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -181,7 +181,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:827,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -192,7 +192,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:881,	
-            shift:"20:30",
+            shift:"830pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -203,7 +203,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:889,	
-            shift:"19:30",
+            shift:"730pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -225,7 +225,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:365,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -236,7 +236,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:361,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -247,7 +247,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -313,7 +313,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:892,	
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -335,7 +335,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:838,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -390,7 +390,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -401,7 +401,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:834,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -434,7 +434,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:848,
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -511,7 +511,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:863,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -522,7 +522,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:865,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -533,7 +533,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:830,
-            shift:"20:30",
+            shift:"830pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -555,7 +555,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:886,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -566,7 +566,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:860,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -577,7 +577,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:866,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -588,7 +588,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:854,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -610,7 +610,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:835,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -621,7 +621,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:274,
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -632,7 +632,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:2268,
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -643,7 +643,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -676,7 +676,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:895,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -698,7 +698,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -720,7 +720,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:869,	
-            shift:"8:00",
+            shift:"8am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -742,7 +742,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:873,	
-            shift:"21:30",
+            shift:"930pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -753,7 +753,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:870,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -764,7 +764,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:881,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -775,7 +775,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:861,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -808,7 +808,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:30",
+            shift:"530am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -819,7 +819,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:834,	
-            shift:"21:30",
+            shift:"930pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -830,7 +830,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:833,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -841,7 +841,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:867,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -852,7 +852,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:830,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -863,7 +863,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:857,	
-            shift:"19:30",
+            shift:"730pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -885,7 +885,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:851,	
-            shift:"20:30",
+            shift:"830pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -896,7 +896,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:853,	
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -918,7 +918,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:364,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -940,7 +940,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:896,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -951,7 +951,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:874,	
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -962,7 +962,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:883,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -973,7 +973,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:868,	
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -984,7 +984,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1006,7 +1006,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:824,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1017,7 +1017,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:851,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1028,7 +1028,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:30",
+            shift:"530am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1050,7 +1050,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:837,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1061,7 +1061,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:832,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1105,7 +1105,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:823,	
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1116,7 +1116,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:861,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1127,7 +1127,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:876,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1160,7 +1160,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:363,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1171,7 +1171,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:847,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1182,7 +1182,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:843,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1204,7 +1204,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:89,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1248,7 +1248,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:831,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1259,7 +1259,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:893,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1281,7 +1281,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:879,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1292,7 +1292,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1336,7 +1336,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:859,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1347,7 +1347,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:847,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1369,7 +1369,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:852,
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1391,7 +1391,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:827,	
-            shift:"20:30",
+            shift:"830pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1402,7 +1402,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:840,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1413,7 +1413,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:853,	
-            shift:"19:30",
+            shift:"730pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1424,7 +1424,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Swticher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1435,7 +1435,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:891,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1446,7 +1446,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:858,	
-            shift:"20:30",
+            shift:"830pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1457,7 +1457,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:828,	
-            shift:"20:30",
+            shift:"830pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1479,7 +1479,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:849,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1490,7 +1490,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:30",
+            shift:"530am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1501,7 +1501,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:884,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1523,7 +1523,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:882,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1534,7 +1534,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:855,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1567,7 +1567,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:836,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1578,7 +1578,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:893,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1589,7 +1589,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:842,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1611,7 +1611,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:825,	
-            shift:"3:30",
+            shift:"330am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1622,7 +1622,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:861,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1633,7 +1633,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:"Switcher",
-            shift:"5:45",
+            shift:"545am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1655,7 +1655,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:890,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1666,7 +1666,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:877,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1710,7 +1710,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:862,	
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1721,7 +1721,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:826,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1732,7 +1732,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:869,	
-            shift:"20:30",
+            shift:"830pm",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1743,7 +1743,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:864,	
-            shift:"5:00",
+            shift:"5am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1754,7 +1754,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:850,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1798,7 +1798,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:330,
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1809,7 +1809,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:856,	
-            shift:"2:30",
+            shift:"230am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1842,7 +1842,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:872,	
-            shift:"11:00",
+            shift:"11am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1853,7 +1853,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:841,
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1864,7 +1864,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:845,	
-            shift:"0:15",
+            shift:"015am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1875,7 +1875,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:849,	
-            shift:"3:00",
+            shift:"3am",
             off:"Sat/Sun",
             type:"driver",
             status: "Active"
@@ -1908,7 +1908,7 @@ let drivers= [
             employeeSince:"2021",
             startDate: "",
             tractor:884,	
-            shift:"9:00",
+            shift:"9am",
             off:"Sat/Sun",
             type:"driver",
             }
