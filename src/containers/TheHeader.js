@@ -80,7 +80,6 @@ const TheHeader = () => {
           routes={routes} 
         />
           <div className="d-md-down-none mfe-2 c-subheader-nav">
-            <div><RiMenu3Line size={32} margin-right={10}/></div>
             <CLink className="c-subheader-nav-link"href="#">
               <CIcon name="cil-speech" alt="Settings" />
             </CLink>

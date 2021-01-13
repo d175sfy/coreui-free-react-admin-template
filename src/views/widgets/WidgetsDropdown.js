@@ -19,7 +19,7 @@ const WidgetsDropdown = () => {
       <CCol sm="6" lg="3">
         <CWidgetDropdown
           color="gradient-primary"
-          header="8.700"
+          header="HELD LOADS"
           text="Members online"
           footerSlot={
             <ChartLineSimple
