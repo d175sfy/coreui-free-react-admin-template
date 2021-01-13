@@ -114,7 +114,7 @@ const WetLoadView = () => {
                     return (
                       <td className="py-2">
                         <CButton
-                          color="primary"
+                          color="info"
                           variant="outline"
                           shape="square"
                           size="sm"
